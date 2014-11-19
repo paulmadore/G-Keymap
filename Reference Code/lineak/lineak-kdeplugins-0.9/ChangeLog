@@ -1,0 +1,10 @@
+July  26 2005   Sheldon Lee-Wen
+   Fixed two bugs which stopped the SETURL macro from working.
+March 21 2005   Sheldon Lee-Wen
+   Many bug fixes have gone into the KDE plugins. Also, I've just added a
+   KONQUEROR_RELOAD_ALL_TABS macro to reload all of the tabs in a window.
+April 25 2004   Sheldon Lee-Wen
+   This package has been updated to work with the latest KDE (3.2).
+   Specifically, the konqueror plugin no longer relies on kxmlrpc, and can 
+   now find the active instance of konqueror. It also respects the new plugin
+   interface from lineakd 0.8beta3, where it was changed to support modifiers.

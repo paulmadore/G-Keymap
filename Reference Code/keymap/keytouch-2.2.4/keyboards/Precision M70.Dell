@@ -1,0 +1,42 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">26-06-2006</last-change>
+    <author>Pablo Pedrosa</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Dell</manufacturer>
+      <model>Precision M70</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

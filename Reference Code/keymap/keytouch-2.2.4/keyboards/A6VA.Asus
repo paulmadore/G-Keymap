@@ -1,0 +1,105 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">08-02-2006</last-change>
+    <author>Marvin Raaijmakers</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Asus</manufacturer>
+      <model>A6VA</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key key-type="acpi-hotkey">
+      <name>Volume up</name>
+      <event-descr>hotkey ATKD 00000030</event-descr>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Volume down</name>
+      <event-descr>hotkey ATKD 00000031</event-descr>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Volume mute</name>
+      <event-descr>hotkey ATKD 00000032</event-descr>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>WWW</name>
+      <event-descr>hotkey ATKD 00000050</event-descr>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>E-Mail</name>
+      <event-descr>hotkey ATKD 00000051</event-descr>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Sleep</name>
+      <event-descr>button/sleep SLPB 00000080</event-descr>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Previous track</name>
+      <event-descr>hotkey ATKD 00000040</event-descr>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Next track</name>
+      <event-descr>hotkey ATKD 00000041</event-descr>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Stop</name>
+      <event-descr>hotkey ATKD 00000043</event-descr>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Play/Pause</name>
+      <event-descr>hotkey ATKD 00000045</event-descr>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

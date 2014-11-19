@@ -1,0 +1,12 @@
+The compiling and installation procedure differs a bit from the common procedure.
+Read the following steps:
+1. Go to the unpacked directory.
+2. Run: ./configure
+3. Run to compile: make
+4. Run (as root) to install: make install
+5. Go to the directory keytouch-config by running: cd keytouch-config
+   ... and repeat steps 2-4.
+6. Go to the directory keytouch-keyboard in the unpacked directory by running: cd ../keytouch-keyboard
+   ... and repeat steps 2-4.
+
+NOTE: If you are using Ubuntu (or another sudo using distribution) open keytouch-keyboard/keytouch-keyboard in your favorite text-editor and replace "gksu" by "gksudo".

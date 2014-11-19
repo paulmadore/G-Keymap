@@ -1,0 +1,14 @@
+SOURCES=string_to_keycode.c
+CFLAGS=-I. -O2 -Wall
+CC = @CC@
+
+OBJECTS=$(SOURCES:.c=.o)
+
+all:  $(OBJECTS)
+
+clean:
+	$(RM) $(OBJECTS)
+
+install: all
+
+uninstall:

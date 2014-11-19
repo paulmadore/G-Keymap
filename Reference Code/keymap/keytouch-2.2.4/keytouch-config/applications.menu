@@ -1,0 +1,322 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+	<Name>Applications</Name>
+	<Directory>Applications.directory</Directory>
+
+	<!-- Scan legacy dirs first, as later items take priority -->
+	<KDELegacyDirs />
+	<LegacyDir>/etc/X11/applnk</LegacyDir>
+	<LegacyDir>/usr/share/gnome/apps</LegacyDir>
+
+	<!-- Read standard .directory and .desktop file locations -->
+	<DefaultAppDirs/>
+	<DefaultDirectoryDirs/>
+
+	<!-- Read in overrides and child menus from applications-merged/ -->
+	<DefaultMergeDirs/>
+
+	<!-- Accessories submenu -->
+	<Menu>
+		<Name>Accessories</Name>
+		<Directory>Accessories.directory</Directory>
+		<Directory>kde-utilities.directory</Directory>
+		<Include>
+			<And>
+				<Category>Utility</Category>
+				<Not>
+					<Category>System</Category>
+				</Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Accessories -->
+
+	<!-- Accessibility submenu -->
+	<Menu>
+		<Name>Accessibility</Name>
+		<Directory>Accessibility.directory</Directory>
+		<Directory>kde-utilities-accessibility.directory</Directory>
+		<Include>
+			<And>
+				<Category>Accessibility</Category>
+				<Not>
+					<Category>Settings</Category>
+				</Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Accessibility -->
+
+	<!-- Development Tools -->
+	<Menu>
+		<Name>Development</Name>
+		<Directory>Development.directory</Directory>
+		<Directory>kde-development.directory</Directory>
+		<Include>
+			<And>
+				<Category>Development</Category>
+			</And>
+			<Filename>emacs.desktop</Filename>
+		</Include>
+	</Menu> <!-- End Development Tools -->
+
+	<!-- Education -->
+	<Menu>
+		<Name>Education</Name>
+		<Directory>Education.directory</Directory>
+		<Directory>kde-edutainment.directory</Directory>
+		<!--Include>
+			<And>
+				<Category>Education</Category>
+			</And>
+		</Include-->
+		<Menu>
+			<Name>Languages</Name>
+			<Directory>Languages.directory</Directory>
+			<Directory>kde-edu-languages.directory</Directory>
+			<Include>
+				<And>
+					<Category>Education</Category>
+					<Or>
+						<Category>Languages</Category>
+						<Category>X-KDE-Edu-Language</Category>
+					</Or>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Mathematics</Name>
+			<Directory>Mathematics.directory</Directory>
+			<Directory>kde-edu-mathematics.directory</Directory>
+			<Include>
+				<And>
+					<Category>Education</Category>
+					<Category>Math</Category>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Miscellaneous</Name>
+			<Directory>Miscellaneous.directory</Directory>
+			<Directory>kde-edu-miscellaneous.directory</Directory>
+			<Include>
+				<And>
+					<Category>Education</Category>
+					<Not>
+						<Category>Languages</Category>
+						<Category>X-KDE-Edu-Language</Category>
+						<Category>Math</Category>
+						<Category>Science</Category>
+						<Category>Teaching</Category>
+						<Category>X-KDE-Edu-Teaching</Category>
+					</Not>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Science</Name>
+			<Directory>Science.directory</Directory>
+			<Directory>kde-edu-science.directory</Directory>
+			<Include>
+				<And>
+					<Category>Education</Category>
+					<Category>Science</Category>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Teaching Tools</Name>
+			<Directory>Teaching.directory</Directory>
+			<Directory>kde-edu-tools.directory</Directory>
+			<Include>
+				<And>
+					<Category>Education</Category>
+					<Or>
+						<Category>Teaching</Category>
+						<Category>X-KDE-Edu-Teaching</Category>
+					</Or>
+				</And>
+			</Include>
+		</Menu>
+	</Menu> <!-- End Education -->
+
+	<!-- Games -->
+	<Menu>
+		<Name>Games</Name>
+		<Directory>Games.directory</Directory>
+		<Directory>kde-games.directory</Directory>
+		<!--Include>
+			<And>
+				<Category>Game</Category>
+			</And>
+		</Include-->
+		<Menu>
+			<Name>Arcade</Name>
+			<Directory>Acarde-Game.directory</Directory>
+			<Directory>kde-games-acarde.directory</Directory>
+			<Include>
+				<And>
+					<Category>Game</Category>
+					<Category>ArcadeGame</Category>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Board</Name>
+			<Directory>Board-Game.directory</Directory>
+			<Directory>kde-games-board.directory</Directory>
+			<Include>
+				<And>
+					<Category>Game</Category>
+					<Category>BoardGame</Category>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Card</Name>
+			<Directory>Card-Game.directory</Directory>
+			<Directory>kde-games-card.directory</Directory>
+			<Include>
+				<And>
+					<Category>Game</Category>
+					<Category>CardGame</Category>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Kids Games</Name>
+			<Directory>Kids-Game.directory</Directory>
+			<Directory>kde-games-kids.directory</Directory>
+			<Include>
+				<And>
+					<Category>Game</Category>
+					<Or>
+						<Category>X-KDE-KidsGame</Category>
+						<Category>KidsGame</Category>
+					</Or>
+				</And>
+			</Include>
+		</Menu>
+		<Menu>
+			<Name>Tactic &amp; Strategy</Name>
+			<Directory>StrategyGame.directory</Directory>
+			<Directory>kde-games-strategy.directory</Directory>
+			<Include>
+				<And>
+					<Category>Game</Category>
+					<Category>StrategyGame</Category>
+				</And>
+			</Include>
+		</Menu>
+		<Include>
+			<And>
+				<Category>Game</Category>
+				<Not>
+					<Category>ArcadeGame</Category>
+					<Category>BoardGame</Category>
+					<Category>CardGame</Category>
+					<Category>X-KDE-KidsGame</Category>
+					<Category>KidsGame</Category>
+					<Category>StrategyGame</Category>
+				</Not>
+			</And>
+		</Include>
+               <Menu>
+                        <Name>Toys</Name>
+                        <Directory>Amusement.directory</Directory>
+                        <Directory>kde-toys.directory</Directory>
+                        <Include>
+                                 <Category>Amusement</Category>
+                        </Include>
+               </Menu>
+	</Menu> <!-- End Games -->
+
+	<!-- Graphics -->
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>Graphics.directory</Directory>
+		<Directory>kde-graphics.directory</Directory>
+		<Include>
+			<And>
+				<Category>Graphics</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Graphics -->
+
+	<!-- Internet -->
+	<Menu>
+		<Name>Internet</Name>
+		<Directory>Internet.directory</Directory>
+		<Directory>kde-internet.directory</Directory>
+		<Include>
+			<And>
+				<Category>Network</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Internet -->
+
+	<!-- Multimedia -->
+	<Menu>
+		<Name>Multimedia</Name>
+		<Directory>Multimedia.directory</Directory>
+		<Directory>kde-multimedia.directory</Directory>
+		<Include>
+			<And>
+				<Category>AudioVideo</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Multimedia -->
+
+	<!-- Office -->
+	<Menu>
+		<Name>Office</Name>
+		<Directory>Office.directory</Directory>
+		<Directory>kde-office.directory</Directory>
+		<Include>
+			<And>
+				<Category>Office</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Office -->
+
+	<!-- Settings -->
+	<Menu>
+		<Name>Settings</Name>
+		<Directory>Settings.directory</Directory>
+		<Directory>System-Tools.directory</Directory>
+		<Directory>kde-settingsmenu.directory</Directory>
+		<Include>
+			<And>
+				<Category>Settings</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Settings -->
+
+	<!-- System Tools-->
+	<Menu>
+		<Name>System</Name>
+		<Directory>System-Tools.directory</Directory>
+		<Directory>kde-system.directory</Directory>
+		<Include>
+			<And>
+				<Category>System</Category>
+				<Not><Category>Settings</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End System Tools -->
+
+	<!-- Other -->
+	<Menu>
+		<Name>Other</Name>
+		<Directory>Other.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+			<And>
+				<Category>Application</Category>
+				<Not><Category>Core</Category></Not>
+				<Not><Category>Settings</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Other -->
+</Menu> <!-- End Applications -->

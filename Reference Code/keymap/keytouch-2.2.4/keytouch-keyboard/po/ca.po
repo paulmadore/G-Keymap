@@ -1,0 +1,213 @@
+# translation of ca.po to Català
+# translation of keytouch-keyboard-bin.po to CatalÃ
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER.
+# Joan Duran <jodufi@gmail.com>, 2006.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: ca\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:55+0200\n"
+"PO-Revision-Date: 2006-07-31 22:15+0200\n"
+"Last-Translator: Joan Duran <jodufi@gmail.com>\n"
+"Language-Team: Catalan <ca@dodds.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:59
+msgid "keyTouch - change keyboard"
+msgstr "keyTouch - canvi de teclat"
+
+#: src/interface.c:89
+msgid "Manufacturer:"
+msgstr "Fabricant:"
+
+#: src/interface.c:96
+msgid "Model:"
+msgstr "Model:"
+
+#: src/interface.c:117
+msgid "Current keyboard"
+msgstr "Teclat actual"
+
+#: src/interface.c:164
+msgid "_Import..."
+msgstr "_Importar..."
+
+#: src/interface.c:168
+msgid "Available keyboards"
+msgstr "Teclats disponibles"
+
+#: src/callbacks.c:54
+msgid "Import keyboard"
+msgstr "Importar teclat"
+
+#: src/callbacks.c:65
+#, c-format
+msgid ""
+"Cannot import '%s', because a newer version of the keyboard file has already "
+"been installed."
+msgstr ""
+"No es pot importar '%s' perquè hi ha instal·lada una versió més nova de "
+"l'arxiu de teclat."
+
+#: src/callbacks.c:80
+#, c-format
+msgid ""
+"The keyboard file could not be imported because it is invalid:\n"
+"%s"
+msgstr ""
+"L'arxiu de teclat no pot ser importat perquè és invàlid:\n"
+"%s"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "No es pot trobar l'arxiu pixmap: %s"
+
+#: src/config.c:180
+#, c-format
+msgid ""
+"An error occurred while saving the configuration. Check your permissions for "
+"the file \"%s\"."
+msgstr ""
+"A passat un error quan s'estava salvant la configuració. Revisa els teus "
+"permisos per l'arxiu \"%s\"."
+
+#: src/config.c:327
+#, c-format
+msgid "'%s' is a directory."
+msgstr "'%s' és un directori."
+
+#: src/config.c:333
+#, c-format
+msgid "'%s' is not a valid XML document."
+msgstr "'%s' és un document XML invàlid."
+
+#: src/config.c:410
+#, c-format
+msgid ""
+"The keyboard file directory '%s' does not exist and could not be created, so "
+"this program cannot continue."
+msgstr ""
+"El directori d'arxius de teclat '%s' no existeix i no pot ser creat, per "
+"tant aquest programa no pot continuar."
+
+#: src/keyboard.c:207
+#, c-format
+msgid "Failed to open the keyboard file \"%s\" for reading."
+msgstr "S'ha fallat al obrir l'arxiu de teclat \"%s\" per llegir-lo."
+
+#: src/keyboard.c:213
+#, c-format
+msgid ""
+"Failed to copy the keyboard file to the keyboard file directory (%s). Check "
+"your permissions for this directory."
+msgstr ""
+"S'ha fallat al copiar l'arxiu de teclat al director d'arxius de teclat (%s). "
+"Revisa els teus permisos per aquest directori."
+
+#. *********** Create the view ***********
+#: src/set_data.c:314
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+#: src/set_data.c:315
+msgid "Model"
+msgstr "Model"
+
+#: src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "No hi ha espai a la memòria"
+
+#: src/check_syntax.c:98
+msgid ""
+"The keyboard file contains an invalid action element (where the action is a "
+"plugin)."
+msgstr "L'arxiu de teclat conté una acció invàlida (on l'acció és un plugin)."
+
+#: src/check_syntax.c:106
+#, c-format
+msgid "The keyboard file contains the invalid action-type value '%s'."
+msgstr "L'arxiu de teclat conté el valor d'un tipus d'acció invàlid '%s'."
+
+#: src/check_syntax.c:197
+msgid "The keyboard file contains an incomplete key element."
+msgstr "L'arxiu de teclat conté un element de tecla incomplet."
+
+#: src/check_syntax.c:205
+msgid "The keyboard file contains an empty key-name element."
+msgstr "L'arxiu de teclat conté un nom de tecla buit."
+
+#: src/check_syntax.c:214
+#, c-format
+msgid "The keyboard file contains more than once a key named '%s'."
+msgstr "L'arxiu de teclat conté més d'una tecla anomenada '%s'."
+
+#: src/check_syntax.c:235
+#, c-format
+msgid "'%s' is an invalid scancode."
+msgstr "'%s' és un codi d'escaneig invàlid."
+
+#: src/check_syntax.c:250
+#, c-format
+msgid "Keycode %s is used more than once."
+msgstr "El codi de tecla %s és fet servir més d'un cop."
+
+#: src/check_syntax.c:262
+msgid "The keyboard file contains an empty keycode."
+msgstr "L'arxiu de teclat conté un codi de tecla buit."
+
+#: src/check_syntax.c:266
+#, c-format
+msgid "'%s' is an invalid keycode."
+msgstr "'%s' és un codi de tecla invàlid."
+
+#: src/check_syntax.c:332
+#, c-format
+msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
+msgstr ""
+"La última data de canvis \"%s\" de l'arxiu de teclat no és una data vàlida."
+
+#: src/check_syntax.c:438
+msgid "The keyboard file does not contain a keyboard element."
+msgstr "L'arxiu de teclat no conté un element de teclat."
+
+#: src/check_syntax.c:452
+msgid ""
+"The keyboard file does provide enough information about the keyboard model."
+msgstr ""
+"L'arxiu de teclat no dóna suficient informació sobre el model del teclat."
+
+#: src/check_syntax.c:459
+msgid "The keyboard file does not contain a key-list element."
+msgstr "L'arxiu de teclat no conté una llista de tecles."
+
+#: src/check_syntax.c:466
+#, c-format
+msgid ""
+"The \"keyboard\" element in the keyboard file does not contain a %s element."
+msgstr "El \"teclat\" en l'arxiu de teclat no conté l'element %s."
+
+#: src/check_syntax.c:471
+msgid ""
+"The syntax version of the keyboard file is not compatible with this version "
+"of keyTouch."
+msgstr ""
+"La síntesi de la versió de l'arxiu de teclat no és compatible amb aquesta "
+"versió de keyTouch."
+
+#: src/check_syntax.c:481 src/check_syntax.c:486 src/check_syntax.c:491
+#: src/check_syntax.c:496
+#, c-format
+msgid "The keyboard file does not contain any %s element."
+msgstr "L'arxiu de teclat no conté cap element %s."
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "'%s' és invàlid perquè la referència al teclat actual és incorrecta."

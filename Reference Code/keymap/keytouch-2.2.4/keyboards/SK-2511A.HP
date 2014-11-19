@@ -1,0 +1,117 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">04-08-2006</last-change>
+    <author>Vitaliy Lvin</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>HP</manufacturer>
+      <model>SK-2511A</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Mail</name>
+      <scancode>158</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>TopTools</name>
+      <scancode>146</scancode>
+      <keycode>MENU</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>WWW</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>?</name>
+      <scancode>151</scancode>
+      <keycode>HELP</keycode>
+      <default-action>khelpcenter || gnome-help</default-action>
+    </key>
+    <key>
+      <name>Lock</name>
+      <scancode>165</scancode>
+      <keycode>EXIT</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Phone</name>
+      <scancode>163</scancode>
+      <keycode>PHONE</keycode>
+      <default-action>ekiga</default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PROG1</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>164</scancode>
+      <keycode>PROG2</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>5</name>
+      <scancode>161</scancode>
+      <keycode>PROG3</keycode>
+      <default-action>kcalc || gnome-calculator || xcalc</default-action>
+    </key>
+    <key>
+      <name>i</name>
+      <scancode>166</scancode>
+      <keycode>PROG4</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

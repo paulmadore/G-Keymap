@@ -1,0 +1,418 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-12-30 14:12-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: klineak.cpp:42
+msgid "&Restart Lineakd"
+msgstr ""
+
+#: klineak.cpp:43
+msgid "&Start Lineakd"
+msgstr ""
+
+#: klineak.cpp:44
+msgid "S&top Lineakd"
+msgstr ""
+
+#: klineak.cpp:45
+msgid "&Configure Keyboard"
+msgstr ""
+
+#: klineak.cpp:46
+msgid "&Preferences"
+msgstr ""
+
+#: klineakconfig.cpp:70 klineakconfigui.cpp:1939
+msgid "KLineakConfig"
+msgstr ""
+
+#: klineakconfig.cpp:71
+msgid "WARNING: KLineakConfig could parse your keyboard definition file!\n"
+msgstr ""
+
+#: klineakconfig.cpp:194
+msgid ""
+"WARNING: KLineakConfig could not find any keys defined for your keyboard!\n"
+"You probably have a corrupt or incorrect keyboard definition file in "
+"either:\n"
+"%1\n"
+"or\n"
+"%2\n"
+msgstr ""
+
+#: klineakconfig.cpp:291
+msgid "ERROR: The Lineak configuration could not be saved."
+msgstr ""
+
+#: klineakconfig.cpp:351
+msgid ""
+"WARNING: KLineakConfig could not start the easy access keyboard driver!\n"
+msgstr ""
+
+#: klineakconfig.cpp:378
+msgid "Do you want to save your changes?\n"
+msgstr ""
+
+#: klineakconfig.cpp:393
+msgid ""
+"The lineakd daemon is still running.\n"
+"Do you want to continue running lineakd in the background?\n"
+"(If not, you will be unable to use your easy access keys.)\n"
+"\n"
+msgstr ""
+
+#: klineakconfig.cpp:396
+msgid "Leave lineakd running?"
+msgstr ""
+
+#: klineakconfig.cpp:397
+msgid "Run in background"
+msgstr ""
+
+#: klineakconfig.cpp:398
+msgid "Stop lineakd"
+msgstr ""
+
+#: klineakconfig.cpp:604
+msgid "Error opening configuration file for writing!\n"
+msgstr ""
+
+#: klineakdef.cpp:55 klineakdef.cpp:192
+msgid "Key %1 mapped to key name %2"
+msgstr ""
+
+#: klineakdef.cpp:151
+msgid ""
+"A user defined keyboard definition file already exists.\n"
+"Do you want to replace that definition with a new one?\n"
+msgstr ""
+
+#: klineakdef.cpp:154
+msgid "Don't Replace"
+msgstr ""
+
+#: klineakpreferences.cpp:100
+msgid ""
+"WARNING: KlineakControl could not start the keyboard led display (kkeyled)!\n"
+msgstr ""
+
+#: klmailclient.cpp:105
+msgid "No running instance of KMail found."
+msgstr ""
+
+#: klprefs.cpp:44
+msgid "leewsb@hotmail.com"
+msgstr ""
+
+#: klprefs.cpp:145
+msgid "Anonymous"
+msgstr ""
+
+#: klprefs.cpp:156
+msgid "nobody@nowhere"
+msgstr ""
+
+#: lineakparser.cpp:22
+msgid "Eject CD-ROM"
+msgstr ""
+
+#: lineakparser.cpp:23
+msgid "Increase volume"
+msgstr ""
+
+#: lineakparser.cpp:24
+msgid "Decrease volume"
+msgstr ""
+
+#: lineakparser.cpp:25
+msgid "Mute volume"
+msgstr ""
+
+#: lineakparser.cpp:26
+msgid "Sleep"
+msgstr ""
+
+#: lineakparser.cpp:56
+msgid ""
+"Configuration file not found,\n"
+"please run \"lineakd -c TYPE\" to create one for your keyboard.\n"
+msgstr ""
+
+#: lineakparser.cpp:63
+msgid "FATAL ERROR occurred while reading configuration data!"
+msgstr ""
+
+#: lineakparser.cpp:68
+msgid "Error in config file: KeyboardType not found!"
+msgstr ""
+
+#: main.cpp:28 main.cpp:46 klineakconfig.moc.cpp:34 klineakconfig.moc.cpp:42
+msgid "KlineakConfig"
+msgstr ""
+
+#: klineakpreferencesui.cpp:36
+msgid "Preferences"
+msgstr ""
+
+#: klineakpreferencesui.cpp:43
+msgid "KDE Easy Access Keys"
+msgstr ""
+
+#: klineakpreferencesui.cpp:50
+msgid "My keyboard does not have LEDs. Use kkeyled to show them."
+msgstr ""
+
+#: klineakpreferencesui.cpp:51
+msgid ""
+"Start kkeyled (a panel applet to show your led status) on startup. This "
+"requires that you have kkeyled installed."
+msgstr ""
+
+#: klineakpreferencesui.cpp:57
+msgid "Email address to send my defined keyboard to:"
+msgstr ""
+
+#: klineakpreferencesui.cpp:67
+msgid "Continue to run lineakd after exiting."
+msgstr ""
+
+#: klineakpreferencesui.cpp:71
+msgid "Continue to run kkeyled after exiting."
+msgstr ""
+
+#: klineakpreferencesui.cpp:81
+msgid "Defaults"
+msgstr ""
+
+#: klineakdefui.cpp:160
+msgid "Klineak  Keyboard  Definition Tool"
+msgstr ""
+
+#: klineakdefui.cpp:168
+msgid "Keyboard"
+msgstr ""
+
+#: klineakdefui.cpp:172
+msgid "Key Name:"
+msgstr ""
+
+#: klineakdefui.cpp:173 klineakdefui.cpp:177
+msgid "Enter the name of a key you wish to define."
+msgstr ""
+
+#: klineakdefui.cpp:181
+msgid "Key Code:"
+msgstr ""
+
+#: klineakdefui.cpp:182 klineakdefui.cpp:187
+msgid "The system code for this key."
+msgstr ""
+
+#: klineakdefui.cpp:191
+msgid "Defined Keys:"
+msgstr ""
+
+#: klineakdefui.cpp:192
+msgid "Keys you have defined."
+msgstr ""
+
+#: klineakdefui.cpp:196
+msgid "Click on a key to view or modify it's settings."
+msgstr ""
+
+#: klineakdefui.cpp:203
+msgid "Clear Key"
+msgstr ""
+
+#: klineakdefui.cpp:204
+msgid "Select a key above, then click this button to remove it from the list."
+msgstr ""
+
+#: klineakdefui.cpp:208
+msgid "Clear All"
+msgstr ""
+
+#: klineakdefui.cpp:209
+msgid "Remove all defined keys."
+msgstr ""
+
+#: klineakdefui.cpp:213
+msgid "Submit my Keyboard"
+msgstr ""
+
+#: klineakdefui.cpp:219
+msgid "Choose Picture"
+msgstr ""
+
+#: klineakdefui.cpp:224
+msgid "Write a local definition file and close this dialog."
+msgstr ""
+
+#: klineakdefui.cpp:229
+msgid "Quit without saving your changes."
+msgstr ""
+
+#: klineakdefui.cpp:237 klineakconfigui.cpp:1996
+msgid "Keyboard Brand:"
+msgstr ""
+
+#: klineakdefui.cpp:238 klineakdefui.cpp:242
+msgid "Enter the brand of your keyboard."
+msgstr ""
+
+#: klineakdefui.cpp:246
+msgid "Keyboard Model:"
+msgstr ""
+
+#: klineakdefui.cpp:247 klineakdefui.cpp:251
+msgid "Enter the model of your keyboard."
+msgstr ""
+
+#: klineakdefui.cpp:261
+msgid ""
+"First enter yout keyboard brand and model in the boxes above. Then type in a "
+"Key Name in the \"Key Name\" box above and press an \"Easy Access Key\" that "
+"corresponds to the key name you chose, You can click on a key in the "
+"\"Defined Keys\" list to see or change it's mapping. You can select a key, "
+"and then press the \"Clear\" button to remove it, or you can remove all keys "
+"with the \"Clear All\" button."
+msgstr ""
+
+#: klineakconfigui.cpp:1945
+msgid "Global settings"
+msgstr ""
+
+#: klineakconfigui.cpp:1949
+msgid "Powered By"
+msgstr ""
+
+#: klineakconfigui.cpp:1956
+msgid ""
+"Lineakd is written and maintained by Mark Smulders. This program is written "
+"and  maintained by Sheldon Lee-Wen."
+msgstr ""
+
+#: klineakconfigui.cpp:1963
+msgid "CD-ROM device:"
+msgstr ""
+
+#: klineakconfigui.cpp:1970
+msgid "/dev/cdrom"
+msgstr ""
+
+#: klineakconfigui.cpp:1971
+msgid ""
+"The path to your cdrom device. If you don't know what it is leave this as "
+"the default."
+msgstr ""
+
+#: klineakconfigui.cpp:1975
+msgid "Mixer device:"
+msgstr ""
+
+#: klineakconfigui.cpp:1979
+msgid "/dev/mixer"
+msgstr ""
+
+#: klineakconfigui.cpp:1980
+msgid ""
+"The path to your sound card mixer. If you do not know leave this as the "
+"default."
+msgstr ""
+
+#: klineakconfigui.cpp:1989
+msgid "Your keyboard."
+msgstr ""
+
+#: klineakconfigui.cpp:2000
+msgid "Your brand of keyboard"
+msgstr ""
+
+#: klineakconfigui.cpp:2008
+msgid "Keyboard type:"
+msgstr ""
+
+#: klineakconfigui.cpp:2013
+msgid "Pick your model of keyboard."
+msgstr ""
+
+#: klineakconfigui.cpp:2034
+msgid "Keyboard settings"
+msgstr ""
+
+#: klineakconfigui.cpp:2043
+msgid "Available keys:"
+msgstr ""
+
+#: klineakconfigui.cpp:2052
+msgid "The keys that have been found for this keyboard.."
+msgstr ""
+
+#: klineakconfigui.cpp:2063
+msgid "Run command:"
+msgstr ""
+
+#: klineakconfigui.cpp:2065
+msgid ""
+"Run a command when the selected key is pressed. Enter the command into the "
+"box below."
+msgstr ""
+
+#: klineakconfigui.cpp:2073
+msgid ""
+"Run this command when the selected key in the 'Available keys' list is "
+"pressed."
+msgstr ""
+
+#: klineakconfigui.cpp:2081
+msgid "Perform special action:"
+msgstr ""
+
+#: klineakconfigui.cpp:2082
+msgid ""
+"Choose to use a special action when the selected key in the 'Available keys' "
+"list is pressed. Use the chooser below to select the special action."
+msgstr ""
+
+#: klineakconfigui.cpp:2092
+msgid ""
+"Use this special action when the selected key in the 'Available keys' list "
+"is pressed."
+msgstr ""
+
+#: klineakdef.moc.cpp:34 klineakdef.moc.cpp:42
+msgid "KlineakDef"
+msgstr ""
+
+#: pcontrol.moc.cpp:34 pcontrol.moc.cpp:42
+msgid "PControl"
+msgstr ""
+
+#: klineakpreferences.moc.cpp:34 klineakpreferences.moc.cpp:42
+msgid "KlineakPreferences"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""

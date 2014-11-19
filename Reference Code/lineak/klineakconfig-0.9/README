@@ -1,0 +1,31 @@
+
+This is a KDE GUI for configuring lineakd. KlineakConfig can create/modify a users
+lineak config file, as well as create/modify a custom keyboard definition file.
+
+KlineakConfig has a dialog to allow you to define your own keyboard and easy
+access keys by entering the name of the key, and then pushing the key right after.
+You can view, modify and delete the key mappings to your hearts delight. It does limit
+itself to attempting to grab something that really is an easy access key, but this is
+a best guess. 
+
+KlineakConfig has a separate dialog for configuring keys. It supports toggleable and
+normal keys as well as allows you to select from all of the supported macros and allows
+you to assign arguments to those macros. The new dialog also allows you to set a display
+name for all keys.
+
+Version 0.9.0-pre1 will only work with lineakd version 0.9.0-pre1 or higher. It is important that you
+have the most recent version of lineakd installed as klineakconfig uses new api's that are only
+available in 0.9.0-pre1 or later.
+
+It is important that lineakd is within your path. The configure script will
+search for lineakd as a means to find the lineakkb.def definition file for all
+of the keyboards. If it does not find it it will fail. It is also important that you
+do not run lineakd as a standalone process anymore (well you can still but the
+handling of it if you run klineakconfig is not very graceful).
+
+Below is the line that I used to configure KLineakConfig. YMMV
+
+./configure --build=i386-linux --host=i386-linux --target=i386-linux --prefix=/usr/local --disable-debug
+
+If you have any problems compling this or wish to note a bug send a description
+of the problem and a corresponding patch to leewsb@hotmail.com

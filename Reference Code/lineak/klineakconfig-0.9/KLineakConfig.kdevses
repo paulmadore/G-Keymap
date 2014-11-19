@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <DocsAndViews NumberOfDocuments="9" >
+  <Doc0 NumberOfViews="1" URL="file:///home/sheldonl/development/klineakconfig/klineakconfig/klineakconfig.h" >
+   <View0 line="0" Type="Source" />
+  </Doc0>
+  <Doc1 NumberOfViews="1" URL="file:///home/sheldonl/development/klineakconfig/klineakconfig/klineakconfig.cpp" >
+   <View0 line="96" Type="Source" />
+  </Doc1>
+  <Doc2 NumberOfViews="1" URL="file:///usr/share/qt3/doc/html/qlistview.html#setSelected" >
+   <View0 Type="Documentation" />
+  </Doc2>
+  <Doc3 NumberOfViews="1" URL="file:///usr/share/qt3/doc/html/qstring.html#section" >
+   <View0 Type="Documentation" />
+  </Doc3>
+  <Doc4 NumberOfViews="1" URL="file:///home/sheldonl/development/klineakconfig/klineakconfig/klineakdef.h" >
+   <View0 line="69" Type="Source" />
+  </Doc4>
+  <Doc5 NumberOfViews="1" URL="file:///home/sheldonl/development/klineakconfig/klineakconfig/klineakdef.cpp" >
+   <View0 line="44" Type="Source" />
+  </Doc5>
+  <Doc6 NumberOfViews="1" URL="file:///home/sheldonl/development/klineakconfig/klineakconfig/main.cpp" >
+   <View0 line="41" Type="Source" />
+  </Doc6>
+  <Doc7 NumberOfViews="1" URL="file:///home/sheldonl/development/klineakconfig/klineakconfig/klineak.h" >
+   <View0 line="56" Type="Source" />
+  </Doc7>
+  <Doc8 NumberOfViews="1" URL="file:///home/sheldonl/development/klineakconfig/klineakconfig/klineak.cpp" >
+   <View0 line="68" Type="Source" />
+  </Doc8>
+ </DocsAndViews>
+ <pluginList>
+  <kdevdebugger>
+   <breakpointList/>
+  </kdevdebugger>
+  <kdevbookmarks>
+   <bookmarks/>
+  </kdevbookmarks>
+  <kdevvalgrind>
+   <executable path="" params="" />
+   <valgrind path="" params="" />
+   <calltree path="" params="" />
+   <kcachegrind path="" />
+  </kdevvalgrind>
+ </pluginList>
+</KDevPrjSession>

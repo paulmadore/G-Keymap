@@ -1,0 +1,138 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">21-06-2006</last-change>
+    <author>Peter Lewis</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>HP</manufacturer>
+      <model>Pavilion DV4335</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>DVD</name>
+      <scancode>142</scancode>
+      <keycode>MEDIA</keycode>
+      <default-action>gmplayer</default-action>
+    </key>
+    <key>
+      <name>Music</name>
+      <scancode>140</scancode>
+      <keycode>SOUND</keycode>
+      <default-action>xmms</default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>Mute</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>164</scancode>
+      <keycode>STOPCD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Previous Song</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Next Song</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Help</name>
+      <scancode>177</scancode>
+      <keycode>HELP</keycode>
+      <default-action>khelpcenter || gnome-help</default-action>
+    </key>
+    <key>
+      <name>My Computer</name>
+      <scancode>29</scancode>
+      <keycode>COMPUTER</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Filemanager</plugin-name>
+        <plugin-function>Filemanager</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Web/Home</name>
+      <scancode>178</scancode>
+      <keycode>HOMEPAGE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Lock</name>
+      <scancode>138</scancode>
+      <keycode>PROG1</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Sys Rq</name>
+      <scancode>84</scancode>
+      <keycode>PROG4</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+  </key-list>
+</keyboard>

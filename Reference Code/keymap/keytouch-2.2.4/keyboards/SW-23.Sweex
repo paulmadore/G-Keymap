@@ -1,0 +1,192 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">29-06-2006</last-change>
+    <author>Bastiaan Jacques</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Sweex</manufacturer>
+      <model>SW-23</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Internet Back</name>
+      <scancode>234</scancode>
+      <keycode>BACK</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Back</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Internet Forward</name>
+      <scancode>233</scancode>
+      <keycode>FORWARD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Forward</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Internet Stop</name>
+      <scancode>232</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Internet Favorites</name>
+      <scancode>230</scancode>
+      <keycode>BOOKMARKS</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Add Bookmark</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Internet Search</name>
+      <scancode>229</scancode>
+      <keycode>SEARCH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Search</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Internet Refresh</name>
+      <scancode>231</scancode>
+      <keycode>REFRESH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Reload</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Internet Home</name>
+      <scancode>178</scancode>
+      <keycode>HOMEPAGE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Internet Mail</name>
+      <scancode>236</scancode>
+      <keycode>MAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Audio Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Audio - Vol</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Audio + Vol</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Media</name>
+      <scancode>237</scancode>
+      <keycode>MEDIA</keycode>
+      <default-action>xmms</default-action>
+    </key>
+    <key>
+      <name>Audio Stop</name>
+      <scancode>164</scancode>
+      <keycode>STOPCD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Audio Play</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Audio Next</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Audio Prev</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Cal</name>
+      <scancode>161</scancode>
+      <keycode>CALC</keycode>
+      <default-action>kcalc || gnome-calculator || xcalc</default-action>
+    </key>
+    <key>
+      <name>My Computer</name>
+      <scancode>235</scancode>
+      <keycode>COMPUTER</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Filemanager</plugin-name>
+        <plugin-function>Documents</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Power</name>
+      <scancode>222</scancode>
+      <keycode>POWER</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Wake</name>
+      <scancode>227</scancode>
+      <keycode>WAKEUP</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+  </key-list>
+</keyboard>

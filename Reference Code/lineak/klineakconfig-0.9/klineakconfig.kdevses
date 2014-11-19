@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <LastCompileConfig>(Default)</LastCompileConfig>
+ <Mainframe MaximizeMode="0" />
+ <DocsAndViews NumberOfDocuments="10" >
+  <Doc0 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/TODO" >
+   <View0 Top="23" Width="919" Attach="1" Height="433" Left="3" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc0>
+  <Doc1 CursorPosLine="359" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="21" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/klineakconfig.cpp" >
+   <View0 Top="44" Width="919" Attach="1" Height="760" Left="24" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc1>
+  <Doc2 CursorPosLine="127" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/lineakparser.h" >
+   <View0 Top="30" Width="919" Attach="1" Height="760" Left="197" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc2>
+  <Doc3 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/kprefs.h" >
+   <View0 Top="86" Width="919" Attach="1" Height="760" Left="66" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc3>
+  <Doc4 CursorPosLine="66" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/klineakdef.h" >
+   <View0 Top="128" Width="919" Attach="1" Height="760" Left="108" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc4>
+  <Doc5 CursorPosLine="52" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/klineakconfig.h" >
+   <View0 Top="23" Width="919" Attach="1" Height="760" Left="173" Focus="1" Type="KWriteView" MinMaxMode="0" />
+  </Doc5>
+  <Doc6 CursorPosLine="33" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/klineakpreferences.h" >
+   <View0 Top="6" Width="925" Attach="1" Height="784" Left="89" Focus="0" Type="KWriteView" MinMaxMode="1" />
+  </Doc6>
+  <Doc7 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/klineakpreferences.cpp" >
+   <View0 Top="19" Width="925" Attach="1" Height="701" Left="62" Focus="0" Type="KWriteView" MinMaxMode="1" />
+  </Doc7>
+  <Doc8 CursorPosLine="34" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/klprefs.h" >
+   <View0 Top="23" Width="925" Attach="1" Height="701" Left="85" Focus="0" Type="KWriteView" MinMaxMode="1" />
+  </Doc8>
+  <Doc9 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/sheldonl/development/klineakconfig-3/klineakconfig/klprefs.cpp" >
+   <View0 Top="23" Width="925" Attach="1" Height="701" Left="132" Focus="0" Type="KWriteView" MinMaxMode="1" />
+  </Doc9>
+ </DocsAndViews>
+</KDevPrjSession>

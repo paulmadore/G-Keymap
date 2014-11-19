@@ -1,0 +1,96 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">13-04-2006</last-change>
+    <author>Martin Ereth</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Genius</manufacturer>
+      <model>Comfy KB-09e (KB-0138)</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>WWW</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Forward</name>
+      <scancode>233</scancode>
+      <keycode>FORWARD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Forward</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Back</name>
+      <scancode>234</scancode>
+      <keycode>BACK</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Back</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>E-Mail</name>
+      <scancode>236</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>232</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Refresh</name>
+      <scancode>231</scancode>
+      <keycode>REFRESH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Reload</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Search</name>
+      <scancode>229</scancode>
+      <keycode>SEARCH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Search</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Favorites</name>
+      <scancode>230</scancode>
+      <keycode>BOOKMARKS</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Add Bookmark</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

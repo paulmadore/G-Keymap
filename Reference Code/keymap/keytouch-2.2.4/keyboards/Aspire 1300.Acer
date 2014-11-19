@@ -1,0 +1,81 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">09-04-2006</last-change>
+    <author>Marvin Raaijmakers</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Acer</manufacturer>
+      <model>Aspire 1300</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>E-Mail</name>
+      <scancode>236</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>WWW</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>P1</name>
+      <scancode>244</scancode>
+      <keycode>PROG1</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>P2</name>
+      <scancode>243</scancode>
+      <keycode>PROG2</keycode>
+      <default-action>oowriter</default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Sleep</name>
+      <event-descr>button/sleep SLPB 00000080</event-descr>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

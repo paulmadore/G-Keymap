@@ -1,0 +1,104 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">29-06-2006</last-change>
+    <author>Marvin Raaijmakers</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Microsoft</manufacturer>
+      <model>Internet Keyboard</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Back</name>
+      <scancode>234</scancode>
+      <keycode>BACK</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Back</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Forward</name>
+      <scancode>233</scancode>
+      <keycode>FORWARD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Forward</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>232</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mail</name>
+      <scancode>236</scancode>
+      <keycode>MAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Search</name>
+      <scancode>229</scancode>
+      <keycode>SEARCH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Search</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Favorites</name>
+      <scancode>230</scancode>
+      <keycode>BOOKMARKS</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Add Bookmark</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Web/Home</name>
+      <scancode>178</scancode>
+      <keycode>HOMEPAGE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>My Computer</name>
+      <scancode>235</scancode>
+      <keycode>COMPUTER</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Filemanager</plugin-name>
+        <plugin-function>Documents</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Calculator</name>
+      <scancode>161</scancode>
+      <keycode>CALC</keycode>
+      <default-action action-type="program">
+        kcalc || gnome-calculator || xcalc
+      </default-action>
+    </key>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

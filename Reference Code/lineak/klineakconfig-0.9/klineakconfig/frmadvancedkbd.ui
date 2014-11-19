@@ -1,0 +1,272 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>frmAdvancedKbdUI</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>frmAdvancedKbdUI</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>411</width>
+            <height>387</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Advanced Keyboard Options</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>Layout50</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnApply</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Apply</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnCancel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QGroupBox" row="0" column="0">
+            <property name="name">
+                <cstring>groupBox3</cstring>
+            </property>
+            <property name="font">
+                <font>
+                </font>
+            </property>
+            <property name="title">
+                <string>Advanced Keyboard Configuration Options</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel" row="4" column="0">
+                    <property name="name">
+                        <cstring>textLabel2</cstring>
+                    </property>
+                    <property name="font">
+                        <font>
+                        </font>
+                    </property>
+                    <property name="lineWidth">
+                        <number>2</number>
+                    </property>
+                    <property name="text">
+                        <string>Configuration Directives:</string>
+                    </property>
+                </widget>
+                <widget class="KListView" row="5" column="0">
+                    <column>
+                        <property name="text">
+                            <string>Property</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>true</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Value</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>true</bool>
+                        </property>
+                    </column>
+                    <property name="name">
+                        <cstring>lstConfigDirectives</cstring>
+                    </property>
+                    <property name="frameShape">
+                        <enum>LineEditPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>Plain</enum>
+                    </property>
+                    <property name="lineWidth">
+                        <number>2</number>
+                    </property>
+                    <property name="allColumnsShowFocus">
+                        <bool>true</bool>
+                    </property>
+                    <property name="resizeMode">
+                        <enum>AllColumns</enum>
+                    </property>
+                    <property name="itemsMovable">
+                        <bool>false</bool>
+                    </property>
+                    <property name="itemsRenameable">
+                        <bool>false</bool>
+                    </property>
+                    <property name="dragEnabled">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="0" column="0">
+                    <property name="name">
+                        <cstring>chkRunLineakAtExit</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Continue to run lineak after exiting.</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>TextLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Email address to send my customized keyboard to:</string>
+                    </property>
+                </widget>
+                <widget class="QLayoutWidget" row="3" column="0">
+                    <property name="name">
+                        <cstring>layout32</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>txtContributeEmail</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>7</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>1</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer16</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </hbox>
+                </widget>
+                <widget class="QCheckBox" row="1" column="0">
+                    <property name="name">
+                        <cstring>chkLeds</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Use kkeyled to show keyboard LEDs.</string>
+                        <comment>If you do not have LED's on your keyboard, and kkeyled is installed, use kkeyled to show them.</comment>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>txtContributeEmail</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>frmAdvancedKbdUI</receiver>
+        <slot>slotContributeEmail(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>chkRunLineakAtExit</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKbdUI</receiver>
+        <slot>slotRunLineakd()</slot>
+    </connection>
+    <connection>
+        <sender>chkLeds</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKbdUI</receiver>
+        <slot>slotchkLeds()</slot>
+    </connection>
+    <connection>
+        <sender>btnCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKbdUI</receiver>
+        <slot>slotCancel()</slot>
+    </connection>
+    <connection>
+        <sender>btnApply</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKbdUI</receiver>
+        <slot>slotBtnOK()</slot>
+    </connection>
+    <connection>
+        <sender>lstConfigDirectives</sender>
+        <signal>itemRenamed(QListViewItem*,int,const QString&amp;)</signal>
+        <receiver>frmAdvancedKbdUI</receiver>
+        <slot>slotConfigDirectivesItemRenamed(QListViewItem*,int,const QString&amp;)</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>slotBtnOK()</slot>
+    <slot>slotchkLeds()</slot>
+    <slot>slotContributeEmail(const QString&amp;)</slot>
+    <slot>slotRunLineakd()</slot>
+    <slot>slotRunKkeyled()</slot>
+    <slot>slotConfigDirectivesItemRenamed(QListViewItem*,int,const QString&amp;)</slot>
+    <slot>slotCancel()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>klistview.h</includehint>
+</includehints>
+</UI>

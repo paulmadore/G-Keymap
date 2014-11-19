@@ -1,0 +1,494 @@
+# translation of nl.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 20:00+0100\n"
+"PO-Revision-Date: 2006-03-17 22:21+0100\n"
+"Last-Translator: Marvin Raaijmakers\n"
+"Language-Team:  <C@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: src/main.c:107
+#, c-format
+msgid ""
+"Error while loading the evdev module: \n"
+"%s"
+msgstr ""
+"Fout tijdens het laden van de evdev module:\n"
+"%s"
+
+#: src/main.c:113
+#, c-format
+msgid "No event devices are available in %s."
+msgstr "Geen event apparaten beschikbaar in %s."
+
+#: src/interface.c:50
+msgid "Select keyboard"
+msgstr "Selecteer toetsenbord"
+
+#: src/interface.c:65
+msgid "Please select your keyboard:"
+msgstr "Selecteer uw toetsenbord:"
+
+#: src/interface.c:98
+msgid ""
+"Every input device has its own \"event device\". All event devices are "
+"listed above. You should select the event device of your keyboard.\n"
+"Click \"OK\" after selecting the keyboard and this program will test if you "
+"selected the right device.\n"
+"Note USB keyboards have two event devices. The first is for all \"normal\" "
+"keys and the second for the extra function keys. Choose the second device."
+msgstr ""
+"Ieder invoerapparaat heeft zijn eigen \"event apparaat\". Hierboven ziet u "
+"een lijst van alle event apparaten. Selecteer het event apparaat van uw "
+"toetsenbord.\n"
+"Klik \"OK\" na het selecteren van het toetsenbord en het programma zal "
+"testen of u het juiste apparaat heeft geselecteerd.\n"
+"Merk dat USB toetsenborden twee event apparaten hebben. Het eerste apparaat "
+"is voor alle \"normale\" toetsen en het tweede voor de extra functie "
+"toetsen. Kies het tweede apparaat."
+
+#: src/interface.c:108 src/interface.c:907
+msgid "<b>Help information:</b>"
+msgstr "<b>Help informatie:</b>"
+
+#: src/interface.c:244
+msgid "keyTouch-editor"
+msgstr "keyTouch-editor"
+
+#: src/interface.c:260
+msgid "_File"
+msgstr "_Bestand"
+
+#: src/interface.c:292
+msgid "_Edit"
+msgstr "Be_werken"
+
+#: src/interface.c:299
+msgid "Change _keyboard..."
+msgstr "Wijzig _toetsenbord..."
+
+#: src/interface.c:306
+msgid "_Help"
+msgstr "_Help"
+
+#: src/interface.c:313
+msgid "_About"
+msgstr "_Over"
+
+#: src/interface.c:333
+msgid "Manufacturer:"
+msgstr "Fabrikant:"
+
+#: src/interface.c:340
+msgid "Model:"
+msgstr "Model:"
+
+#: src/interface.c:359
+msgid "Keyboard"
+msgstr "Toetsenbord"
+
+#: src/interface.c:416
+msgid "Name:"
+msgstr "Naam:"
+
+#: src/interface.c:423 src/callbacks.c:59
+msgid "Scancode:"
+msgstr "Scancode:"
+
+#: src/interface.c:463 src/interface.c:602
+msgid "_Change..."
+msgstr "Wijzi_g..."
+
+#: src/interface.c:475
+msgid "_Program:"
+msgstr "_Programma:"
+
+#: src/interface.c:503
+msgid "Plugin:"
+msgstr "Plugin: "
+
+#: src/interface.c:510
+msgid "Function:"
+msgstr "Functie:"
+
+#: src/interface.c:541
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/interface.c:546
+msgid "Special _action:"
+msgstr "Speciale _actie:"
+
+#: src/interface.c:554
+msgid "Default:"
+msgstr "Standaard:"
+
+#: src/interface.c:561
+msgid "Keycode:"
+msgstr "Keycode:"
+
+#: src/interface.c:583
+msgid "The keys code sent when the keyboard is connected via USB"
+msgstr ""
+"De code van de toets wanneer het toetsenbord op de USB poort is aangesloten."
+
+#: src/interface.c:606
+msgid "USB code:"
+msgstr "USB code:"
+
+#: src/interface.c:613
+msgid "Key settings"
+msgstr "Toets instellingen"
+
+#: src/interface.c:618
+msgid "Keys"
+msgstr "Toetsen"
+
+#: src/interface.c:778
+msgid "Press key"
+msgstr "Druk op de toets"
+
+#: src/interface.c:852
+msgid "New key"
+msgstr "Nieuwe toets"
+
+#: src/interface.c:870
+msgid "Please enter the name of the new key:"
+msgstr "Vul de naam van de nieuwe toets in:"
+
+#: src/interface.c:897
+msgid ""
+"Choose an appropriate name for the key. Is there for example a text label on "
+"the key, use the label as the key's name."
+msgstr ""
+"Kies een passende naam voor de toets, Wanneer er bijvoorbeeld tekst op de "
+"toets staat, gebruik dan die tekst als naam."
+
+#: src/interface.c:965 src/interface.c:1025
+msgid "Contact information"
+msgstr "Contact informatie"
+
+#: src/interface.c:983
+msgid ""
+"Please fill in your real name and e-mail address. This information will be "
+"used for the administration of the keyboard files.\n"
+"The e-mail address must be real in order to send the keyboard file."
+msgstr ""
+"Vul uw echte naam en uw e-mail adres in. Deze informatie zal worden gebruikt "
+"voor de administratie van de toetsenbord bestanden.\n"
+"Het e-mail adres moet echt zijn om het toetsenbord bestand te kunnen "
+"versturen."
+
+#: src/interface.c:999
+msgid "Your name:"
+msgstr "Uw naam:"
+
+#: src/interface.c:1006
+msgid "E-mail address:"
+msgstr "E-mail adres:"
+
+#: src/interface.c:1094
+msgid "About keyTouch-editor"
+msgstr "Over keyTouch-editor"
+
+#: src/interface.c:1123
+msgid "Version:"
+msgstr "Versie:"
+
+#: src/interface.c:1137
+msgid "Developer:"
+msgstr "Ontwikkelaar:"
+
+#: src/interface.c:1151
+msgid "License:"
+msgstr "Licentie:"
+
+#: src/interface.c:1165
+msgid "Website:"
+msgstr "Website:"
+
+#: src/interface.c:1172
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/callbacks.c:58
+msgid "Press the extra function key."
+msgstr "Druk op de extra functie toets."
+
+#: src/callbacks.c:60
+msgid "Event description:"
+msgstr "Event beschrijving:"
+
+#: src/callbacks.c:104
+msgid ""
+"Please press one of the extra function keys.\n"
+"Press \"Cancel\" and select another event device\n"
+"when this window does not disappear after\n"
+"pressing the key."
+msgstr ""
+"Druk op één van de extra functie toetsen.\n"
+"Klik op \"Annuleren\" en selecteer een ander event apparaat\n"
+"wanneer dit venster niet verdwijnt na het indrukken van de toets."
+
+#: src/callbacks.c:134
+msgid "Please select the event device for your keyboard."
+msgstr "Selecteer het event apparaat van uw toetsenbord:"
+
+#: src/callbacks.c:267
+msgid ""
+"Do you want to send this keyboard file to the developer of keyTouch?\n"
+"This will help other people with the same keyboard.\n"
+"Only say \"Yes\" when the keyboard file is finished."
+msgstr ""
+"Wilt u dit toetsenbord bestand verzenden naar de ontwikkelaar van keyTouch?\n"
+"Hiermee helpt u andere mensen met hetzelfde toetsenbord.\n"
+"Kies alleen \"Ja\" wanneer het toetsenbord bestand af is."
+
+#: src/callbacks.c:297
+msgid "Save keyboard file"
+msgstr "Opslaan"
+
+#: src/callbacks.c:318
+#, c-format
+msgid ""
+"A file named \"%s\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"Een bestand genaamd \"%s\" bestaat al. Weet u zeker dat u het wilt "
+"overschrijven?"
+
+#: src/callbacks.c:329
+#, c-format
+msgid "Failed to save \"%s\"."
+msgstr "Kan het bestand \"%s\" niet opslaan."
+
+#: src/callbacks.c:338 src/evdev.c:77 src/evdev.c:234 src/evdev.c:244
+#: src/key_list.c:232 src/key_list.c:274 src/key_list.c:296 src/key_list.c:322
+#: src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Kon geen geheugen reserveren."
+
+#: src/callbacks.c:343
+msgid "Failed to send the keyboard file."
+msgstr "Het verzenden van het toetsenbord bestand is mislukt."
+
+#: src/callbacks.c:353
+msgid ""
+"The keyboard file has been saved successfully, but cannot yet be imported in "
+"keyTouch because it is not a valid keyboard file."
+msgstr ""
+"Het toetsenbordbestand is succesvol opgeslagen, maar kan nog niet in "
+"keyTouch geïmporteerd worden omdat het geen geldig toetsenbordbestand is."
+
+#: src/callbacks.c:396
+#, c-format
+msgid ""
+"The keyboard file \"%s\" has been modified.\n"
+"Do you want to save your changes?"
+msgstr ""
+"Het toetsenbord bestand \"%s\" is gewijzigd .\n"
+"Wilt u de wijzigingen opslaan?"
+
+#: src/callbacks.c:452
+msgid "Open keyboard file"
+msgstr "Open"
+
+#: src/callbacks.c:657
+msgid "Cannot add the key because the name is already in the list."
+msgstr "Kan de toets niet toevoegen, omdat de naam al in de lijst voor komt."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Afbeeldingsbestand %s is niet gevonden."
+
+#: src/config.c:132
+msgid "The keyboard file contains an invalid action element."
+msgstr "Het toetsenbord bestand bevat een ongeldig action element. "
+
+#: src/config.c:146
+msgid "The keyboard file contains an invalid action-type value."
+msgstr "Het toetsenbord bestand bevat een ongeldig action-type waarde."
+
+#: src/config.c:221 src/config.c:273 src/check_syntax.c:214
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Het toetsenbord bestand bevat een onvolledig key element. "
+
+#: src/config.c:431
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "'%s' is een ongeldig toetsenbord bestand."
+
+#: src/config.c:439
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "Het toetsenbord bestand '%s' bevat geen keyboard element. "
+
+#: src/config.c:449
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "Het toetsenbord bestand '%s' bevat geen key-list element. "
+
+#: src/config.c:459
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "Het toetsenbord bestand '%s' is ongeldig."
+
+#: src/config.c:478
+#, c-format
+msgid "Failed to read the keyboard name from %s."
+msgstr "Het lezen van de naam van het toetsenbord van '%s' is mislukt."
+
+#: src/config.c:886
+#, c-format
+msgid "'%s' is not a valid XML document."
+msgstr "'%s' is geen geldig XML document."
+
+#: src/evdev.c:230
+msgid "Unknown reason"
+msgstr "Onbekende reden"
+
+#: src/get_scancode.c:98
+msgid "Failed to read events."
+msgstr "Het lezen van gebeurtenissen is mislukt."
+
+#: src/get_scancode.c:179
+#, c-format
+msgid "Could not open event device '%s'."
+msgstr "Kon het event apparaat '%s' niet openen."
+
+#: src/get_scancode.c:272
+#, c-format
+msgid "Could not open ACPI socket file '%s'."
+msgstr "Kon het ACPI socket bestand '%s' niet openen."
+
+#. *********** Create the view ***********
+#: src/set_data.c:379
+msgid "Device"
+msgstr "Apparaat"
+
+#: src/set_data.c:380
+msgid "Device name"
+msgstr "Apparaat naam"
+
+#: src/set_data.c:381
+msgid "Bus"
+msgstr "Bus"
+
+#: src/check_syntax.c:106
+msgid ""
+"The keyboard file contains an invalid action element (where the action is a "
+"plugin)."
+msgstr ""
+"Het toetsendbordbestand bevat een ongeldig 'action' element (waarvan de "
+"actie een plugin in)."
+
+#: src/check_syntax.c:114
+#, c-format
+msgid "The keyboard file contains the invalid action-type value '%s'."
+msgstr "Het toetsenbordbestand bevat het ongeldige 'action-type' waarde '%s'."
+
+#: src/check_syntax.c:222
+msgid "The keyboard file contains an empty key-name element."
+msgstr "Het toetsenbordbestand bevat een leeg 'key-name' element."
+
+#: src/check_syntax.c:231
+#, c-format
+msgid "The keyboard file contains more than once a key named '%s'."
+msgstr "Het toetsenbordbestand bevat meer dan één keer een toets genaamd '%s'."
+
+#: src/check_syntax.c:254
+#, c-format
+msgid "'%s' is an invalid scancode."
+msgstr "'%s' is een ongeldige scancode."
+
+#: src/check_syntax.c:268
+#, c-format
+msgid "'%s' is an invalid USB code."
+msgstr "'%s' is een ongeldige USB code."
+
+#: src/check_syntax.c:284
+#, c-format
+msgid "Keycode %s is used more than once."
+msgstr "Keycode %s wordt meer dan één keer gebruikt."
+
+#: src/check_syntax.c:296
+msgid "The keyboard file contains an empty keycode."
+msgstr "Het toetsenbord bestand bevat een lege keycode."
+
+#: src/check_syntax.c:300
+#, c-format
+msgid "'%s' is an invalid keycode."
+msgstr "'%s' is een ongeldige keycode."
+
+#: src/check_syntax.c:368
+#, c-format
+msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
+msgstr ""
+"De last-change-date \"%s\" van het toetsenbordbesand is geen geldige datum."
+
+#: src/check_syntax.c:456
+msgid ""
+"The keyboard file does not provide enough information about the keyboard "
+"model."
+msgstr ""
+"Het toetsenbordbestand bevat onvoldoende informatie over het "
+"toetsenbordmodel."
+
+#: src/check_syntax.c:467 src/check_syntax.c:474
+#, c-format
+msgid "The 'usb-info' element does not contain a '%s' element."
+msgstr "Het 'usb-info' element bevat geen '%s' element."
+
+#: src/check_syntax.c:485
+#, c-format
+msgid "'%s' is an invalid vendor ID."
+msgstr "'%s' is een ongeldig fabrikant ID."
+
+#: src/check_syntax.c:498
+#, c-format
+msgid "'%s' is an invalid product ID."
+msgstr "'%s' is een ongeldig product ID."
+
+#: src/check_syntax.c:555
+msgid "The keyboard file does not contain a keyboard element."
+msgstr "Het toetsenbordbestand bevat geen 'keyboard' element."
+
+#: src/check_syntax.c:567
+msgid "The keyboard file does not contain a key-list element."
+msgstr "Het toetsenbordbestand bevat geen 'key-list' element."
+
+#: src/check_syntax.c:574
+#, c-format
+msgid ""
+"The \"keyboard\" element in the keyboard file does not contain a %s element."
+msgstr ""
+"Het \"keyboard\" element in het toetsenbordbestand bevat geen '%s' element."
+
+#: src/check_syntax.c:579
+msgid ""
+"The syntax version of the keyboard file is not compatible with this version "
+"of keyTouch."
+msgstr ""
+"The syntax versie van het toetsenbordbestand is niet bruikbaar in combinatie "
+"met deze versie van keyTouch."
+
+#: src/check_syntax.c:589 src/check_syntax.c:594 src/check_syntax.c:599
+#: src/check_syntax.c:604
+#, c-format
+msgid "The keyboard file does not contain any %s element."
+msgstr "Het toetsenbordbestand bevat geen enkel %s element."
+
+#~ msgid "No scancode. This key is identified by its keycode."
+#~ msgstr "Geen scancode. Deze toets is herkenbaar aan zijn keycode."
+
+#, fuzzy
+#~ msgid "The event device did not report a scancode or keycode."
+#~ msgstr "Het event apparaat rapporteerde geen scancode."

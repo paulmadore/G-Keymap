@@ -1,0 +1,9 @@
+July 28 2005 Sheldon Lee-Wen
+	Add a CONTROLLER directive to the media-detect.conf file to allow
+	the plugin to execute a different command to control the program.
+	This is needed for some programs where the binary, and the program
+	that controls are different.
+July 26 2005 Sheldon Lee-Wen
+	Adding beep-media-player to the media-detect.conf file.
+	Changed the JUK entry in the media-detect.conf file to use the JUK
+	plugin instead of dcop.

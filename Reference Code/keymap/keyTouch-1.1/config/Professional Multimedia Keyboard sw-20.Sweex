@@ -1,0 +1,107 @@
+Professional Multimedia Keyboard sw-20
+Sweex
+
+160
+XF86AudioMute
+Audio Mute
+:Aumix - Mute/Unmute
+
+144
+XF86AudioPrev
+Audio Previous
+:XMMS - Previous
+
+153
+XF86AudioNext
+Audio next
+:XMMS - Next
+
+162
+XF86AudioPlay
+Audio play/pause
+:XMMS - Play/Pause
+
+164
+XF86AudioStop
+Audio stop
+:XMMS - Stop
+
+234
+XF86Back
+Back
+-
+
+161
+XF86Calculator
+Calculator
+kcalc
+
+230
+XF86Favorites
+Favorites
+:WWW - Home
+
+233
+XF86Forward
+Forward
+-
+
+174
+XF86AudioLowerVolume
+Lower volume
+:Aumix - Volume decrease
+
+236
+XF86Mail
+Mail
+:E-mail
+
+235
+XF86Explorer
+My Computer
+:My Documents
+
+222
+XF86PowerOff
+Power
+poweroff
+
+176
+XF86AudioRaiseVolume
+Raise volume
+:Aumix - Volume increase
+
+231
+XF86Refresh
+Refresh
+-
+
+229
+XF86Search
+Search
+:WWW - Search
+
+237
+XF86AudioMedia
+Start XMMS
+:XMMS
+
+232
+XF86Stop
+Stop
+-
+
+223
+XF86Sleep
+User
+:Lock Screen
+
+227
+XF86WakeUp
+Wake
+-
+
+178
+XF86HomePage
+Web/Home
+:WWW - Home

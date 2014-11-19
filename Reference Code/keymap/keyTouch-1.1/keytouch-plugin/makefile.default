@@ -1,0 +1,19 @@
+OBJECTS=$(SOURCES:.c=.o)
+
+all: $(TARGET)
+
+cc:
+	$(MAKE) CC=cc \
+		all
+
+clean:
+	$(RM) $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(CFLAGS) -o  $@ $(OBJECTS)
+
+install: $(TARGET)
+	cp $(TARGET) $(BINDIR)/$(TARGET)
+
+uninstall:
+	$(RM) $(BINDIR)/$(TARGET)

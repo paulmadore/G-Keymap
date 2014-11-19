@@ -1,0 +1,4 @@
+Compiling and installing keytouch-editor is done by the common procedure:
+- Run './configure' in this directory.
+- Run 'make'
+- Run 'make install' as root

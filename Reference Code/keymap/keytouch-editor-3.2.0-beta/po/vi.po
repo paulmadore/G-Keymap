@@ -1,0 +1,491 @@
+# Vietnamese translation for Keytouch Editor.
+# Copyright © 2007 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch-editor 3.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 20:00+0100\n"
+"PO-Revision-Date: 2007-08-20 17:30+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b1\n"
+
+#: src/main.c:107
+#, c-format
+msgid ""
+"Error while loading the evdev module: \n"
+"%s"
+msgstr ""
+"Gặp lỗi khi nạp mô-đun evdev:\n"
+"%s"
+
+#: src/main.c:113
+#, c-format
+msgid "No event devices are available in %s."
+msgstr "Trong %s, không có sẵn thiết bị dữ kiện."
+
+#: src/interface.c:50
+msgid "Select keyboard"
+msgstr "Chọn bàn phím"
+
+#: src/interface.c:65
+msgid "Please select your keyboard:"
+msgstr "Hãy chọn bàn phím:"
+
+#: src/interface.c:98
+msgid ""
+"Every input device has its own \"event device\". All event devices are "
+"listed above. You should select the event device of your keyboard.\n"
+"Click \"OK\" after selecting the keyboard and this program will test if you "
+"selected the right device.\n"
+"Note USB keyboards have two event devices. The first is for all \"normal\" "
+"keys and the second for the extra function keys. Choose the second device."
+msgstr ""
+"Mỗi thiết bị nhập vào có « thiết bị dữ kiện » riêng.\n"
+"Tất cả các thiết bị dữ kiện được liệt kê bên trên.\n"
+"Bạn nên chọn thiết bị dữ kiện của bàn phím đang dùng.\n"
+"Chọn bàn phím thì nhấn vào nút OK rồi chương trình này sẽ thử\n"
+"bạn đã chọn thiết bị đúng chưa.\n"
+"Ghi chú rằng bàn phím kiểu USB có hai thiết bị dữ kiện.\n"
+"Cái thứ hai đại diện các phím « chuẩn », còn cái thứ hai đại diện\n"
+"các phím chức năng bổ trợ. Ở đây hãy chọn thiết bị thứ hai."
+
+#: src/interface.c:108 src/interface.c:907
+msgid "<b>Help information:</b>"
+msgstr "<b>Thông tin trợ giúp:</b>"
+
+#: src/interface.c:244
+msgid "keyTouch-editor"
+msgstr "keyTouch-editor"
+
+#: src/interface.c:260
+msgid "_File"
+msgstr "_Tập tin"
+
+#: src/interface.c:292
+msgid "_Edit"
+msgstr "_Sửa"
+
+#: src/interface.c:299
+msgid "Change _keyboard..."
+msgstr "Đổi _bàn phím..."
+
+#: src/interface.c:306
+msgid "_Help"
+msgstr "Trợ g_iúp"
+
+#: src/interface.c:313
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#: src/interface.c:333
+msgid "Manufacturer:"
+msgstr "Hãng chế tạo :"
+
+#: src/interface.c:340
+msgid "Model:"
+msgstr "Mô hình:"
+
+#: src/interface.c:359
+msgid "Keyboard"
+msgstr "Bàn phím"
+
+#: src/interface.c:416
+msgid "Name:"
+msgstr "Tên:"
+
+#: src/interface.c:423 src/callbacks.c:59
+msgid "Scancode:"
+msgstr "Mã quét:"
+
+#: src/interface.c:463 src/interface.c:602
+msgid "_Change..."
+msgstr "Đổ_i..."
+
+#: src/interface.c:475
+msgid "_Program:"
+msgstr "_Chương trình:"
+
+#: src/interface.c:503
+msgid "Plugin:"
+msgstr "Phần bổ sung:"
+
+#: src/interface.c:510
+msgid "Function:"
+msgstr "Chức năng:"
+
+#: src/interface.c:541
+msgid "Plugin"
+msgstr "Phần bổ sung"
+
+#: src/interface.c:546
+msgid "Special _action:"
+msgstr "_Hành động đặc biệt:"
+
+#: src/interface.c:554
+msgid "Default:"
+msgstr "Mặc định:"
+
+#: src/interface.c:561
+msgid "Keycode:"
+msgstr "Mã phím:"
+
+#: src/interface.c:583
+msgid "The keys code sent when the keyboard is connected via USB"
+msgstr ""
+
+#: src/interface.c:606
+#, fuzzy
+msgid "USB code:"
+msgstr "Mã quét:"
+
+#: src/interface.c:613
+msgid "Key settings"
+msgstr "Thiết lập phím"
+
+#: src/interface.c:618
+msgid "Keys"
+msgstr "Phím"
+
+#: src/interface.c:778
+msgid "Press key"
+msgstr "Bấm phím"
+
+#: src/interface.c:852
+msgid "New key"
+msgstr "Phím mới"
+
+#: src/interface.c:870
+msgid "Please enter the name of the new key:"
+msgstr "Hãy nhập chỉ tên của phím mới:"
+
+#: src/interface.c:897
+msgid ""
+"Choose an appropriate name for the key. Is there for example a text label on "
+"the key, use the label as the key's name."
+msgstr ""
+"Hãy chọn tên thích hợp với phím. Chẳng hạn, phím có nhãn văn bản thì dùng nó "
+"làm tên phím."
+
+#: src/interface.c:965 src/interface.c:1025
+msgid "Contact information"
+msgstr "Thông tin liên lạc"
+
+#: src/interface.c:983
+msgid ""
+"Please fill in your real name and e-mail address. This information will be "
+"used for the administration of the keyboard files.\n"
+"The e-mail address must be real in order to send the keyboard file."
+msgstr ""
+"Hãy điền vào họ tên thật và địa chỉ thư điện tử. Thông tin này sẽ được dùng "
+"để quản trị các tập tin bàn phím.\n"
+"Không thể gửi tập tin bàn phím cho địa chỉ thư sai."
+
+#: src/interface.c:999
+msgid "Your name:"
+msgstr "Họ tên:"
+
+#: src/interface.c:1006
+msgid "E-mail address:"
+msgstr "Địa chỉ thư :"
+
+#: src/interface.c:1094
+msgid "About keyTouch-editor"
+msgstr "Giới thiệu keyTouch-editor"
+
+#: src/interface.c:1123
+msgid "Version:"
+msgstr "Phiên bản:"
+
+#: src/interface.c:1137
+msgid "Developer:"
+msgstr "Nhà phát triển:"
+
+#: src/interface.c:1151
+msgid "License:"
+msgstr "Giấy phép:"
+
+#: src/interface.c:1165
+msgid "Website:"
+msgstr "Chỗ trên Mạng:"
+
+#: src/interface.c:1172
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/callbacks.c:58
+msgid "Press the extra function key."
+msgstr "Bấm phím chức năng bổ trợ."
+
+#: src/callbacks.c:60
+msgid "Event description:"
+msgstr "Mô tả dữ kiện:"
+
+#: src/callbacks.c:104
+msgid ""
+"Please press one of the extra function keys.\n"
+"Press \"Cancel\" and select another event device\n"
+"when this window does not disappear after\n"
+"pressing the key."
+msgstr ""
+"Hãy bấm một của những phím chức năng bổ trợ.\n"
+"Cửa sổ này không đóng sau khi bấm phím thì\n"
+"bấm « Thôi » rồi chọn thiết bị dữ kiện khác."
+
+#: src/callbacks.c:134
+msgid "Please select the event device for your keyboard."
+msgstr "Hãy chọn thiết bị dữ kiện cho bàn phím đang dùng."
+
+#: src/callbacks.c:267
+msgid ""
+"Do you want to send this keyboard file to the developer of keyTouch?\n"
+"This will help other people with the same keyboard.\n"
+"Only say \"Yes\" when the keyboard file is finished."
+msgstr ""
+"Bạn có muốn gửi tập tin bàn phím này cho nhà phát triển keyTouch không?\n"
+"Nó sẽ giúp các người khác dùng cùng bàn phím.\n"
+"Chỉ chấp nhận khi tập tin bàn phím hoàn tất."
+
+#: src/callbacks.c:297
+msgid "Save keyboard file"
+msgstr "Lưu tập tin bàn phím"
+
+#: src/callbacks.c:318
+#, c-format
+msgid ""
+"A file named \"%s\" already exists. Are you sure you want to overwrite it?"
+msgstr "Tập tin tên « %s » đã có. Bạn có chắc muốn ghi đè lên nó không?"
+
+#: src/callbacks.c:329
+#, c-format
+msgid "Failed to save \"%s\"."
+msgstr "Lỗi lưu « %s »."
+
+#: src/callbacks.c:338 src/evdev.c:77 src/evdev.c:234 src/evdev.c:244
+#: src/key_list.c:232 src/key_list.c:274 src/key_list.c:296 src/key_list.c:322
+#: src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Không thể cấp phát bộ nhớ."
+
+#: src/callbacks.c:343
+msgid "Failed to send the keyboard file."
+msgstr "Lỗi gửi tập tin bàn phím."
+
+#: src/callbacks.c:353
+msgid ""
+"The keyboard file has been saved successfully, but cannot yet be imported in "
+"keyTouch because it is not a valid keyboard file."
+msgstr ""
+"Tập tin bàn phím đã được lưu, nhưng chưa nhập khẩu được vào keyTouch vì nó "
+"không phải tập tin bàn phím hợp lệ."
+
+#: src/callbacks.c:396
+#, c-format
+msgid ""
+"The keyboard file \"%s\" has been modified.\n"
+"Do you want to save your changes?"
+msgstr ""
+"Tập tin bàn phím « %s » bị sửa đổi.\n"
+"Bạn có muốn lưu các thay đổi không?"
+
+#: src/callbacks.c:452
+msgid "Open keyboard file"
+msgstr "Mở tập tin bàn phím"
+
+#: src/callbacks.c:657
+msgid "Cannot add the key because the name is already in the list."
+msgstr "Không thể thêm phím vì tên đó đã có trong danh sách."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Không tìm thấy tập tin sơ đồ điểm ảnh: %s"
+
+#: src/config.c:132
+msgid "The keyboard file contains an invalid action element."
+msgstr "Tập tin bàn phím chứa một yếu tố hành động (action) không hợp lệ."
+
+#: src/config.c:146
+msgid "The keyboard file contains an invalid action-type value."
+msgstr ""
+"Tập tin bàn phím chứa một giá trị kiểu hành động (action-type) không hợp lệ."
+
+#: src/config.c:221 src/config.c:273 src/check_syntax.c:214
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Tập tin bàn phím chứa một yếu tố phím (key) chưa hoàn tất."
+
+#: src/config.c:431
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "« %s » là tập tin bàn phím không hợp lệ."
+
+#: src/config.c:439
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "Tập tin bàn phím « %s » không chứa yếu tố bàn phím (keyboard)."
+
+#: src/config.c:449
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "Tập tin bàn phím « %s » không chứa yếu tố danh sách phím (key-list)."
+
+#: src/config.c:459
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "Tập tin bàn phím « %s » không hợp lệ."
+
+#: src/config.c:478
+#, c-format
+msgid "Failed to read the keyboard name from %s."
+msgstr "Lỗi đọc tên bàn phím từ %s."
+
+#: src/config.c:886
+#, c-format
+msgid "'%s' is not a valid XML document."
+msgstr "« %s » không phải tài liệu XML hợp lệ."
+
+#: src/evdev.c:230
+msgid "Unknown reason"
+msgstr "Không biết sao"
+
+#: src/get_scancode.c:98
+msgid "Failed to read events."
+msgstr "Lỗi đọc dữ kiện."
+
+#: src/get_scancode.c:179
+#, c-format
+msgid "Could not open event device '%s'."
+msgstr "Không thể mở thiết bị dữ kiện « %s »."
+
+#: src/get_scancode.c:272
+#, c-format
+msgid "Could not open ACPI socket file '%s'."
+msgstr "Không thể mở tập tin ổ cắm ACPI « %s »."
+
+#. *********** Create the view ***********
+#: src/set_data.c:379
+msgid "Device"
+msgstr "Thiết bị"
+
+#: src/set_data.c:380
+msgid "Device name"
+msgstr "Tên thiết bị"
+
+#: src/set_data.c:381
+msgid "Bus"
+msgstr "Mạch nối"
+
+#: src/check_syntax.c:106
+msgid ""
+"The keyboard file contains an invalid action element (where the action is a "
+"plugin)."
+msgstr ""
+"Tập tin bàn phím chứa một yếu tố hành động (action) không hợp lệ (mà hành "
+"động là phần bổ sung)."
+
+#: src/check_syntax.c:114
+#, c-format
+msgid "The keyboard file contains the invalid action-type value '%s'."
+msgstr ""
+"Tập tin bàn phím chứa một giá trị kiểu hành động (action-type) không hợp lệ « "
+"%s »."
+
+#: src/check_syntax.c:222
+msgid "The keyboard file contains an empty key-name element."
+msgstr "Tập tin bàn phím chứa một yếu tố ten phím (key-name) rỗng."
+
+#: src/check_syntax.c:231
+#, c-format
+msgid "The keyboard file contains more than once a key named '%s'."
+msgstr "Tập tin bàn phím chứa nhiều lần phím tên « %s »."
+
+#: src/check_syntax.c:254
+#, c-format
+msgid "'%s' is an invalid scancode."
+msgstr "« %s » là mà quét không hợp lệ."
+
+#: src/check_syntax.c:268
+#, fuzzy, c-format
+msgid "'%s' is an invalid USB code."
+msgstr "« %s » là mã phím không hợp lệ."
+
+#: src/check_syntax.c:284
+#, c-format
+msgid "Keycode %s is used more than once."
+msgstr "Mã phím %s dùng nhiều lần."
+
+#: src/check_syntax.c:296
+msgid "The keyboard file contains an empty keycode."
+msgstr "Tập tin bàn phím chứa mã phím rỗng."
+
+#: src/check_syntax.c:300
+#, c-format
+msgid "'%s' is an invalid keycode."
+msgstr "« %s » là mã phím không hợp lệ."
+
+#: src/check_syntax.c:368
+#, c-format
+msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
+msgstr ""
+"Ngày thay đổi cuối (last-change-date) « %s » của tập tin bàn phím không phải "
+"ngày tháng hợp lệ."
+
+#: src/check_syntax.c:456
+#, fuzzy
+msgid ""
+"The keyboard file does not provide enough information about the keyboard "
+"model."
+msgstr "Tập tin bàn phím không cung cấp đủ thông tin về mô hình bàn phím."
+
+#: src/check_syntax.c:467 src/check_syntax.c:474
+#, fuzzy, c-format
+msgid "The 'usb-info' element does not contain a '%s' element."
+msgstr "Tập tin bàn phím không chứa yếu tố %s."
+
+#: src/check_syntax.c:485
+#, fuzzy, c-format
+msgid "'%s' is an invalid vendor ID."
+msgstr "« %s » là mã phím không hợp lệ."
+
+#: src/check_syntax.c:498
+#, fuzzy, c-format
+msgid "'%s' is an invalid product ID."
+msgstr "« %s » là mã phím không hợp lệ."
+
+#: src/check_syntax.c:555
+msgid "The keyboard file does not contain a keyboard element."
+msgstr "Tập tin bàn phím không chứa yếu tố bàn phím (keyboard)."
+
+#: src/check_syntax.c:567
+msgid "The keyboard file does not contain a key-list element."
+msgstr "Tập tin bàn phím không chứa yếu tố danh sách phím (key-list)."
+
+#: src/check_syntax.c:574
+#, c-format
+msgid ""
+"The \"keyboard\" element in the keyboard file does not contain a %s element."
+msgstr ""
+"Tập tin bàn phím không chứa yếu tố \"keyboard\" lần lượt chứa yếu tố %s."
+
+#: src/check_syntax.c:579
+msgid ""
+"The syntax version of the keyboard file is not compatible with this version "
+"of keyTouch."
+msgstr ""
+"Phiên bản cú pháp của tập tin bàn phím không tương thích với phiên bản "
+"keyTouch này."
+
+#: src/check_syntax.c:589 src/check_syntax.c:594 src/check_syntax.c:599
+#: src/check_syntax.c:604
+#, c-format
+msgid "The keyboard file does not contain any %s element."
+msgstr "Tập tin bàn phím không chứa yếu tố %s."
+
+#~ msgid "No scancode. This key is identified by its keycode."
+#~ msgstr "Không có mã quét. Phím này được nhận ra bằng mã phím."

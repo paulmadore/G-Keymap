@@ -1,0 +1,8 @@
+Version 2.2.0 beta 2:
+ - Keys with scancode equal to 0 will be skipped.
+
+Version 2.1.2:
+ - Will not give an error message when current_keyboard.xml does not exist
+
+Version 2.1.0 beta:
+ - acpi-hotkeys will be skipped while reading the configuration file.

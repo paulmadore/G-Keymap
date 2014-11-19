@@ -1,0 +1,32 @@
+#!/usr/bin/perl
+
+die "Incorrect Number of Parameters!\n" unless (@ARGV % 2 == 0 && @ARGV > 0);
+
+if(-e ".properties")
+{
+    open PROPS, "< .properties" or die "Unable to Automatically Set Preferences!!\n";
+
+    while(<PROPS>)
+    {
+	my($prop,$value) = split /=/, $_;
+
+	$properties{$prop} = $value;
+    }
+
+    close PROPS;
+}
+
+open PROPS, "> .properties" or die "Unable to Automatically Set Preferences!!\n";
+
+while(@ARGV)
+{
+    my $prop = shift @ARGV;
+    my $value = shift @ARGV;
+
+    $properties{$prop} = $value;
+}
+
+for $item (keys %properties)
+{
+    print PROPS "$item=" . $properties{$item} . "\n";
+}

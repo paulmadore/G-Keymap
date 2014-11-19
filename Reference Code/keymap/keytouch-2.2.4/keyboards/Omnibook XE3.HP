@@ -1,0 +1,85 @@
+<!--
+Note: To use the keyboard of this notebook the "omnibook" module needs to be loaded.
+      This module can be downloaded from: http://sourceforge.net/projects/omke
+-->
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">19-03-2006</last-change>
+    <author>Roeland Struijk</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>HP</manufacturer>
+      <model>Omnibook XE3</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>WWW</name>
+      <scancode>244</scancode>
+      <keycode>HOMEPAGE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>E-Mail</name>
+      <scancode>243</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>New mail message</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Help</name>
+      <scancode>241</scancode>
+      <keycode>HELP</keycode>
+      <default-action>gnome-help</default-action>
+    </key>
+    <key>
+      <name>Arrow</name>
+      <scancode>242</scancode>
+      <keycode>PROG1</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Previous</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop/Eject</name>
+      <scancode>164</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Next</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

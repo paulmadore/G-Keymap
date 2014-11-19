@@ -1,0 +1,82 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">03-08-2006</last-change>
+    <author>Joris van Rooij</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Dell</manufacturer>
+      <model>Latitude D800</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>WiFi</name>
+      <scancode>136</scancode>
+      <keycode>CONNECT</keycode>
+      <default-action action-type="program">
+        echo
+      </default-action>
+    </key>
+    <key>
+      <name>Battery</name>
+      <scancode>135</scancode>
+      <keycode>POWER</keycode>
+      <default-action action-type="program">
+        gnome-terminal -e yacpi
+      </default-action>
+    </key>
+    <key>
+      <name>Eject</name>
+      <scancode>137</scancode>
+      <keycode>EJECTCD</keycode>
+      <default-action action-type="program">
+        eject -T
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>BrightnessUp</name>
+      <scancode>134</scancode>
+      <keycode>BRIGHTNESSUP</keycode>
+      <default-action action-type="program">
+        echo
+      </default-action>
+    </key>
+    <key>
+      <name>BightnessDown</name>
+      <scancode>133</scancode>
+      <keycode>BRIGHTNESSDOWN</keycode>
+      <default-action action-type="program">
+        echo
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

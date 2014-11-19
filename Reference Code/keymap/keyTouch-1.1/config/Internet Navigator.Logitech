@@ -1,0 +1,112 @@
+Internet Navigator
+Logitech
+
+160
+XF86AudioMute
+Audio mute
+:Aumix - Mute/Unmute
+
+153
+XF86AudioNext
+Audio next
+:XMMS - Next
+
+162
+XF86AudioPlay
+Audio play/pause
+:XMMS - Play/Pause
+
+144
+XF86AudioPrev
+Audio previous
+:XMMS - Previous
+
+164
+XF86AudioStop
+Audio stop
+:XMMS - Stop
+
+234
+XF86Back
+Back
+-
+
+196
+XF86Documents
+Documents
+:My Documents
+
+236
+XF86Mail
+E-Mail
+:E-mail
+
+230
+XF86Favorites
+Favorites
+:WWW - Home
+
+233
+XF86Go
+Go
+mozilla -remote "openURL ()"
+
+174
+XF86AudioLowerVolume
+Lower volume
+:Aumix - Volume decrease
+
+237
+XF86AudioMedia
+Media
+:XMMS
+
+145
+XF86Messenger
+Messenger/SMS
+:Messenger
+
+178
+XF86HomePage
+My home
+:WWW - Home
+
+216
+XF86Music
+My music
+konqueror ~/Documents/music
+
+215
+XF86Pictures
+My pictures
+konqueror ~/Documents/pictures
+
+176
+XF86AudioRaiseVolume
+Raise volume
+:Aumix - Volume increase
+
+229
+XF86Search
+Search
+:WWW - Search
+
+148
+XF86Shop
+Shopping
+mozilla http://www.tweakers.net/pricewatch
+
+223
+XF86Standby
+User
+:Lock Screen
+
+146
+XF86WebCam
+Webcam
+-
+
+147
+XF86iTouch
+iTouch
+keytouch

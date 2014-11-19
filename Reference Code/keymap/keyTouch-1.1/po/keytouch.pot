@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-30 14:13-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: callbacks.c:596
+msgid ""
+"After you downloaded the right file for your keyboard, click on the "
+"'Import...' button and select the file you downloaded."
+msgstr ""
+
+#: callbacks.c:673
+msgid ""
+"After you downloaded a plugin for the keyTouch site, click on the "
+"'Import...' button and select the plugin you downloaded."
+msgstr ""
+
+#: handle_error.c:57
+#, c-format
+msgid "Key '%s' not exists. Type 'list' for a list of keys."
+msgstr ""
+
+#: handle_error.c:58
+msgid "The entered keyboard does not exist!"
+msgstr ""
+
+#: handle_error.c:59
+#, c-format
+msgid "Can not open '%s'!"
+msgstr ""
+
+#: handle_error.c:60
+#, c-format
+msgid "The import file '%s' has an invalid syntax!"
+msgstr ""
+
+#: handle_error.c:61
+msgid "Can not open the keyboard file."
+msgstr ""
+
+#: handle_error.c:62
+msgid ""
+"The keyboard file has an invalid syntax!\n"
+"Your settings will be left unchanged."
+msgstr ""
+
+#: handle_error.c:64
+#, c-format
+msgid "Can not open plugin '%s'."
+msgstr ""
+
+#: handle_error.c:65
+#, c-format
+msgid "Can not write the plugin to '%s'."
+msgstr ""
+
+#: handle_error.c:66
+#, c-format
+msgid "The file '%s' is not a plugin!"
+msgstr ""
+
+#: handle_error.c:67
+#, c-format
+msgid "The file '%s' is not a valid keyTouch plugin!"
+msgstr ""
+
+#: handle_error.c:94
+msgid "Can not allocate any memory!\n"
+msgstr ""
+
+#: handle_error.c:95
+msgid ""
+"There are no keyboards available.\n"
+"This might be caused by editing the configuration file, which is not "
+"recommended.\n"
+msgstr ""
+
+#: handle_error.c:97
+msgid "Can not read the configuration file.\n"
+msgstr ""
+
+#: handle_error.c:98
+msgid "Can not write to the configuration file.\n"
+msgstr ""
+
+#: handle_error.c:99
+msgid "Can not write to the xmodmap configuration file.\n"
+msgstr ""
+
+#: handle_error.c:100
+msgid "Can not write to the xbindkeys configuration file.\n"
+msgstr ""
+
+#: handle_error.c:101
+msgid "Can not write to the keyboard file.\n"
+msgstr ""
+
+#: handle_error.c:102
+msgid "The plugin file has an invalid syntax!\n"
+msgstr ""
+
+#: handle_error.c:103
+msgid "Can not write to the plugin file.\n"
+msgstr ""
+
+#: handle_error.c:104
+msgid "Invallid configuration file!\n"
+msgstr ""
+
+#: handle_error.c:107
+#, c-format
+msgid "> FATAL ERROR: %s\n"
+msgstr ""
+
+#: interface.c:169
+msgid "Keys:"
+msgstr ""
+
+#: interface.c:199
+msgid "Key:"
+msgstr ""
+
+#: interface.c:221
+msgid "_Default setting:"
+msgstr ""
+
+#: interface.c:229
+msgid "_Program:"
+msgstr ""
+
+#: interface.c:237
+msgid "Sp_ecial action:"
+msgstr ""
+
+#: interface.c:284
+msgid "Runs:"
+msgstr ""
+
+#: interface.c:291
+msgid "Key settings"
+msgstr ""
+
+#: interface.c:304
+msgid "Key _settings"
+msgstr ""
+
+#: interface.c:319
+msgid "Keyboard manufacturer:"
+msgstr ""
+
+#: interface.c:326
+msgid "Keyboard model:"
+msgstr ""
+
+#: interface.c:352
+msgid "Chang_e..."
+msgstr ""
+
+#: interface.c:366
+msgid "_Keyboard"
+msgstr ""
+
+#: interface.c:384
+msgid "Available plugins:"
+msgstr ""
+
+#: interface.c:425 interface.c:963
+msgid "_Download..."
+msgstr ""
+
+#: interface.c:446 interface.c:984
+msgid "_Import..."
+msgstr ""
+
+#: interface.c:450
+msgid "Special action plugins"
+msgstr ""
+
+#: interface.c:465
+msgid "Documents directory:"
+msgstr ""
+
+#: interface.c:472
+msgid "Home page:"
+msgstr ""
+
+#: interface.c:479
+msgid "Search page:"
+msgstr ""
+
+#: interface.c:504
+msgid "User settings"
+msgstr ""
+
+#: interface.c:519
+msgid "Internet browser:"
+msgstr ""
+
+#: interface.c:526
+msgid "E-mail program:"
+msgstr ""
+
+#: interface.c:533
+msgid "Messenger:"
+msgstr ""
+
+#: interface.c:558
+msgid "External programs"
+msgstr ""
+
+#: interface.c:571
+msgid "Pre_ferences"
+msgstr ""
+
+#: interface.c:591
+msgid "Version:"
+msgstr ""
+
+#: interface.c:598
+msgid "Developer:"
+msgstr ""
+
+#: interface.c:605
+msgid "License:"
+msgstr ""
+
+#: interface.c:612
+msgid "Site:"
+msgstr ""
+
+#: interface.c:619
+msgid "Contact:"
+msgstr ""
+
+#: interface.c:626
+msgid "marvinr@users.sf.net"
+msgstr ""
+
+#: interface.c:633
+msgid "http://keytouch.sf.net"
+msgstr ""
+
+#: interface.c:640
+msgid "GPL 2 or higher"
+msgstr ""
+
+#: interface.c:654
+msgid "Marvin Raaijmakers"
+msgstr ""
+
+#: interface.c:661
+msgid "About"
+msgstr ""
+
+#: interface.c:684
+msgid "Help & A_bout"
+msgstr ""
+
+#: interface.c:906
+msgid "Change keyboard"
+msgstr ""
+
+#: interface.c:923
+msgid "Available keyboards:"
+msgstr ""
+
+#: interface.c:1052
+msgid "Select File"
+msgstr ""
+
+#: run_browser.c:74
+msgid ""
+"Because you did not set your browser at the preferences tab and because "
+"keyTouch could not identify your desktop environment, keyTouch will try to "
+"run 'mozilla'.\n"
+"Please set your browser at the preferences tab."
+msgstr ""
+
+#: set_data.c:573
+msgid "Manufacturer"
+msgstr ""
+
+#: set_data.c:574
+msgid "Model"
+msgstr ""
+
+#: support.c:90 support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""

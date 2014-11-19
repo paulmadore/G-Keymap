@@ -1,0 +1,117 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">19-06-2006</last-change>
+    <author>MichalP</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Samsung</manufacturer>
+      <model>SDR4000</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Media</name>
+      <scancode>189</scancode>
+      <keycode>MEDIA</keycode>
+      <default-action>xmms</default-action>
+    </key>
+    <key>
+      <name>Homepage</name>
+      <scancode>178</scancode>
+      <keycode>HOMEPAGE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>E-mail</name>
+      <scancode>236</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Favorites</name>
+      <scancode>230</scancode>
+      <keycode>BOOKMARKS</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Add Bookmark</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Search</name>
+      <scancode>229</scancode>
+      <keycode>SEARCH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Search</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Eject</name>
+      <scancode>186</scancode>
+      <keycode>EJECTCD</keycode>
+      <default-action>eject -T</default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Button-1</name>
+      <scancode>189</scancode>
+      <keycode>PROG1</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Button-2</name>
+      <scancode>190</scancode>
+      <keycode>PROG2</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Button-3</name>
+      <scancode>191</scancode>
+      <keycode>PROG3</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+  </key-list>
+</keyboard>

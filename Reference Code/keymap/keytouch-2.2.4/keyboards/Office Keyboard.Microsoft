@@ -1,0 +1,346 @@
+<keyboard>
+	<file-info>
+		<syntax-version>1.0</syntax-version>
+		<last-change format="%d-%m-%Y">03-08-2006</last-change>
+		<author>Marvin Raaijmakers</author>
+	</file-info>
+	<keyboard-info>
+		<keyboard-name>
+			<manufacturer>Microsoft</manufacturer>
+			<model>Office Keyboard</model>
+		</keyboard-name>
+	</keyboard-info>
+	<key-list>
+		<key>
+			<name>Scroll Up - Normal</name>
+			<scancode>139</scancode>
+			<keycode>SCROLLUP</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Up</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Scroll Up - Fast</name>
+			<scancode>145</scancode>
+			<keycode>PROG1</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Up</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Scroll Up - Faster</name>
+			<scancode>146</scancode>
+			<keycode>PROG2</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Up</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Scroll Up - Fastest</name>
+			<scancode>159</scancode>
+			<keycode>NEXTSONG</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Up</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Scroll Down - Normal</name>
+			<scancode>267</scancode>
+			<keycode>SCROLLDOWN</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Down</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Scroll Down - Fast</name>
+			<scancode>273</scancode>
+			<keycode>PAUSECD</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Down</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Scroll Down - Faster</name>
+			<scancode>274</scancode>
+			<keycode>PHONE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Down</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Scroll Down - Fastest</name>
+			<scancode>287</scancode>
+			<keycode>PLAYCD</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Scroll</plugin-name>
+				<plugin-function>Down</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Back</name>
+			<scancode>234</scancode>
+			<keycode>BACK</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Back</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Forward</name>
+			<scancode>233</scancode>
+			<keycode>FORWARD</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Forward</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Cut</name>
+			<scancode>151</scancode>
+			<keycode>CUT</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Cut</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Copy</name>
+			<scancode>152</scancode>
+			<keycode>COPY</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Cut</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Paste</name>
+			<scancode>138</scancode>
+			<keycode>PASTE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Paste</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Application Left</name>
+			<scancode>137</scancode>
+			<keycode>FINANCE</keycode>
+			<default-action>keytouch</default-action>
+		</key>
+		<key>
+			<name>Application Right</name>
+			<scancode>158</scancode>
+			<keycode>FRONT</keycode>
+			<default-action>keytouch</default-action>
+		</key>
+		<key>
+			<name>Word</name>
+			<scancode>147</scancode>
+			<keycode>EDIT</keycode>
+			<default-action>oowriter</default-action>
+		</key>
+		<key>
+			<name>Excel</name>
+			<scancode>148</scancode>
+			<keycode>RECORD</keycode>
+			<default-action>oocalc</default-action>
+		</key>
+		<key>
+			<name>Web/Home</name>
+			<scancode>178</scancode>
+			<keycode>HOMEPAGE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Home</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Mail</name>
+			<scancode>236</scancode>
+			<keycode>MAIL</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>E-mail</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Calendar</name>
+			<scancode>149</scancode>
+			<keycode>COFFEE</keycode>
+			<default-action>evolution -c calendar</default-action>
+		</key>
+		<key>
+			<name>Files</name>
+			<scancode>133</scancode>
+			<keycode>FILE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Filemanager</plugin-name>
+				<plugin-function>Documents</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Calculator</name>
+			<scancode>161</scancode>
+			<keycode>CALC</keycode>
+			<default-action action-type="program">
+				kcalc || gnome-calculator || xcalc
+			</default-action>
+		</key>
+		<key>
+			<name>Mute</name>
+			<scancode>160</scancode>
+			<keycode>MUTE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Amixer</plugin-name>
+				<plugin-function>Mute</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Volume +</name>
+			<scancode>176</scancode>
+			<keycode>VOLUMEUP</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Amixer</plugin-name>
+				<plugin-function>Volume increase</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Volume -</name>
+			<scancode>174</scancode>
+			<keycode>VOLUMEDOWN</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Amixer</plugin-name>
+				<plugin-function>Volume decrease</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Log Off</name>
+			<scancode>150</scancode>
+			<keycode>EXIT</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Lock Screen</plugin-name>
+				<plugin-function>Lock Screen</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Sleep</name>
+			<scancode>223</scancode>
+			<keycode>SLEEP</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Lock Screen</plugin-name>
+				<plugin-function>Lock Screen</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F1) Help</name>
+			<scancode>187</scancode>
+			<keycode>HELP</keycode>
+			<default-action action-type="program">
+				khelpcenter || gnome-help
+			</default-action>
+		</key>
+		<key>
+			<name>(F2) Office Home</name>
+			<scancode>188</scancode>
+			<keycode>SHOP</keycode>
+			<default-action action-type="program">
+				ooffice
+			</default-action>
+		</key>
+		<key>
+			<name>(F3) Task Pane</name>
+			<scancode>189</scancode>
+			<keycode>SPORT</keycode>
+			<default-action action-type="program">
+				evolution -c tasks
+			</default-action>
+		</key>
+		<key>
+			<name>(F4) New</name>
+			<scancode>190</scancode>
+			<keycode>SETUP</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>New (file)</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F5) Open</name>
+			<scancode>191</scancode>
+			<keycode>OPEN</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Open</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F6) Close</name>
+			<scancode>192</scancode>
+			<keycode>CLOSE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Close Window</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F7) Reply</name>
+			<scancode>193</scancode>
+			<keycode>PROG3</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>Reply</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F8) Forward</name>
+			<scancode>194</scancode>
+			<keycode>FASTFORWARD</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>Forward</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F9) Send</name>
+			<scancode>195</scancode>
+			<keycode>SENDFILE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>Send/Receive</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F10) Spell</name>
+			<scancode>163</scancode>
+			<keycode>PROG4</keycode>
+			<default-action action-type="program">
+				-
+			</default-action>
+		</key>
+		<key>
+			<name>(F11) Save</name>
+			<scancode>215</scancode>
+			<keycode>PROPS</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Save</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F12) Print</name>
+			<scancode>216</scancode>
+			<keycode>PRINT</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Print</plugin-function>
+			</default-action>
+		</key>
+	</key-list>
+</keyboard>

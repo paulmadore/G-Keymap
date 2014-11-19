@@ -1,0 +1,29 @@
+Version 2.2.2:
+ - Amixer plugin: Added two new plugin functions "Volume increase 10%" and "Volume
+   decrease 10%"
+
+Version 2.2.0:
+ - Added Rhythmbox plugin
+ - Added Zoom plugin
+ - Lock Screen plugin: Added support for gnome-screensaver
+
+Version 2.2.0 beta 3:
+ - Makefile.in: Added -lXtst option to compile line for the Scroll plugin
+
+Version 2.2.0 beta 2:
+ - WWW Browser plugin: Added tab-handling functions
+
+Version 2.1.4:
+ - Amixer plugin: The child process that creates and updates the volumebar will exit
+   when it receives a SIGINT, SIGQUIT or SIGTERM
+ - Common actions plugin: Added function "Close Window"
+ - New plugin: F-keys, emulates key presses of the keys F1-F12
+Version 2.1.2:
+ - Will not give an error message when current_keyboard.xml does not exist
+Version 2.1.0 beta 3:
+ - Replaced aumix plugin by amixer plugin 2.0 with GUI
+Version 2.1.0 beta:
+ - Added KDE Switch Desktop plugin.
+ - Added Scroll plugin
+ - WWW Browser plugin: Added function Stop
+ - Common actions plugin: Added functions Cut, Copy, Paste and Select All

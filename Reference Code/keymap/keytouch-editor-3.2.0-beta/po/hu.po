@@ -1,0 +1,495 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch-editor-bin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-16 20:00+0100\n"
+"PO-Revision-Date: 2007-09-05 21:35+0100\n"
+"Last-Translator: Barcza Károly <kbarcza@blackpanther.hu>\n"
+"Language-Team: blackPanther Translator <info@blackpanther.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+
+#: src/main.c:107
+#, c-format
+msgid ""
+"Error while loading the evdev module: \n"
+"%s"
+msgstr ""
+"Hiba történt a evdev modul betöltése közben: \n"
+"%s"
+
+#: src/main.c:113
+#, c-format
+msgid "No event devices are available in %s."
+msgstr "Nincs elérhető eszköz ebben: %s"
+
+#: src/interface.c:50
+msgid "Select keyboard"
+msgstr "Válasszon billentyűzetet"
+
+#: src/interface.c:65
+msgid "Please select your keyboard:"
+msgstr "Kérem válassza ki az Ön billentyűzetét:"
+
+#: src/interface.c:98
+msgid ""
+"Every input device has its own \"event device\". All event devices are "
+"listed above. You should select the event device of your keyboard.\n"
+"Click \"OK\" after selecting the keyboard and this program will test if you "
+"selected the right device.\n"
+"Note USB keyboards have two event devices. The first is for all \"normal\" "
+"keys and the second for the extra function keys. Choose the second device."
+msgstr ""
+"Minden input eszköz mint saját \" esemény eszköz\" Minden ilyen eszköz "
+"látható a listában- Válassza ki az Ön billentyűzetének esemény eszközét.\n"
+" Kattintson az \"OK\" -ra miután kiválasztotta és ez a program tesztelni "
+"fogja, hogy jó eszközt választott-e ki.\n"
+"Megjegyzés: Az USB billentyűzeteknél két eszköz látszik. Az egyik az összes "
+"normál billentyűhöz a második az extra gombokhoz tartozik. Válassza a "
+"második eszközt."
+
+#: src/interface.c:108 src/interface.c:907
+msgid "<b>Help information:</b>"
+msgstr "<b>Súgó információk: </b>"
+
+#: src/interface.c:244
+msgid "keyTouch-editor"
+msgstr "keyTouch-szerkesztő"
+
+#: src/interface.c:260
+msgid "_File"
+msgstr "_Fájl"
+
+#: src/interface.c:292
+msgid "_Edit"
+msgstr "_Szerkesztés"
+
+#: src/interface.c:299
+msgid "Change _keyboard..."
+msgstr "Billentyűzet megváltoztatása"
+
+#: src/interface.c:306
+msgid "_Help"
+msgstr "_Súgó"
+
+#: src/interface.c:313
+msgid "_About"
+msgstr "_Névjegy"
+
+#: src/interface.c:333
+msgid "Manufacturer:"
+msgstr "Gyártó:"
+
+#: src/interface.c:340
+msgid "Model:"
+msgstr "Modell:"
+
+#: src/interface.c:359
+msgid "Keyboard"
+msgstr "Billentyűzet"
+
+#: src/interface.c:416
+msgid "Name:"
+msgstr "Név:"
+
+#: src/interface.c:423 src/callbacks.c:59
+msgid "Scancode:"
+msgstr "Scancode:"
+
+#: src/interface.c:463 src/interface.c:602
+msgid "_Change..."
+msgstr "_Módosítás..."
+
+#: src/interface.c:475
+msgid "_Program:"
+msgstr "_Program:"
+
+#: src/interface.c:503
+msgid "Plugin:"
+msgstr "Bővítőmodul:"
+
+#: src/interface.c:510
+msgid "Function:"
+msgstr "Funkció:"
+
+#: src/interface.c:541
+msgid "Plugin"
+msgstr "Bővítőmodul"
+
+#: src/interface.c:546
+msgid "Special _action:"
+msgstr "Speciális művelet:"
+
+#: src/interface.c:554
+msgid "Default:"
+msgstr "Alapértelmezett:"
+
+#: src/interface.c:561
+msgid "Keycode:"
+msgstr "Billentyűkód:"
+
+#: src/interface.c:583
+msgid "The keys code sent when the keyboard is connected via USB"
+msgstr ""
+
+#: src/interface.c:606
+#, fuzzy
+msgid "USB code:"
+msgstr "Scancode:"
+
+#: src/interface.c:613
+msgid "Key settings"
+msgstr "Billentyűk beállítása"
+
+#: src/interface.c:618
+msgid "Keys"
+msgstr "Billentyűk"
+
+#: src/interface.c:778
+msgid "Press key"
+msgstr "Nyomjon meg egy billentyűt"
+
+#: src/interface.c:852
+msgid "New key"
+msgstr "Új billentyű"
+
+#: src/interface.c:870
+msgid "Please enter the name of the new key:"
+msgstr "Adjon nevet az új billentyűnek:"
+
+#: src/interface.c:897
+msgid ""
+"Choose an appropriate name for the key. Is there for example a text label on "
+"the key, use the label as the key's name."
+msgstr ""
+"Válasszon egy alkalmas nevet a billentyűhöz. Is there for example a text "
+"label on the key, use the label as the key's name."
+
+#: src/interface.c:965 src/interface.c:1025
+msgid "Contact information"
+msgstr "Kapcsolat információk"
+
+#: src/interface.c:983
+msgid ""
+"Please fill in your real name and e-mail address. This information will be "
+"used for the administration of the keyboard files.\n"
+"The e-mail address must be real in order to send the keyboard file."
+msgstr ""
+"Kérem töltse ki az Ön valódi nevével és e-mail címével. Ez az információ "
+"csak adminisztratív célokat szolgál a billentyűzet fájlokhoz.\n"
+"Valódi e-mail cím szükséges a billentyűzet fájl elküldéséhez."
+
+#: src/interface.c:999
+msgid "Your name:"
+msgstr "Az Ön neve:"
+
+#: src/interface.c:1006
+msgid "E-mail address:"
+msgstr "E-mail cím:"
+
+#: src/interface.c:1094
+msgid "About keyTouch-editor"
+msgstr "keyTouch-editor névjegye"
+
+#: src/interface.c:1123
+msgid "Version:"
+msgstr "Verzió:"
+
+#: src/interface.c:1137
+msgid "Developer:"
+msgstr "Fejlesztő:"
+
+#: src/interface.c:1151
+msgid "License:"
+msgstr "Licensz:"
+
+#: src/interface.c:1165
+msgid "Website:"
+msgstr "Webhely:"
+
+#: src/interface.c:1172
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/callbacks.c:58
+msgid "Press the extra function key."
+msgstr "Nyomj meg egy extra billentyűt..."
+
+#: src/callbacks.c:60
+msgid "Event description:"
+msgstr "Esemény leírása:"
+
+#: src/callbacks.c:104
+msgid ""
+"Please press one of the extra function keys.\n"
+"Press \"Cancel\" and select another event device\n"
+"when this window does not disappear after\n"
+"pressing the key."
+msgstr ""
+"Kérem nyomjon le egy extra műveleti gombot.\n"
+"Nyomja meg a \"Mégsem\" gombot és válasszon \n"
+"egy működő eszközt ha az ablak nem tűnik el miután\n"
+"megnyomta a gombot."
+
+#: src/callbacks.c:134
+msgid "Please select the event device for your keyboard."
+msgstr "Kérem válasszon egy eszközt az Ön billentyűzetéhez."
+
+#: src/callbacks.c:267
+msgid ""
+"Do you want to send this keyboard file to the developer of keyTouch?\n"
+"This will help other people with the same keyboard.\n"
+"Only say \"Yes\" when the keyboard file is finished."
+msgstr ""
+"El akarja küldeni ezt a billentyűzet fájlt a keyTouch fejlesztőknek?\n"
+"Ez nagy segítség lehet azoknak akik ilyen billentyűzetet használnak.\n"
+"Csak akkor kattintson az \"igen\" gombra. ha a billentyűzet fájl elkészült."
+
+#: src/callbacks.c:297
+msgid "Save keyboard file"
+msgstr "Billentyűzet fájl mentése"
+
+#: src/callbacks.c:318
+#, c-format
+msgid ""
+"A file named \"%s\" already exists. Are you sure you want to overwrite it?"
+msgstr "Már létezik \"%s\" nevű fájl. Felül szeretné írni?"
+
+#: src/callbacks.c:329
+#, c-format
+msgid "Failed to save \"%s\"."
+msgstr "\"%s\" mentése sikertelen."
+
+#: src/callbacks.c:338 src/evdev.c:77 src/evdev.c:234 src/evdev.c:244
+#: src/key_list.c:232 src/key_list.c:274 src/key_list.c:296 src/key_list.c:322
+#: src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Nem sikerült memóriát foglalni."
+
+#: src/callbacks.c:343
+msgid "Failed to send the keyboard file."
+msgstr "A(z) %s fájlt nem sikerült elküldeni."
+
+#: src/callbacks.c:353
+msgid ""
+"The keyboard file has been saved successfully, but cannot yet be imported in "
+"keyTouch because it is not a valid keyboard file."
+msgstr ""
+"A billentyűzet fájl mentése elkészült, ha nem lehet a keyTouch-ba importálni "
+"akkor ez egy érvénytelen billentyűzet fájl."
+
+#: src/callbacks.c:396
+#, c-format
+msgid ""
+"The keyboard file \"%s\" has been modified.\n"
+"Do you want to save your changes?"
+msgstr ""
+"A \"%s\" billentyűzet fájl módosítva lett.\n"
+"Akarja menteni az Ön módosításait?"
+
+#: src/callbacks.c:452
+msgid "Open keyboard file"
+msgstr "Billentyűzet fájl megnyitása"
+
+#: src/callbacks.c:657
+msgid "Cannot add the key because the name is already in the list."
+msgstr "Nem lehetett a billentyűt hozzáadni mert a név már szerepel a listán."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "%s pixmap fájl nem található"
+
+#: src/config.c:132
+msgid "The keyboard file contains an invalid action element."
+msgstr ""
+"A billentyűzet (konfigurációs) fájl tartalmaz egy érvénytelen műveleti "
+"elemet."
+
+#: src/config.c:146
+msgid "The keyboard file contains an invalid action-type value."
+msgstr ""
+"A billentyűzet (konfigurációs) fájl tartalmaz egy érvénytelen művelet-típus "
+"értéket."
+
+#: src/config.c:221 src/config.c:273 src/check_syntax.c:214
+msgid "The keyboard file contains an incomplete key element."
+msgstr "A billentyűzet fájl tartalmaz egy befejezetlen kulcsot."
+
+#: src/config.c:431
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "'%s' egy érvénytelen billentyűzet-fájl"
+
+#: src/config.c:439
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "A megadott  '%s'  billentyűzet-fájl nem tartalmaz billentyűzet elemet."
+
+#: src/config.c:449
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "A billentyűzet fájl  '%s' nem tartalmaz billentyű-lista elemet."
+
+#: src/config.c:459
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "A megadott '%s' billentyűzet-fájl  érvénytelen."
+
+#: src/config.c:478
+#, c-format
+msgid "Failed to read the keyboard name from %s."
+msgstr "Nem sikerült olvasni a billentyűzet nevet innen: %s"
+
+#: src/config.c:886
+#, c-format
+msgid "'%s' is not a valid XML document."
+msgstr "'%s' nem egy valódi XML dokumentum."
+
+#: src/evdev.c:230
+msgid "Unknown reason"
+msgstr "Ismeretlen válasz"
+
+#: src/get_scancode.c:98
+msgid "Failed to read events."
+msgstr "A könyvtár beolvasása nem sikerült"
+
+#: src/get_scancode.c:179
+#, c-format
+msgid "Could not open event device '%s'."
+msgstr "Nem sikerült megnyitni ezt az eszközt: %s."
+
+#: src/get_scancode.c:272
+#, c-format
+msgid "Could not open ACPI socket file '%s'."
+msgstr "Nem sikerült megnyitni az ACPI socket fájlt:(%s) "
+
+#. *********** Create the view ***********
+#: src/set_data.c:379
+msgid "Device"
+msgstr "Eszköz"
+
+#: src/set_data.c:380
+msgid "Device name"
+msgstr "Az eszköz neve"
+
+#: src/set_data.c:381
+msgid "Bus"
+msgstr "Busz"
+
+#: src/check_syntax.c:106
+msgid ""
+"The keyboard file contains an invalid action element (where the action is a "
+"plugin)."
+msgstr ""
+"A billentyűzet fájl tartalmaz egy érvénytelen műveleti elemet (ahol a "
+"művelet egy modul)"
+
+#: src/check_syntax.c:114
+#, c-format
+msgid "The keyboard file contains the invalid action-type value '%s'."
+msgstr ""
+"A billentyűzet (konfigurációs) fájl tartalmaz egy érvénytelen művelet-típus "
+"értéket ( '%s)."
+
+#: src/check_syntax.c:222
+msgid "The keyboard file contains an empty key-name element."
+msgstr "A billentyűzet fájl tartalmaz egy üres billentyűnév elemet."
+
+#: src/check_syntax.c:231
+#, c-format
+msgid "The keyboard file contains more than once a key named '%s'."
+msgstr "A billentyűzet fájl többször tartalmazza a '%s' billentyű nevet."
+
+#: src/check_syntax.c:254
+#, c-format
+msgid "'%s' is an invalid scancode."
+msgstr "'%s' egy érvénytelen scancode."
+
+#: src/check_syntax.c:268
+#, fuzzy, c-format
+msgid "'%s' is an invalid USB code."
+msgstr "'%s' egy érvénytelen billentyű kód."
+
+#: src/check_syntax.c:284
+#, c-format
+msgid "Keycode %s is used more than once."
+msgstr "%s billentyűkód máshol már fel van használva."
+
+#: src/check_syntax.c:296
+msgid "The keyboard file contains an empty keycode."
+msgstr "A billentyűzet fájl tartalmaz egy üres billentyű kódot."
+
+#: src/check_syntax.c:300
+#, c-format
+msgid "'%s' is an invalid keycode."
+msgstr "'%s' egy érvénytelen billentyű kód."
+
+#: src/check_syntax.c:368
+#, c-format
+msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
+msgstr ""
+"A billentyűzet fájl utolsó módosításának dátuma \"%s\" nem egy valódi dátum."
+
+#: src/check_syntax.c:456
+#, fuzzy
+msgid ""
+"The keyboard file does not provide enough information about the keyboard "
+"model."
+msgstr ""
+"A billentyűzet fájl nem biztosít elegendő információt a billentyűzet "
+"modellről."
+
+#: src/check_syntax.c:467 src/check_syntax.c:474
+#, fuzzy, c-format
+msgid "The 'usb-info' element does not contain a '%s' element."
+msgstr "A billentyűzet fájl nem tartalmaz %s billentyű elemet."
+
+#: src/check_syntax.c:485
+#, fuzzy, c-format
+msgid "'%s' is an invalid vendor ID."
+msgstr "'%s' egy érvénytelen billentyű kód."
+
+#: src/check_syntax.c:498
+#, fuzzy, c-format
+msgid "'%s' is an invalid product ID."
+msgstr "'%s' egy érvénytelen billentyű kód."
+
+#: src/check_syntax.c:555
+msgid "The keyboard file does not contain a keyboard element."
+msgstr "A megadott billentyűzet-fájl nem tartalmaz billentyűzet elemet."
+
+#: src/check_syntax.c:567
+msgid "The keyboard file does not contain a key-list element."
+msgstr "A billentyűzet fájl nem tartalmaz billentyű lista elemet."
+
+#: src/check_syntax.c:574
+#, c-format
+msgid ""
+"The \"keyboard\" element in the keyboard file does not contain a %s element."
+msgstr ""
+"A billentyűzet elemek a billentyűzet fájlban nem tartalmaznak %s elemet."
+
+#: src/check_syntax.c:579
+msgid ""
+"The syntax version of the keyboard file is not compatible with this version "
+"of keyTouch."
+msgstr ""
+"A billentyűzet fájl szintaxisa nem kompatibilis ezzel a keyTouch verzióval."
+
+#: src/check_syntax.c:589 src/check_syntax.c:594 src/check_syntax.c:599
+#: src/check_syntax.c:604
+#, c-format
+msgid "The keyboard file does not contain any %s element."
+msgstr "A billentyűzet fájl nem tartalmaz %s billentyű elemet."
+
+#~ msgid "No scancode. This key is identified by its keycode."
+#~ msgstr "Nincs scancode. Ezt a billentyűt a billentyű-kód azonosította."

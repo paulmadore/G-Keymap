@@ -1,0 +1,108 @@
+.TH LINEAK_KDEPLUGINS 1 "December 23, 2003"
+.\" NAME should be all caps, SECTION should be 1-8, maybe w/ subsection
+.\" other parms are allowed: see man(7), man(1)
+.SH NAME
+lineak_kdeplugins \- Macro plugin for the lineakd daemon 
+
+.SH "DESCRIPTION"
+LinEAK, Linux support for Easy Access and Internet Keyboards, features X11
+support, windowmanager independence, ability to configure all keys through GUI
+or .conf file, volume control and sound controls. 
+
+This plugin contains macros that can be used 
+in a configuration file that facilitate contolling of KDE applications. This plugin package actually contains the following plugins: 
+amarok_plugin
+juk_plugin
+kscd_plugin
+kdesktop_plugin
+kmail_plugin
+kmix_plugin
+konqueror_plugin
+
+.PP
+lineakd is the daemon that runs in the background of an X session and listens
+to incoming events from multimedia buttons.
+
+.SH amarok_plugin
+The Amarok plugin supports 13 Macros to control the Amarok application. These macros are:
+.TP
+AMAROK_PLAY, AMAROK_PAUSE, AMAROK_STOP, AMAROK_PLAYPAUSE, AMAROK_BACK, AMAROK_FORWARD, AMAROK_SEEK, AMAROK_ADDMEDIA, AMAROK_VOLUMEUP, AMAROK_VOLUMEDOWN, AMAROK_VOLUMEMUTE, AMAROK_TOGGLEPLAYLIST, AMAROK_ENABLERANDOM
+
+.SH juk_plugin
+The Juk plugin supports 13 Macros to control the behavior of the Juk application. These macros are:
+.TP
+JUK_PLAY, JUK_PAUSE, JUK_STOP, JUK_PLAYPAUSE, JUK_BACK, JUK_FORWARD, JUK_SEEKBACK, JUK_SEEKFORWARD, JUK_VOLUMEUP, JUK_VOLUMEDOWN, JUK_VOLUMEMUTE, JUK_STARTPLAYINGPLAYLIST, JUK_OPENFILE
+
+.SH kscd_plugin
+The Kscd plugin supports 12 macros to control the behaviour of the kscd application. These macros are:
+.TP
+KSCD_PLAY, KSCD_PAUSE, KSCD_STOP, KSCD_PREVIOUS, KSCD_NEXT, KSCD_EJECT, KSCD_TOGGLE_LOOP, KSCD_TOGGLE_SHUFFLE, KSCD_TOGGLE_TIME_DISPLAY, KSCD_CURRENT_TRACK, KSCD_CURRENT_ALBUM, KSCD_CURRENT_ARTIST
+
+.SH kdesktop_plugin
+The kdesktop plugin supports 6 macros. These are:
+KDE_LOCK_DESKTOP, KMENU, KDESKTOP_NEXT, KDESKTOP_PREVIOUS, KDE_LOGOUT, KDESKTOP_EXECUTE. KDESKTOP_EXECUTE will open the command line execution dialog box.
+
+.SH kmail_plugin
+The KMail plugin supports only one Macro: KMAIL_COMPOSE. However this macro can take up to 5 arguments:
+.TP 
+.B KMAIL_COMPOSE(from,to,cc,subject,attachment) The attachment is in form of a URL.
+
+.SH kmix_plugin
+The kmix plugin supports three macros. These are: KMIX_VOLUP, KMIX_VOLDOWN, KMIX_MUTE. These macros follow the EAK_ style macros in that they support options.
+.TP 
+.B KMIX_MUTE
+This is the default form of the macro. If used in this form it will mute the first mixer to a volume of 0.
+.TP
+.B KMIX_MUTE(X)
+Here X is a kmix mixer. You can get a list of mixers that are supported by running: dcop kmix 
+.TP
+.B KMIX_MUTE(device,device2,device3,...)
+Here deviceX is a string name of a mixer device (e.g. "Mixer0" to mute.) This allows you to mute more than one mixer at a time.
+.TP
+For the KMIX_VOLUP and KMIX_VOLDOWN macros. Each have the following forms.
+.TP
+.B KMIX_VOLUP or KMIX_VOLDOWN
+Increment or decrement the default mixer by an increment of 3.
+.TP
+.B KMIX_VOLUP(X) or KMIX_VOLDOWN(X)
+Increment or decrement the default kmix mixer by a value of X. 
+.TP
+.B KMIX_VOLUP(X,device,X2,device2,X3,device3,...) or KMIX_VOLDOWN(X,device,X2,device2,X3,device3,...)
+X is the volume to adjust the following device by. 
+
+.SH konqueror_plugin
+The konqueror plugin supports the macros: KONQUEROR, KONQUEROR_BACK, KONQUEROR_FORWARD, KONQUEROR_HOME, KONQUEROR_STOP, KONQUEROR_REFRESH, KONQUEROR_RELOAD, KONQUEROR_NEWTAB, KONQUEROR_NEXTTAB, KONQUEROR_PREVTAB, KONQUEROR_BOOKMARK. 
+.TP
+By itself the KONQUEROR macros will start an instance of konqueror if there is not one already running.
+.TP
+Here are the macro definitions:
+.TP 
+KONQUEROR_BACK - Go back one page in the browse history.
+.TP
+KONQUEROR_FORWARD - Go forward one page in the browse history.
+.TP
+KONQUEROR_HOME - Go to the user defined home page.
+.TP
+KONQUEROR_STOP - Stop the browser from loading a page.
+.TP
+KONQUEROR_REFRESH or KONQUEROR_RELOAD - Reload the current page.
+.TP
+KONQUEROR_NEWTAB - Open a new tab in konqueror.
+.TP
+KONQUEROR_NEXTTAB - Move to the next konqueror window tab.
+.TP
+KONQUEROR_PREVTAB - Move to the previous konqueror window tab.
+.TP
+KONQUEROR_BOOKMARK - Bookmark the current location.
+
+.SH FILES
+.TP
+.I $HOME/.lineak/lineakd.conf
+Personal configuration file.
+.SH SEE ALSO
+lineakd(1),
+lineak_defaultplugin(1),
+lineak_xosdplugin(1).
+.SH AUTHOR
+.B lineak_kdeplugins
+was written by Sheldon Lee-Wen <leewsb@hotmail.com>.

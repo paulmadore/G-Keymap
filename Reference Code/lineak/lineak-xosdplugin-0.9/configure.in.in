@@ -1,0 +1,60 @@
+AC_INIT(acinclude.m4) dnl a source file from your sub dir
+
+dnl This is so we can use kde-common
+AC_CONFIG_AUX_DIR(admin)
+
+dnl This ksh/zsh feature conflicts with `cd blah ; pwd`
+unset CDPATH
+
+dnl Checking host/target/build systems, for make, install etc.
+AC_CANONICAL_SYSTEM
+dnl Perform program name transformation
+AC_ARG_PROGRAM
+
+AM_INIT_AUTOMAKE(lineak_xosdplugin,0.9)
+
+AC_PREFIX_DEFAULT(/usr)
+
+if test "x$prefix" = "xNONE"; then
+  prefix=$ac_default_prefix
+  ac_configure_args="$ac_configure_args --prefix $prefix"
+fi
+
+AM_CONFIG_HEADER(config.h)
+AC_CHECK_COMPILERS
+AC_ENABLE_SHARED(yes)
+AC_ENABLE_STATIC(no)
+
+KDE_PROG_LIBTOOL
+all_libraries="$all_libraries $USER_LDFLAGS"
+all_includes="$all_includes $USER_INCLUDES"
+AC_SUBST(all_includes)
+AC_SUBST(all_libraries)
+
+AC_SUBST(AUTODIRS)
+
+AC_LINEAK_CHECK_INCLUDES
+AC_LINEAK_CHECK_LIBS
+AC_LINEAK_FIND_PLUGINDIR
+
+AC_CHECK_HEADERS(xosd.h)
+dnl Check for xosd-config
+AC_PATH_PROG(xosd_config_script, xosd-config, "none")
+	if test "x$xosd_config_script" = "xnone" ; then
+		AC_MSG_RESULT(no)
+		echo "*** xosd-config script not found!  Do you have xosd-dev"
+		echo "*** installed??"
+		AC_MSG_ERROR(xsod-config not found)
+		exit 1
+	else
+		AC_MSG_RESULT(yes)
+		dnl AC_MSG_RESULT($xosd_config_script)
+		XOSD_CFLAGS=`$xosd_config_script --cflags 2>/dev/null`
+		XOSD_LIBS=`$xosd_config_script --libs 2>/dev/null`
+		dnl Replace `main' with a function in -lxosd:
+		AC_CHECK_LIB(xosd, main)
+		AC_SUBST(XOSD_CFLAGS)
+		AC_SUBST(XOSD_LIBS)
+		dnl AC_DEFINE(HAVE_XOSD, 1, [Define whether or not to use xosd])
+	fi
+

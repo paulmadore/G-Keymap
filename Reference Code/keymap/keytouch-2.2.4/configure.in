@@ -1,0 +1,73 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_INIT(keytouch, 2.2.4)
+AC_COPYRIGHT(Copyright (C) Marvin Raaijmakers)
+
+AM_INIT_AUTOMAKE($PACKAGE_NAME, $PACKAGE_VERSION)
+AM_MAINTAINER_MODE
+
+#AC_ISC_POSIX
+#AC_PROG_CC
+#AM_PROG_CC_STDC
+#AC_HEADER_STDC
+
+# Checks for programs.
+#AC_PROG_CXX
+AC_PROG_CC
+AC_PROG_LN_S
+AC_PROG_MAKE_SET
+
+# Checks for header files.
+AC_HEADER_DIRENT
+AC_HEADER_STDC
+AC_HEADER_SYS_WAIT
+AC_CHECK_HEADERS([fcntl.h libintl.h limits.h stdlib.h string.h strings.h sys/ioctl.h sys/socket.h unistd.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+AC_TYPE_SIZE_T
+AC_STRUCT_TM
+
+# Checks for library functions.
+AC_FUNC_FORK
+AC_PROG_GCC_TRADITIONAL
+AC_FUNC_MALLOC
+AC_FUNC_MEMCMP
+AC_FUNC_REALLOC
+AC_TYPE_SIGNAL
+AC_FUNC_STAT
+AC_CHECK_FUNCS([memset mkdir socket strcasecmp strchr strdup strerror strstr strtol])
+
+dnl Checks for header files.
+AC_PATH_X
+AC_PATH_XTRA
+
+dnl Checks for X libraries.
+LIBS_saved="$LIBS"
+LIBS=
+AC_CHECK_LIB(X11, XCreateWindow,,
+	AC_MSG_ERROR([The X11 library was not found. Please install libx11 and libx11-dev.]),
+	$LIBS_saved $X_LIBS)
+X_LIBS="$X_LIBS $LIBS"
+LIBS="$LIBS_saved"
+
+LIBS_saved="$LIBS"
+AC_CHECK_LIB(Xtst, XTestFakeKeyEvent, , 
+	AC_MSG_ERROR([The XTest extension was not found. Please install libxtst and its development files.]),
+	$X_LIBS)
+LIBS="$LIBS_saved"
+
+gtk_module="gtk+-2.0 >= 2.0.0"
+PKG_CHECK_MODULES(GTK, [$gtk_module])
+AC_SUBST(GTK_CFLAGS)
+AC_SUBST(GTK_LIBS)
+
+AC_OUTPUT([
+Makefile
+keytouchd/Makefile
+keytouch-acpid/Makefile
+keytouch-init/Makefile
+plugins/Makefile
+string_to_keycode/Makefile
+mxml/Makefile
+])

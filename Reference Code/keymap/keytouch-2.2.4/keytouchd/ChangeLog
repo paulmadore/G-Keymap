@@ -1,0 +1,15 @@
+Version 2.2.2:
+ - Comparing keycode with VOLUMEUP or VOLUMEDOWN for determining auto-repeat mode is
+   now done with strcasecmp() instead of strcmp().
+ - Xsession script is now called 92keytouchd_launch.
+Version 2.2.1:
+ - Fixed line in Xsession script
+Version 2.1.4:
+ - The active keyboard grab is canceled before executing a plugin or program (the grab
+   is normally canceled when the grabbed extra function key is released). This makes
+   it possible that plugins can simulate key presses using XFakeKeyEvent().
+Version 2.1.0:
+ - Auto repeat mode is turned on for keys with keycode VOLUMEUP and VOLUMEDOWN.
+Version 2.1.0 beta:
+ - Added signal handlers so that the program can be killed in a nice way.
+ - Fixed memory leak.

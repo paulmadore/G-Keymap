@@ -1,0 +1,54 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">22-04-2006</last-change>
+    <author>Per-Erik Soederberg</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>EzKEY</manufacturer>
+      <model>Smart Keyboard Ez-9900</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Wake Up</name>
+      <scancode>227</scancode>
+      <keycode>WAKEUP</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Power</name>
+      <scancode>222</scancode>
+      <keycode>POWER</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Left Meta</name>
+      <scancode>219</scancode>
+      <keycode>LEFTMETA</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Right Meta</name>
+      <scancode>220</scancode>
+      <keycode>RIGHTMETA</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Compose</name>
+      <scancode>221</scancode>
+      <keycode>COMPOSE</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+  </key-list>
+</keyboard>

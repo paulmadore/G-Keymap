@@ -1,0 +1,11 @@
+	../src/main.c \
+	../src/interface.c \
+	../src/callbacks.c \
+	../src/support.c \
+	../src/config.c \
+	../src/evdev.c \
+	../src/get_scancode.c \
+	../src/key_list.c \
+	../src/memory.c \
+	../src/set_data.c \
+	../src/check_syntax.c

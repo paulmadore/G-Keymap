@@ -1,0 +1,14 @@
+Begin3
+Title:          KlineakConfig 
+Version:        0.3
+Entered-date:  May 18 2002
+Description:  KDE3 Version of the GTK program LinEAKConfig
+Keywords:      KDE LinEAKConfig lineakd configuration program.
+Author:         Sheldon Lee Wen <leewsb@hotmail.com> 
+Maintained-by:  Sheldon Lee Wen <leewsb@hotmail.com> 
+Primary-site:   	http://prdownloads.sourceforge.net/lineak/klineakconfig-0.3.tar.gz
+Home-page:      http://lineakd.sourceforge.net/
+Original-site:    None
+Platforms:       Linux
+Copying-policy: GNU Public License
+End

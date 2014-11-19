@@ -1,0 +1,165 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">03-08-2006</last-change>
+    <author>Ben Klopfenstein</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>HP</manufacturer>
+      <model>Pavilion DV1000</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>DVD</name>
+      <scancode>142</scancode>
+      <keycode>PLAY</keycode>
+      <default-action>gmplayer dvd://</default-action>
+    </key>
+    <key>
+      <name>Music</name>
+      <scancode>140</scancode>
+      <keycode>SOUND</keycode>
+      <default-action>xmms</default-action>
+    </key>
+    <key>
+      <name>Power (Remote)</name>
+      <scancode>223</scancode>
+      <keycode>POWER</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>164</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Info</name>
+      <scancode>129</scancode>
+      <keycode>HP</keycode>
+      <default-action>khelpcenter || gnome-help</default-action>
+    </key>
+    <key>
+      <name>Ok</name>
+      <scancode>156</scancode>
+      <keycode>PROG2</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Print</name>
+      <scancode>29</scancode>
+      <keycode>PRINT</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Common actions</plugin-name>
+        <plugin-function>Print</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Camera</name>
+      <scancode>139</scancode>
+      <keycode>CAMERA</keycode>
+      <default-action>gtkam</default-action>
+    </key>
+    <key>
+      <name>Media</name>
+      <scancode>136</scancode>
+      <keycode>MEDIA</keycode>
+      <default-action>xmms</default-action>
+    </key>
+    <key>
+      <name>Question</name>
+      <scancode>177</scancode>
+      <keycode>QUESTION</keycode>
+      <default-action>khelpcenter || gnome-help</default-action>
+    </key>
+    <key>
+      <name>WWW</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Lock</name>
+      <scancode>138</scancode>
+      <keycode>PROG3</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Prev</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Next</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

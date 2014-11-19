@@ -1,0 +1,63 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">01-08-2006</last-change>
+    <author>LiLu</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>HP</manufacturer>
+      <model>Pavilion ZV5000</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Camera</name>
+      <scancode>139</scancode>
+      <keycode>CAMERA</keycode>
+      <default-action>gtkam</default-action>
+    </key>
+    <key>
+      <name>Sound APP</name>
+      <scancode>136</scancode>
+      <keycode>SOUND</keycode>
+      <default-action>xmms</default-action>
+    </key>
+    <key>
+      <name>WWW</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

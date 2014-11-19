@@ -1,0 +1,66 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">15-03-2006</last-change>
+    <author>Cybertinus</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Logitech</manufacturer>
+      <model>UltraX (Y-SX49)</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>WWW</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>E-Mail</name>
+      <scancode>236</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Media</name>
+      <scancode>237</scancode>
+      <keycode>MEDIA</keycode>
+      <default-action>xmms</default-action>
+    </key>
+    <key>
+      <name>Favorites</name>
+      <scancode>230</scancode>
+      <keycode>BOOKMARKS</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Add Bookmark</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

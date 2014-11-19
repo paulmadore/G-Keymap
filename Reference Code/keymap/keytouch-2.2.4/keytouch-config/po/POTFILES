@@ -1,0 +1,9 @@
+	../src/main.c \
+	../src/interface.c \
+	../src/callbacks.c \
+	../src/support.c \
+	../src/config.c \
+	../src/plugin.c \
+	../src/plugin_control.c \
+	../src/run_browser.c \
+	../src/memory.c

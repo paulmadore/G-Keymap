@@ -1,0 +1,63 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">23-03-2006</last-change>
+    <author>Trevino</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Acer</manufacturer>
+      <model>TravelMate 290</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Program 1</name>
+      <scancode>236</scancode>
+      <keycode>PROG1</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Program 2</name>
+      <scancode>178</scancode>
+      <keycode>PROG2</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Suspend</name>
+      <scancode>223</scancode>
+      <keycode>SUSPEND</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

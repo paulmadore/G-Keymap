@@ -1,0 +1,426 @@
+# Vietnamese translation for KeyTouch.
+# Copyright © 2006 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2006.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch 2.2-b3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:54+0200\n"
+"PO-Revision-Date: 2006-08-09 22:40+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: LocFactoryEditor 1.6fc1\n"
+
+#: src/main.c:66 src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Không thể cấp phát bộ nhớ."
+
+#: src/main.c:88
+msgid "No keyboard was specified, please select your keyboard."
+msgstr "Chưa ghi rõ bàn phím nào, hãy chọn bàn phím."
+
+#: src/main.c:95
+#, c-format
+msgid ""
+"%s\n"
+"Please select your keyboard model to solve this problem."
+msgstr ""
+"%s\n"
+"Xin hãy chọn mô hình bàn phím của bạn để giải quyết vấn đề này."
+
+#: src/interface.c:186
+msgid "Keys:"
+msgstr "Phím:"
+
+#: src/interface.c:213
+msgid "Key:"
+msgstr "Phím:"
+
+#: src/interface.c:235
+msgid "_Default setting:"
+msgstr "Thiết lập _mặc định:"
+
+#: src/interface.c:243
+msgid "_Program:"
+msgstr "_Chương trình:"
+
+#: src/interface.c:290
+msgid "Plugin:"
+msgstr "Bộ cầm phít:"
+
+#: src/interface.c:297
+msgid "Function:"
+msgstr "Chức năng:"
+
+#: src/interface.c:304
+msgid "Sp_ecial action:"
+msgstr "Hành động _đặc biệt:"
+
+#: src/interface.c:322 src/interface.c:630 src/interface.c:644
+#: src/interface.c:658
+msgid "Ch_oose..."
+msgstr "_Chọn..."
+
+#: src/interface.c:340
+msgid "Runs:"
+msgstr "Chạy:"
+
+#: src/interface.c:347
+msgid "Key settings"
+msgstr "Thiết lập phím"
+
+#: src/interface.c:360
+msgid "Key _settings"
+msgstr "Thiết _lập phím"
+
+#: src/interface.c:375
+msgid "Keyboard manufacturer:"
+msgstr "Hãng chế tạo bàn phím:"
+
+#: src/interface.c:382
+msgid "Keyboard model:"
+msgstr "Mô hình bàn phím:"
+
+#: src/interface.c:408
+msgid "Chang_e..."
+msgstr "_Đổi..."
+
+#: src/interface.c:422
+msgid "_Keyboard"
+msgstr "_Bàn phím"
+
+#: src/interface.c:440
+msgid "Available plugins:"
+msgstr "Bổ sung có sẵn:"
+
+#: src/interface.c:478
+msgid "_Download..."
+msgstr "Tải _về..."
+
+#: src/interface.c:499
+msgid "_Information..."
+msgstr "Thông t_in..."
+
+#: src/interface.c:525
+msgid "_Import..."
+msgstr "_Nhập..."
+
+#: src/interface.c:529
+msgid "Special action plugins"
+msgstr "Bổ sung hành động đặc biệt"
+
+#: src/interface.c:544
+msgid "Documents directory:"
+msgstr "Thư mục tài liệu :"
+
+#: src/interface.c:552
+msgid "Home page:"
+msgstr "Trang chủ :"
+
+#: src/interface.c:559
+msgid "Search page:"
+msgstr "Trang tìm kiếm:"
+
+#: src/interface.c:584
+msgid "User settings"
+msgstr "Thiết lập người dùng"
+
+#: src/interface.c:599
+msgid "Internet browser:"
+msgstr "Trình duyệt Mạng:"
+
+#: src/interface.c:606
+msgid "E-mail program:"
+msgstr "Trình thư điện tử :"
+
+#: src/interface.c:613
+msgid "Chat program:"
+msgstr "Trình trò chuyện:"
+
+#: src/interface.c:662
+msgid "External programs"
+msgstr "Chương trình bên ngoài"
+
+#: src/interface.c:675
+msgid "Pre_ferences"
+msgstr "Tù_y thích"
+
+#: src/interface.c:695 src/interface.c:1075
+msgid "Version:"
+msgstr "Phiên bản:"
+
+#: src/interface.c:702
+msgid "Developer:"
+msgstr "Nhà phát triển:"
+
+#: src/interface.c:709 src/interface.c:1082
+msgid "License:"
+msgstr "Quyền phếp:"
+
+#: src/interface.c:716
+msgid "Site:"
+msgstr "Nơi:"
+
+#: src/interface.c:723
+msgid "Contact:"
+msgstr "Liên lạc:"
+
+# Literal: don't translate / Nghĩa chữ: đừng dịch
+#: src/interface.c:737
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/interface.c:744
+msgid "GPL 2 or higher"
+msgstr "Quyền Công Chung GNU phiên bản 2 hay sau"
+
+#: src/interface.c:765
+msgid "About"
+msgstr "Giới thiệu"
+
+#: src/interface.c:788
+msgid "Help & A_bout"
+msgstr "Trợ giúp và _Giới thiệu"
+
+#: src/interface.c:1040
+msgid "Plugin Information"
+msgstr "Thông tin bộ cầm phít"
+
+#: src/interface.c:1061
+msgid "Plugin name:"
+msgstr "Tên bộ cầm phít:"
+
+#: src/interface.c:1068
+msgid "Author:"
+msgstr "Tác giả:"
+
+#: src/interface.c:1089 src/interface.c:1096 src/interface.c:1103
+#: src/interface.c:1110 src/interface.c:1124
+msgid "-"
+msgstr "-"
+
+#: src/interface.c:1117
+msgid ""
+"-\n"
+"\n"
+msgstr ""
+"-\n"
+"\n"
+
+#: src/interface.c:1131
+msgid "Functions:"
+msgstr "Chức năng:"
+
+#: src/interface.c:1138
+msgid "Description:"
+msgstr "Mô tả:"
+
+#: src/interface.c:1202
+msgid "Choose application"
+msgstr "Chọn ứng dụng"
+
+#: src/interface.c:1219
+msgid "Select the application:"
+msgstr "Chọn ứng dụng:"
+
+#: src/interface.c:1238
+msgid "Application command:"
+msgstr "Lệnh ứng dụng:"
+
+#: src/callbacks.c:81
+msgid ""
+"To change the keyboard keyTouch has to be closed. After you changed the "
+"keyboard keyTouch will be started again."
+msgstr ""
+"Để chuyển đổi bàn phím, cần phải đóng trình Bấm Phím. Sau khi đã chuyển đổi "
+"bàn phím thì Bấm Phím sẽ được khởi chạy lại."
+
+#: src/callbacks.c:190
+#, c-format
+msgid "Do you really want to remove the plugin \"%s\"?"
+msgstr "Bạn thật có muốn gỡ bỏ bộ cầm phít « %s » không?"
+
+#: src/callbacks.c:228
+msgid "Import plugin"
+msgstr "Nhập bộ cầm phít"
+
+#: src/callbacks.c:368
+msgid "user_manual.html"
+msgstr "cách_dùng.html"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Không tìm thấy tập tin pixmap (bản đồ điểm ảnh): %s"
+
+#: src/config.c:156
+msgid "The keyboard (configuration) file contains an invalid action element."
+msgstr ""
+"Tập tin bàn phím (cấu hình) chứa một yếu tố hành động (action) không hợp lệ."
+
+#: src/config.c:167
+msgid ""
+"The keyboard (configuration) file contains an invalid action-type value."
+msgstr ""
+"Tập tin bàn phím (cấu hình) chứa một giá trị kiểu hành động (action-type) "
+"không hợp lệ."
+
+#: src/config.c:227
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Tập tin bàn phím (cấu hình) chứa một yếu tố phím (key) chưa hoàn tất."
+
+#: src/config.c:307
+#, c-format
+msgid "The keyboard file '%s' does not exist."
+msgstr "Tập tin bàn phím « %s » không tồn tại."
+
+#: src/config.c:312
+#, c-format
+msgid "You have no permissions to read from keyboard file '%s'."
+msgstr "Bạn không có quyền đọc tập tin bàn phím « %s »."
+
+#: src/config.c:318
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "« %s » là tập tin bàn phím không hợp lệ."
+
+#: src/config.c:327
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "Tập tin bàn phím « %s » không chứa yếu tố bàn phím (keyboard) nào."
+
+#: src/config.c:334
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "Tập tin bàn phím « %s » không chứa yếu tố danh sách phím (key-list)."
+
+#: src/config.c:341
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "Tập tin bàn phím « %s » không hợp lệ."
+
+#: src/config.c:473
+#, c-format
+msgid ""
+"The keyboard configuration file contains a key, named '%s', which does not "
+"appear in the keyboard file."
+msgstr ""
+"Tập tin cấu hình bàn phím chứa một phím tên « %s » mà không xuất hiện trong "
+"tập tin bàn phím."
+
+# changed occured -> occurred
+#: src/config.c:789
+#, c-format
+msgid "An error occurred while writing the preferences file \"%s\"."
+msgstr "Gặp lỗi khi ghi tập tin tùy thích « %s »."
+
+# changed occured -> occurred
+#: src/config.c:1150
+#, c-format
+msgid "An error occurred while writing the keyboard configuration file \"%s\"."
+msgstr "Gặp lỗi khi ghi tập tin cấu hình bàn phím « %s »."
+
+#: src/plugin.c:335
+#, c-format
+msgid ""
+"Plugin directory '%s' does not exist and creating the directory failed. This "
+"program will continue without loading the plugins in this directory."
+msgstr ""
+"Không có thư mục bộ cầm phít « %s » và gặp lỗi khi cố tạo nó. Như thế thì "
+"chương trình này sẽ tiếp tục mà không tải những bộ cầm phít trong thư mục "
+"này."
+
+# changed "you have no permissions to" -> "you don't have permission to"
+#: src/plugin_control.c:61
+#, c-format
+msgid ""
+"Removing plugin \"%s\" failed. The reason for this is probably because this "
+"plugin is not located in your home directory and you don't have permission "
+"to remove a plugin in that is available for the whole system."
+msgstr ""
+"Việc gỡ bỏ bộ cầm phít « %s » bị lỗi, rất có thể vì bộ cầm phít này không có "
+"trong thư mục chính của bạn, và bạn không có quyền gỡ bỏ bộ cầm phít sẵn "
+"sàng cho toàn hệ thống."
+
+#: src/plugin_control.c:110
+#, c-format
+msgid "Failed to open \"%s\", because it is an invalid plugin."
+msgstr "Lỗi mở « %s », vì nó là bổ sung không hợp lệ."
+
+#: src/plugin_control.c:114
+#, c-format
+msgid "The plugin \"%s\" is already in the list."
+msgstr "Bổ sung « %s » đã nằm trong danh sách."
+
+#: src/plugin_control.c:134
+#, c-format
+msgid "Failed to copy the plugin to \"%s\"."
+msgstr "Lỗi chép bộ cầm phít sang « %s »."
+
+#: src/plugin_control.c:140
+#, c-format
+msgid "Failed to open \"%s\". Check if you are permitted to read this file."
+msgstr "Lỗi mở « %s ». Hãy kiểm tra nếu bạn có quyền đọc tập tin này."
+
+# changed "at the preferences tab" -> "in the preferences tab"
+#. Inform the user about this
+#: src/run_browser.c:74
+msgid ""
+"Because you did not set your browser in the preferences tab and because "
+"keyTouch could not identify your desktop environment, keyTouch will try to "
+"run 'firefox'.\n"
+"Please set your browser in the preferences tab."
+msgstr ""
+"Vì bạn chưa lập trình duyệt trong thanh tùy thích, và vì Bấm Phím không thể "
+"nhận diện môi trường màn hình nền của bạn, trình Bấm Phím sẽ cố chạy trình « "
+"firefox ».\n"
+"Hãy lập trình duyệt trong thanh tùy thích."
+
+#~ msgid "The keyboard configuration file contains an incomplete key element."
+#~ msgstr "Tập tin cấu hình bàn phím chứa một yếu tố phím (key) chưa hoàn tất."
+
+#~ msgid "The keyboard configuration file does not contain a keyboard element."
+#~ msgstr "Tập tin cấu hình bàn phím không chứa yếu tố bàn phím (keyboard)."
+
+#~ msgid "The keyboard configuration file does not contain a key-list element."
+#~ msgstr ""
+#~ "Tập tin cấu hình bàn phím không chứa yếu tố danh sách phím (key-list)."
+
+#~ msgid "The keyboard configuration file is invalid."
+#~ msgstr "Tập tin cấu hình bàn phím không hợp lệ."
+
+#~ msgid "'%s' is an invalid preferences configuration file."
+#~ msgstr "« %s » là tập tin cấu hình tùy thích không hợp lệ."
+
+#~ msgid "'%s' does has not a preferences element as the root element."
+#~ msgstr ""
+#~ "« %s » không có yếu tố tùy thích (preferences) là yếu tố gốc (root)."
+
+#~ msgid "'%s' is invalid"
+#~ msgstr "« %s » không hợp lệ"
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "« %s » không hợp lệ vì nó không có yếu tố bàn phím hiện thời (current-"
+#~ "keyboard) là yếu tố gốc (root)."
+
+#~ msgid ""
+#~ "Could not remove the plugin because the $HOME environment variable does "
+#~ "not exist."
+#~ msgstr "Không thể gỡ bỏ bộ cầm phít vì không có biến môi trường « $HOME »."
+
+#~ msgid "keyTouch 2.0"
+#~ msgstr "Bấm Phím 2.0"
+
+#~ msgid "marvinr@users.sf.net"
+#~ msgstr "marvinr@users.sf.net"
+
+#~ msgid "Marvin Raaijmakers"
+#~ msgstr "Marvin Raaijmakers"

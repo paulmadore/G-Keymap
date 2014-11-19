@@ -1,0 +1,104 @@
+<!--
+Dell Latitude D505 keyboard file for keyTouch 2.0.0
+May work with other dell machines.
+
+Buttons that don't work:
+Suspend (does work with ACPI)
+CRT/LCD (works out of the box with X.org)
+
+If you happen to use Gnome and a recent version of X
+you can comment out SoundMute, SoundUp and 
+SoundDown and configure them in gnome shortcuts.
+You'll get a nice gui in return.
+
+For the alsa-mute script:
+http://fobie.net/nc8000/alsa-mute
+
+To enable the numpad: enable numlock and hold fn
+
+Have fun,
+  Joris <jorrizza@gmail.com>
+  http://jrrzz.net/
+-->
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">08-02-2006</last-change>
+    <author>Joris van Rooij</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Dell</manufacturer>
+      <model>Latitude D505</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>WiFi</name>
+      <scancode>136</scancode>
+      <keycode>CONNECT</keycode>
+      <default-action action-type="program">
+        echo
+      </default-action>
+    </key>
+    <key>
+      <name>Battery</name>
+      <scancode>135</scancode>
+      <keycode>POWER</keycode>
+      <default-action action-type="program">
+        gnome-terminal -e yacpi
+      </default-action>
+    </key>
+    <key>
+      <name>Eject</name>
+      <scancode>137</scancode>
+      <keycode>EJECTCD</keycode>
+      <default-action action-type="program">
+        eject
+      </default-action>
+    </key>
+    <key>
+      <name>SoundMute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>SoundUp</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>SoundDown</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>BrightnessUp</name>
+      <scancode>134</scancode>
+      <keycode>BRIGHTNESSUP</keycode>
+      <default-action action-type="program">
+        echo
+      </default-action>
+    </key>
+    <key>
+      <name>BightnessDown</name>
+      <scancode>133</scancode>
+      <keycode>BRIGHTNESSDOWN</keycode>
+      <default-action action-type="program">
+        echo
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>ÿ

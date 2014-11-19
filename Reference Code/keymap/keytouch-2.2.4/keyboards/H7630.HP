@@ -1,0 +1,204 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">29-06-2006</last-change>
+    <author>bunghole</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>HP</manufacturer>
+      <model>H7630</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Back</name>
+      <scancode>234</scancode>
+      <keycode>BACK</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Back</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Forward</name>
+      <scancode>233</scancode>
+      <keycode>FORWARD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Forward</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>232</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Refresh</name>
+      <scancode>231</scancode>
+      <keycode>REFRESH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Reload</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Search</name>
+      <scancode>229</scancode>
+      <keycode>SEARCH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Search</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Favorites</name>
+      <scancode>230</scancode>
+      <keycode>BOOKMARKS</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Add Bookmark</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Web/Home</name>
+      <scancode>178</scancode>
+      <keycode>HOMEPAGE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mail</name>
+      <scancode>236</scancode>
+      <keycode>MAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Previous Song</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amarok</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Next Song</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amarok</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop Song</name>
+      <scancode>164</scancode>
+      <keycode>STOPCD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amarok</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amarok</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Media Player</name>
+      <scancode>237</scancode>
+      <keycode>MEDIA</keycode>
+      <default-action>amarok</default-action>
+    </key>
+    <key>
+      <name>My Computer</name>
+      <scancode>235</scancode>
+      <keycode>COMPUTER</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Filemanager</plugin-name>
+        <plugin-function>Filemanager</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Calculator</name>
+      <scancode>161</scancode>
+      <keycode>CALC</keycode>
+      <default-action>kcalc || gnome-calculator || xcalc</default-action>
+    </key>
+    <key>
+      <name>Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>User defined 1 (up)</name>
+      <scancode>238</scancode>
+      <keycode>PROG1</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>User defined 2 (down)</name>
+      <scancode>239</scancode>
+      <keycode>PROG2</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>User defined 3 (left)</name>
+      <scancode>228</scancode>
+      <keycode>PROG3</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key>
+      <name>User defined 4 (right)</name>
+      <scancode>226</scancode>
+      <keycode>PROG4</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+  </key-list>
+</keyboard>

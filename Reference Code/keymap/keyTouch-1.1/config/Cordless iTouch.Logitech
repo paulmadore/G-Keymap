@@ -1,0 +1,64 @@
+Cordless iTouch
+Logitech
+
+223
+XF86Standby
+User
+:Lock Screen
+
+160
+XF86AudioMute
+Mute
+:Aumix - Mute/Unmute
+
+174
+XF86AudioLowerVolume
+Lower volume
+:Aumix - Volume decrease
+
+176
+XF86AudioRaiseVolume
+Raise volume
+:Aumix - Volume increase
+
+162
+XF86AudioPlay
+Audio play/pause
+:XMMS - Play/Pause
+
+164
+XF86AudioStop
+Audio stop
+:XMMS - Stop
+
+144
+XF86AudioPrev
+Audio previous
+:XMMS - Previous
+
+153
+XF86AudioNext
+Audio next
+:XMMS - Next
+
+236
+XF86Mail
+E-Mail
+:E-mail
+
+229
+XF86Search
+Search
+:WWW - Search
+
+230
+XF86Favorites
+Favorites
+mozilla
+
+178
+XF86HomePage
+My home
+:WWW - Home
+
+

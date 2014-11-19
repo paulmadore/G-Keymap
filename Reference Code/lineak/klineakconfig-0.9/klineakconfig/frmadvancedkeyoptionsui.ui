@@ -1,0 +1,446 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>frmAdvancedKeyOptionsUI</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>frmAdvancedKeyOptionsUI</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>427</width>
+            <height>480</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Advanced Key Options</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="1" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>Layout50</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnApply</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Apply</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnCancel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QGroupBox" row="0" column="0">
+            <property name="name">
+                <cstring>groupBox8</cstring>
+            </property>
+            <property name="title">
+                <string>Advanced Key Configuration Options</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>lbltxtKeyname</cstring>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <bold>1</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>Key:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="1">
+                    <property name="name">
+                        <cstring>lblKeyname</cstring>
+                    </property>
+                    <property name="text">
+                        <string>No Key</string>
+                    </property>
+                </widget>
+                <spacer row="0" column="2">
+                    <property name="name">
+                        <cstring>spacer5</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>150</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLayoutWidget" row="4" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>layout5</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel3_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Display Name: </string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>txtDisplayName</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QListView" row="1" column="0" rowspan="1" colspan="3">
+                    <column>
+                        <property name="text">
+                            <string>Modifier</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>true</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Command</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>true</bool>
+                        </property>
+                    </column>
+                    <property name="name">
+                        <cstring>lstKeyCommands</cstring>
+                    </property>
+                    <property name="resizePolicy">
+                        <enum>AutoOne</enum>
+                    </property>
+                    <property name="allColumnsShowFocus">
+                        <bool>true</bool>
+                    </property>
+                    <property name="resizeMode">
+                        <enum>LastColumn</enum>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="2" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>chkIsToggleable</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Use as Toggleable Key</string>
+                    </property>
+                </widget>
+                <widget class="QButtonGroup" row="5" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>buttonGroup1</cstring>
+                    </property>
+                    <property name="title">
+                        <string></string>
+                    </property>
+                    <property name="checked">
+                        <bool>false</bool>
+                    </property>
+                    <property name="selectedId" stdset="0">
+                        <number>1</number>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QComboBox" row="3" column="0">
+                            <property name="name">
+                                <cstring>cbAction</cstring>
+                            </property>
+                            <property name="enabled">
+                                <bool>false</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>3</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>220</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="editable">
+                                <bool>false</bool>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Use this special action when the selected key in the 'Available keys' list is pressed.</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="1" column="0">
+                            <property name="name">
+                                <cstring>txtCommand</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>220</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Run this command when the selected key in the 'Available keys' list is pressed.</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" row="0" column="0">
+                            <property name="name">
+                                <cstring>radioRun</cstring>
+                            </property>
+                            <property name="enabled">
+                                <bool>true</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>3</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Run command:</string>
+                            </property>
+                            <property name="checked">
+                                <bool>true</bool>
+                            </property>
+                            <property name="buttonGroupId">
+                                <number>1</number>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Run a command when the selected key is pressed. Enter the command into the box below.</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton" row="2" column="0">
+                            <property name="name">
+                                <cstring>radioAction</cstring>
+                            </property>
+                            <property name="enabled">
+                                <bool>true</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>3</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Run Macro:</string>
+                            </property>
+                            <property name="checked">
+                                <bool>false</bool>
+                            </property>
+                            <property name="buttonGroupId">
+                                <number>2</number>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Choose to use a special action when the selected key in the 'Available keys' list is pressed. Use the chooser below to select the special action.</string>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget" row="4" column="0">
+                            <property name="name">
+                                <cstring>layout8</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>textLabel4</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Macro Arguments:</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>txtMacroArguments</cstring>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QLayoutWidget" row="3" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>layout5</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>btnAddModifier</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Add Modifier</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>btnRemoveModifier</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Remove Modifier</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>btnCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotClose()</slot>
+    </connection>
+    <connection>
+        <sender>chkIsToggleable</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotSetToggleable()</slot>
+    </connection>
+    <connection>
+        <sender>radioAction</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotRadioToggle()</slot>
+    </connection>
+    <connection>
+        <sender>cbAction</sender>
+        <signal>activated(const QString&amp;)</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotSetMacro(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>txtCommand</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotSetCommand(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>radioRun</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotRadioToggle()</slot>
+    </connection>
+    <connection>
+        <sender>lstKeyCommands</sender>
+        <signal>clicked(QListViewItem*)</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotSelectKeyCommand(QListViewItem*)</slot>
+    </connection>
+    <connection>
+        <sender>txtDisplayName</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotDisplayName(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>btnAddModifier</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotAddModifier()</slot>
+    </connection>
+    <connection>
+        <sender>btnRemoveModifier</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotRemoveModifier()</slot>
+    </connection>
+    <connection>
+        <sender>txtMacroArguments</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotSetMacroArguments(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>btnApply</sender>
+        <signal>clicked()</signal>
+        <receiver>frmAdvancedKeyOptionsUI</receiver>
+        <slot>slotApplyClicked()</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>slotClose()</slot>
+    <slot>slotSetToggleable()</slot>
+    <slot>slotSetMacro(const QString&amp;)</slot>
+    <slot>slotSelectKey()</slot>
+    <slot>slotSetCommand(const QString&amp;)</slot>
+    <slot>slotRadioToggle()</slot>
+    <slot>slotSelectKeyCommand(QListViewItem*)</slot>
+    <slot>slotDisplayName(const QString&amp;)</slot>
+    <slot>slotAddModifier()</slot>
+    <slot>slotRemoveModifier()</slot>
+    <slot>slotSetMacroArguments(const QString&amp;)</slot>
+    <slot>slotApplyClicked()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

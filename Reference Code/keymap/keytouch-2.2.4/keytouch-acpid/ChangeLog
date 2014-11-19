@@ -1,0 +1,6 @@
+Version 2.2.2:
+ - Xsession script is now called 91keytouch-acpid_launch.
+ - Added support for ACPI hotkeys on IBM/Lenovo notebooks.
+
+Version 2.2.1:
+ - Fixed line in Xsession script

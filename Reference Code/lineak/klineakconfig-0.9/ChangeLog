@@ -1,0 +1,127 @@
+March 13 2006
+
+KLineakConfig has had it's GUI completely redone. It works only with the
+latest release of lineakd. It can create definition files, load existing
+definition files, create config files and load/modify config files. It can do
+everything that you can do in the text file with the exception of mouse
+buttons. I've tested it a few times and it seems to be ok. I haven't seen any
+hangs, etc. 
+
+March 16 2005
+
+KLineakConfig has been updated to work with the new lineak. The current
+version beta-2 can change display names and list macros that are added via
+lineak plugins. It can create a lineakkb.def file, and also a lineakd.conf
+However, it has bugs. After a while of use it hangs, and pegs the CPU. It can
+be killed w/o problem though. Anyways, the current code base is garbage and
+needs to be taken out and trashed. However, people insist on continuing to use
+it, I don't know why, so I've made it marginally functional. It does not
+handle toggleable keys, modifiers, etc.
+
+May 28 2002
+
+Updated KLineakConfig to work with version 0.3 of lineakd
+Fixed up gui level error reporting to use qmessagebox instead
+of only displaying errors to stdout.
+Moved the parsing code into a LineakParser class.
+Moved a lot of c code to c++ code.
+
+June 2 2002
+
+Ugly hack to allow a user to start the program without having a ~/.lineak/lineak.conf
+file. On startup it writes a minimal config file w/ the first keyboard in the map from the
+parsing of the .def file. Then it opens this as the default keyboard. Users won't really
+notice, or care IMHO as they can then go and select their own keyboard from the list
+and set the commands.
+
+June 7 2002
+
+KlineakConfig now controls your lineakd process. You do not and should not start
+lineakd before running KlineakConfig. It also now docks into your kicker panel.
+There is a right mouse button menu that allows you to start, stop and restart lineakd.
+It also picks up a local lineakkb.def file in ~/.lineak/ and will add any
+keyboards defined there to the configuration choices automatically. On program exit
+it allows you to have the ability to keep lineakd running in the background or
+to stop it. I recommend stopping it if you plan on running klineakconfig again
+b/c the detection of a running lineakd process is not very precise. It essentially
+greps for lineakd being run by your userid and tried to kill it.
+
+June 15 2002
+
+KlineakConfig now has a dialog to allow you to define your own keyboard and easy
+access keys by entering the name of the key, and then pushing the key right after.
+You can view, modify and delete the key mappings to your hearts delight. It does limit
+itself to attempting to grab something that really is an easy access key, but this is
+a best guess. Some of the parsing code has been reorganized to allow the loading of
+new definition files. The PID code has not yet been updated, but that's in the works
+(it uses /proc to get the pid information).
+
+August 16 2002
+
+Applied fixes from Evan Teran for proper c++ compliance. His email goes
+something like this:
+############
+hey, i was trying to make an ebuild for gentoo linux for klineakconfig and i
+noticed some problems with current sources, i figured i'd give ya a heads up
+:)
+
+anyway, firstly you accidentally included a config.cache file from your
+computer which tends to cause mysterious errors when compiling on another
+machine with alternate config...might be a good idea to remove that.
+
+also, my system uses gcc 3.2 and it picked up some errors in source, nothing
+major. | Mostely it dies on the fact that you included the default params in
+both the class definition and the implementation. | like this:
+
+----------------------------------------------
+klineakconfig.h:
+
+virtual bool reparseDef(QString parsefile = QString::null);
+
+klineakconfig.cpp:
+
+bool KlineakConfig::reparseDef(QString parsefile = QString::null){
+----------------------------------------------
+
+the ISO standards says it should only be in the definition like this:
+
+----------------------------------------------
+klineakconfig.h:
+
+virtual bool reparseDef(QString parsefile = QString::null);
+
+klineakconfig.cpp:
+
+bool KlineakConfig::reparseDef(QString parsefilel){
+----------------------------------------------
+
+modern compilers think you are trying to redefine the functions..which is bad
+:(
+
+anyway, after some minor modifcations i got it to compile, i can send you a
+patch (once i figure out how to make one) if ya like :)
+
+love this program! | looking forward to next version :)
+##########
+Thanks for the fixes! I'll make sure to be ISO compliant in all future code.
+(err, well, *more* compliant anyways).
+
+October 8 2002
+
+Fixed gcc3.2 compile problems.
+Fixed compile problems for distributions that do not have qt-designer compiled with KDE widget support.
+Fixed up bug which caused klineakconfig to write an empty config file.
+Fixed a bug which caused klineakconfig to lock up.
+Added the ability to handle quotes in the commands.
+Made running kkeyled and lineakd after exit configurable in the preferences.
+
+Fixed lots of bugs.
+
+October 10 2002
+
+Bugfix release. Keyboard submission did not properly attach the definition
+file. Instead there was a bug which caused it to create an attachment with
+only the path to the definition file instead.
+
+In the 0.5 release I neglected to increment the version number to 0.5. Now
+I've set the version number to 0.5.1

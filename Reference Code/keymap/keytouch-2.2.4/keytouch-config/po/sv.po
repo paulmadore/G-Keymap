@@ -1,0 +1,435 @@
+# Swedish translation of keytouch.
+# Copyright (C) 2006, Free Software Foundation, Inc.
+# This file is distributed under the same license as the keytouch package.
+# Daniel Nylander <po@danielnylander.se>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch 2.2-b3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:54+0200\n"
+"PO-Revision-Date: 2006-07-17 18:39+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:66 src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Kunde inte allokera minne."
+
+#: src/main.c:88
+msgid "No keyboard was specified, please select your keyboard."
+msgstr "Inget tangentbord angavs, vänligen välj ditt tangentbord."
+
+#: src/main.c:95
+#, c-format
+msgid ""
+"%s\n"
+"Please select your keyboard model to solve this problem."
+msgstr ""
+"%s\n"
+"Välj din tangentbordsmodell för att lösa problemet."
+
+#: src/interface.c:186
+msgid "Keys:"
+msgstr "Tangenter:"
+
+#: src/interface.c:213
+msgid "Key:"
+msgstr "Tangent:"
+
+#: src/interface.c:235
+msgid "_Default setting:"
+msgstr "_Förvald inställning:"
+
+#: src/interface.c:243
+msgid "_Program:"
+msgstr "_Program:"
+
+#: src/interface.c:290
+msgid "Plugin:"
+msgstr "Insticksmodul:"
+
+#: src/interface.c:297
+msgid "Function:"
+msgstr "Funktion:"
+
+#: src/interface.c:304
+msgid "Sp_ecial action:"
+msgstr "Sp_eciell åtgärd:"
+
+#: src/interface.c:322 src/interface.c:630 src/interface.c:644
+#: src/interface.c:658
+msgid "Ch_oose..."
+msgstr "Vä_lj..."
+
+#: src/interface.c:340
+msgid "Runs:"
+msgstr "Kör:"
+
+#: src/interface.c:347
+msgid "Key settings"
+msgstr "Tangentinställningar"
+
+#: src/interface.c:360
+msgid "Key _settings"
+msgstr "Tangent_inställningar"
+
+#: src/interface.c:375
+msgid "Keyboard manufacturer:"
+msgstr "Tangentbordstillverkare:"
+
+#: src/interface.c:382
+msgid "Keyboard model:"
+msgstr "Tangentbordsmodell:"
+
+#: src/interface.c:408
+msgid "Chang_e..."
+msgstr "Änd_ra..."
+
+#: src/interface.c:422
+msgid "_Keyboard"
+msgstr "_Tangentbord"
+
+#: src/interface.c:440
+msgid "Available plugins:"
+msgstr "Tillgängliga insticksmoduler:"
+
+#: src/interface.c:478
+msgid "_Download..."
+msgstr "_Ladda ner..."
+
+#: src/interface.c:499
+msgid "_Information..."
+msgstr "_Information..."
+
+#: src/interface.c:525
+msgid "_Import..."
+msgstr "_Importera..."
+
+#: src/interface.c:529
+msgid "Special action plugins"
+msgstr "Insticksmoduler för speciella åtgärder"
+
+#: src/interface.c:544
+msgid "Documents directory:"
+msgstr "Katalog för dokument:"
+
+#: src/interface.c:552
+msgid "Home page:"
+msgstr "Hemsida:"
+
+#: src/interface.c:559
+msgid "Search page:"
+msgstr "Söksida:"
+
+#: src/interface.c:584
+msgid "User settings"
+msgstr "Användarinställningar"
+
+#: src/interface.c:599
+msgid "Internet browser:"
+msgstr "Webbläsare:"
+
+#: src/interface.c:606
+msgid "E-mail program:"
+msgstr "E-postprogram:"
+
+#: src/interface.c:613
+msgid "Chat program:"
+msgstr "Chattprogram:"
+
+#: src/interface.c:662
+msgid "External programs"
+msgstr "Externa program"
+
+#: src/interface.c:675
+msgid "Pre_ferences"
+msgstr "Inställnin_gar"
+
+#: src/interface.c:695 src/interface.c:1075
+msgid "Version:"
+msgstr "Version:"
+
+#: src/interface.c:702
+msgid "Developer:"
+msgstr "Utvecklare:"
+
+#: src/interface.c:709 src/interface.c:1082
+msgid "License:"
+msgstr "Licens:"
+
+#: src/interface.c:716
+msgid "Site:"
+msgstr "Plats:"
+
+#: src/interface.c:723
+msgid "Contact:"
+msgstr "Kontakt:"
+
+#: src/interface.c:737
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/interface.c:744
+msgid "GPL 2 or higher"
+msgstr "GPL 2 eller senare"
+
+#: src/interface.c:765
+msgid "About"
+msgstr "Om"
+
+#: src/interface.c:788
+msgid "Help & A_bout"
+msgstr "Hjälp & O_m"
+
+#: src/interface.c:1040
+msgid "Plugin Information"
+msgstr "Information om insticksmodul"
+
+#: src/interface.c:1061
+msgid "Plugin name:"
+msgstr "Insticksnamn:"
+
+#: src/interface.c:1068
+msgid "Author:"
+msgstr "Upphovsman:"
+
+#: src/interface.c:1089 src/interface.c:1096 src/interface.c:1103
+#: src/interface.c:1110 src/interface.c:1124
+msgid "-"
+msgstr "-"
+
+#: src/interface.c:1117
+msgid ""
+"-\n"
+"\n"
+msgstr ""
+"-\n"
+"\n"
+
+#: src/interface.c:1131
+msgid "Functions:"
+msgstr "Funktioner:"
+
+#: src/interface.c:1138
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: src/interface.c:1202
+msgid "Choose application"
+msgstr "Välj program"
+
+#: src/interface.c:1219
+msgid "Select the application:"
+msgstr "Välj programmet:"
+
+#: src/interface.c:1238
+msgid "Application command:"
+msgstr "Programkommando:"
+
+#: src/callbacks.c:81
+msgid ""
+"To change the keyboard keyTouch has to be closed. After you changed the "
+"keyboard keyTouch will be started again."
+msgstr ""
+"För att ändra tangentbordet måste keyTouch stängas. Efter att du ändrat "
+"tangentbordet kommer keyTouch att startas igen."
+
+#: src/callbacks.c:190
+#, c-format
+msgid "Do you really want to remove the plugin \"%s\"?"
+msgstr "Vill du verkligen ta bort insticksmodulen \"%s\"?"
+
+#: src/callbacks.c:228
+msgid "Import plugin"
+msgstr "Importera insticksmodul"
+
+#: src/callbacks.c:368
+msgid "user_manual.html"
+msgstr "user_manual.html"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Kunde inte hitta bildfil: %s"
+
+#: src/config.c:156
+msgid "The keyboard (configuration) file contains an invalid action element."
+msgstr ""
+"Tangentbordsfilen (konfiguration) innehåller ett ogiltigt \"action\"-element."
+
+#: src/config.c:167
+msgid ""
+"The keyboard (configuration) file contains an invalid action-type value."
+msgstr ""
+"Tangentbordsfilen (konfiguration) innehåller ett ogiltigt värde för \"action-"
+"type\"."
+
+#: src/config.c:227
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Tangentbordsfilen innehåller ett ej komplett \"key\"-element."
+
+#: src/config.c:307
+#, c-format
+msgid "The keyboard file '%s' does not exist."
+msgstr "Tangentbordsfilen \"%s\" finns inte."
+
+#: src/config.c:312
+#, c-format
+msgid "You have no permissions to read from keyboard file '%s'."
+msgstr "Du har inte rättigheter att läsa från tangentbordsfilen \"%s\"."
+
+#: src/config.c:318
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "\"%s\" är en ogiltig tangentbordsfil."
+
+#: src/config.c:327
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "Tangentbordsfilen \"%s\" innehåller inte ett \"keyboard\"-element."
+
+#: src/config.c:334
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "Tangentbordsfilen \"%s\" innehåller inte ett \"key-list\"-element."
+
+#: src/config.c:341
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "Tangentbordsfilen \"%s\" är ogiltig."
+
+#: src/config.c:473
+#, c-format
+msgid ""
+"The keyboard configuration file contains a key, named '%s', which does not "
+"appear in the keyboard file."
+msgstr ""
+"Konfigurationsfilen för tangentbordet innehåller en tangent, \"%s\", som "
+"inte finns i tangentbordsfilen."
+
+# changed occured -> occurred
+#: src/config.c:789
+#, c-format
+msgid "An error occurred while writing the preferences file \"%s\"."
+msgstr "Ett fel inträffade vid skrivning av inställningsfilen \"%s\"."
+
+# changed occured -> occurred
+#: src/config.c:1150
+#, c-format
+msgid "An error occurred while writing the keyboard configuration file \"%s\"."
+msgstr ""
+"Ett fel inträffade vid skrivning av konfigurationsfilen \"%s\" för "
+"tangentbordet."
+
+#: src/plugin.c:335
+#, c-format
+msgid ""
+"Plugin directory '%s' does not exist and creating the directory failed. This "
+"program will continue without loading the plugins in this directory."
+msgstr ""
+"Instickskatalogen \"%s\" existerar inte och att skapa katalogen "
+"misslyckades. Detta program kommer att fortsätta utan att läsa in "
+"insticksmoduler från den katalogen."
+
+# changed "you have no permissions to" -> "you don't have permission to"
+#: src/plugin_control.c:61
+#, c-format
+msgid ""
+"Removing plugin \"%s\" failed. The reason for this is probably because this "
+"plugin is not located in your home directory and you don't have permission "
+"to remove a plugin in that is available for the whole system."
+msgstr ""
+"Borttagning av insticksmodulen \"%s\" misslyckades. Anledningen för detta är "
+"antagligen att den här insticksmodulen inte finns i din hemkatalog och du "
+"saknar rättighet att ta bort en insticksmodul som är tillgänglig för hela "
+"systemet."
+
+#: src/plugin_control.c:110
+#, c-format
+msgid "Failed to open \"%s\", because it is an invalid plugin."
+msgstr ""
+"Misslyckades med att öppna \"%s\" på grund av att det är en ogiltig "
+"insticksmodul."
+
+#: src/plugin_control.c:114
+#, c-format
+msgid "The plugin \"%s\" is already in the list."
+msgstr "Insticksmodulen \"%s\" finns redan i listan."
+
+#: src/plugin_control.c:134
+#, c-format
+msgid "Failed to copy the plugin to \"%s\"."
+msgstr "Misslyckades att kopiera insticksmodulen till \"%s\"."
+
+#: src/plugin_control.c:140
+#, c-format
+msgid "Failed to open \"%s\". Check if you are permitted to read this file."
+msgstr "Misslyckades att öppna \"%s\". Kontrollera om du får läsa denna fil."
+
+# changed "at the preferences tab" -> "in the preferences tab"
+#. Inform the user about this
+#: src/run_browser.c:74
+msgid ""
+"Because you did not set your browser in the preferences tab and because "
+"keyTouch could not identify your desktop environment, keyTouch will try to "
+"run 'firefox'.\n"
+"Please set your browser in the preferences tab."
+msgstr ""
+"På grund av att du inte ställde in din webbläsare i inställningsfliken och "
+"på grund av att keyTouch inte kunde identifiera din skrivbordsmiljö kommer "
+"keyTouch att försöka köra \"firefox\".\n"
+"Vänligen ställ in din webbläsare i inställningsfliken."
+
+#~ msgid "The keyboard configuration file contains an incomplete key element."
+#~ msgstr ""
+#~ "Konfigurationsfilen för tangentbordet innehåller ett icke komplett \"key"
+#~ "\"-element."
+
+#~ msgid "The keyboard configuration file does not contain a keyboard element."
+#~ msgstr ""
+#~ "Konfigurationsfilen för tangentbordet innehåller inte ett \"keyboard\"-"
+#~ "element."
+
+#~ msgid "The keyboard configuration file does not contain a key-list element."
+#~ msgstr ""
+#~ "Konfigurationsfilen för tangentbordet innehåller inte ett \"key-list\"-"
+#~ "element."
+
+#~ msgid "The keyboard configuration file is invalid."
+#~ msgstr "Konfigurationsfil för tangentbordet är ogiltig."
+
+#~ msgid "'%s' is an invalid preferences configuration file."
+#~ msgstr "\"%s\" är en ogiltig konfigurationsfil."
+
+#~ msgid "'%s' does has not a preferences element as the root element."
+#~ msgstr "\"%s\" har inte ett \"preferences\"-element som rotelement."
+
+#~ msgid "'%s' is invalid"
+#~ msgstr "\"%s\" är ogiltig"
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "\"%s\" är ogiltig på grund av att den inte har ett \"current-keyboard\"-"
+#~ "element som rotelementet"
+
+#~ msgid ""
+#~ "Could not remove the plugin because the $HOME environment variable does "
+#~ "not exist."
+#~ msgstr ""
+#~ "Kunde inte ta bort insticksmodulen på grund av att miljövariabeln $HOME "
+#~ "inte existerar."
+
+#~ msgid "keyTouch 2.0"
+#~ msgstr "keyTouch 2.0"
+
+#~ msgid "marvinr@users.sf.net"
+#~ msgstr "marvinr@users.sf.net"
+
+#~ msgid "Marvin Raaijmakers"
+#~ msgstr "Marvin Raaijmakers"

@@ -1,0 +1,414 @@
+# translation of ca.po to Català
+# translation of keytouch.po to Català
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER.
+# Joan Duran <jodufi@gmail.com>, 2006.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: ca\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:54+0200\n"
+"PO-Revision-Date: 2006-07-31 22:24+0200\n"
+"Last-Translator: Joan Duran <jodufi@gmail.com>\n"
+"Language-Team: Catalan <ca@dodds.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:66 src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "No hi ha espai a la memòria"
+
+#: src/main.c:88
+msgid "No keyboard was specified, please select your keyboard."
+msgstr "No s'ha especificat cap teclat, selecciona el teu teclat."
+
+#: src/main.c:95
+#, c-format
+msgid ""
+"%s\n"
+"Please select your keyboard model to solve this problem."
+msgstr ""
+"%s\n"
+"Selecciona el model del teu teclat per solucionar aquest problema."
+
+#: src/interface.c:186
+msgid "Keys:"
+msgstr "Tecles:"
+
+#: src/interface.c:213
+msgid "Key:"
+msgstr "Tecla:"
+
+#: src/interface.c:235
+msgid "_Default setting:"
+msgstr "D_efecte:"
+
+#: src/interface.c:243
+msgid "_Program:"
+msgstr "_Programa:"
+
+#: src/interface.c:290
+msgid "Plugin:"
+msgstr "Plugin:"
+
+#: src/interface.c:297
+msgid "Function:"
+msgstr "Funció:"
+
+#: src/interface.c:304
+msgid "Sp_ecial action:"
+msgstr "Acció e_special:"
+
+#: src/interface.c:322 src/interface.c:630 src/interface.c:644
+#: src/interface.c:658
+msgid "Ch_oose..."
+msgstr "Tr_ia..."
+
+#: src/interface.c:340
+msgid "Runs:"
+msgstr "Executa:"
+
+#: src/interface.c:347
+msgid "Key settings"
+msgstr "Configuració de la tecla"
+
+#: src/interface.c:360
+msgid "Key _settings"
+msgstr "C_onfiguració"
+
+#: src/interface.c:375
+msgid "Keyboard manufacturer:"
+msgstr "Fabricant del teclat:"
+
+#: src/interface.c:382
+msgid "Keyboard model:"
+msgstr "Model del teclat:"
+
+#: src/interface.c:408
+msgid "Chang_e..."
+msgstr "Ca_nvia..."
+
+#: src/interface.c:422
+msgid "_Keyboard"
+msgstr "_Teclat"
+
+#: src/interface.c:440
+msgid "Available plugins:"
+msgstr "Plugins disponibles:"
+
+#: src/interface.c:478
+msgid "_Download..."
+msgstr "D_escarregar..."
+
+#: src/interface.c:499
+msgid "_Information..."
+msgstr "_Informació..."
+
+#: src/interface.c:525
+msgid "_Import..."
+msgstr "I_mportar..."
+
+#: src/interface.c:529
+msgid "Special action plugins"
+msgstr "Plugins d'accions especials"
+
+#: src/interface.c:544
+msgid "Documents directory:"
+msgstr "Directori de documents:"
+
+#: src/interface.c:552
+msgid "Home page:"
+msgstr "Pàgina d'inici:"
+
+#: src/interface.c:559
+msgid "Search page:"
+msgstr "Pàgina de busqueda:"
+
+#: src/interface.c:584
+msgid "User settings"
+msgstr "Configuració d'usuari"
+
+#: src/interface.c:599
+msgid "Internet browser:"
+msgstr "Navegador:"
+
+#: src/interface.c:606
+msgid "E-mail program:"
+msgstr "E-mail:"
+
+#: src/interface.c:613
+msgid "Chat program:"
+msgstr "Xat:"
+
+#: src/interface.c:662
+msgid "External programs"
+msgstr "Programes externs"
+
+#: src/interface.c:675
+msgid "Pre_ferences"
+msgstr "P_referències"
+
+#: src/interface.c:695 src/interface.c:1075
+msgid "Version:"
+msgstr "Versió:"
+
+#: src/interface.c:702
+msgid "Developer:"
+msgstr "Autor:"
+
+#: src/interface.c:709 src/interface.c:1082
+msgid "License:"
+msgstr "Llicència:"
+
+#: src/interface.c:716
+msgid "Site:"
+msgstr "Web:"
+
+#: src/interface.c:723
+msgid "Contact:"
+msgstr "E-mail:"
+
+#: src/interface.c:737
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/interface.c:744
+msgid "GPL 2 or higher"
+msgstr "GPL 2 o superior"
+
+#: src/interface.c:765
+msgid "About"
+msgstr "Quant a"
+
+#: src/interface.c:788
+msgid "Help & A_bout"
+msgstr "Ajuda i _Quant a"
+
+#: src/interface.c:1040
+msgid "Plugin Information"
+msgstr "Informació plugin"
+
+#: src/interface.c:1061
+msgid "Plugin name:"
+msgstr "Nom del plugin:"
+
+#: src/interface.c:1068
+msgid "Author:"
+msgstr "Autor:"
+
+#: src/interface.c:1089 src/interface.c:1096 src/interface.c:1103
+#: src/interface.c:1110 src/interface.c:1124
+msgid "-"
+msgstr "-"
+
+#: src/interface.c:1117
+msgid ""
+"-\n"
+"\n"
+msgstr ""
+"-\n"
+"\n"
+
+#: src/interface.c:1131
+msgid "Functions:"
+msgstr "Funcions:"
+
+#: src/interface.c:1138
+msgid "Description:"
+msgstr "Descripció:"
+
+#: src/interface.c:1202
+msgid "Choose application"
+msgstr "Tria la aplicació:"
+
+#: src/interface.c:1219
+msgid "Select the application:"
+msgstr "Selecciona la aplicació:"
+
+#: src/interface.c:1238
+msgid "Application command:"
+msgstr "Comanda d'aplicació:"
+
+#: src/callbacks.c:81
+msgid ""
+"To change the keyboard keyTouch has to be closed. After you changed the "
+"keyboard keyTouch will be started again."
+msgstr ""
+"Per canviar el teclat keyTouch s'ha de tancar. Després de que canviïs el "
+"teclat keyTouch es reiniciarà."
+
+#: src/callbacks.c:190
+#, c-format
+msgid "Do you really want to remove the plugin \"%s\"?"
+msgstr "Realment vols eliminar el plugin \"%s\"?"
+
+#: src/callbacks.c:228
+msgid "Import plugin"
+msgstr "Importar plugin"
+
+#: src/callbacks.c:368
+msgid "user_manual.html"
+msgstr "user_manual.html"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "No es pot trobar l'arxiu pixmap: %s"
+
+#: src/config.c:156
+msgid "The keyboard (configuration) file contains an invalid action element."
+msgstr "L'arxiu de teclat conté un element invàlid."
+
+#: src/config.c:167
+msgid ""
+"The keyboard (configuration) file contains an invalid action-type value."
+msgstr "L'arxiu de teclat conté un tipus d'acció invàlida."
+
+#: src/config.c:227
+msgid "The keyboard file contains an incomplete key element."
+msgstr "L'arxiu de teclat conté una configuració de tecla incompleta."
+
+#: src/config.c:307
+#, c-format
+msgid "The keyboard file '%s' does not exist."
+msgstr "L'arxiu de teclat '%s' no existeix."
+
+#: src/config.c:312
+#, c-format
+msgid "You have no permissions to read from keyboard file '%s'."
+msgstr "No tens permisos per llegir des de l'arxiu de teclat '%s'."
+
+#: src/config.c:318
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "L'arxiu de teclat '%s' és invàlid."
+
+#: src/config.c:327
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "L'arxiu de teclat '%s' no conté un element del teclat."
+
+#: src/config.c:334
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "L'arxiu de teclat '%s' no conté la llista de tecles."
+
+#: src/config.c:341
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "L'arxiu de teclat '%s' és invàlid."
+
+#: src/config.c:473
+#, c-format
+msgid ""
+"The keyboard configuration file contains a key, named '%s', which does not "
+"appear in the keyboard file."
+msgstr ""
+"L'arxiu de configuració del teclat conté una tecla, anomenada '%s', la qual "
+"no apareix en l'arxiu de teclat."
+
+#: src/config.c:789
+#, c-format
+msgid "An error occurred while writing the preferences file \"%s\"."
+msgstr "Un error a succeït mentre s'escrivia l'arxiu de preferències \"%s\"."
+
+#: src/config.c:1150
+#, c-format
+msgid "An error occurred while writing the keyboard configuration file \"%s\"."
+msgstr ""
+"Un error a succeït mentre s'escrivia l'arxiu de configuració del teclat \"%s"
+"\"."
+
+#: src/plugin.c:335
+#, c-format
+msgid ""
+"Plugin directory '%s' does not exist and creating the directory failed. This "
+"program will continue without loading the plugins in this directory."
+msgstr ""
+"El directori de plugin '%s' no existeix i la creació del directori ha "
+"fallat. Aquest programa continuarà sense carregar els plugins d'aquest "
+"directori."
+
+#: src/plugin_control.c:61
+#, c-format
+msgid ""
+"Removing plugin \"%s\" failed. The reason for this is probably because this "
+"plugin is not located in your home directory and you don't have permission "
+"to remove a plugin in that is available for the whole system."
+msgstr ""
+"L'eliminació del plugin \"%s\" ha fallat. La causa d'això segurament és "
+"perquè aquest plugin no està al teu directori personal i tu no tens permís "
+"per eliminar aquest plugin disponible per a tot el sistema."
+
+#: src/plugin_control.c:110
+#, c-format
+msgid "Failed to open \"%s\", because it is an invalid plugin."
+msgstr "S'ha fallat al obrir \"%s\" perquè és un plugin invàlid."
+
+#: src/plugin_control.c:114
+#, c-format
+msgid "The plugin \"%s\" is already in the list."
+msgstr "El plugin \"%s\" ja és a la llista."
+
+#: src/plugin_control.c:134
+#, c-format
+msgid "Failed to copy the plugin to \"%s\"."
+msgstr "S'ha fallat al copiar el plugin a \"%s\"."
+
+#: src/plugin_control.c:140
+#, c-format
+msgid "Failed to open \"%s\". Check if you are permitted to read this file."
+msgstr ""
+"S'ha fallat al obrir \"%s\". Revisa si tens permís per llegir aquest arxiu."
+
+#. Inform the user about this
+#: src/run_browser.c:74
+msgid ""
+"Because you did not set your browser in the preferences tab and because "
+"keyTouch could not identify your desktop environment, keyTouch will try to "
+"run 'firefox'.\n"
+"Please set your browser in the preferences tab."
+msgstr ""
+"Com que no configures el teu navegador a la pestanya de preferències i com "
+"que keyTouch no pot identificar el teu entorn d'escriptori, keyTouch provarà "
+"d'executar 'Firefox'.\n"
+"Configura el teu navegador a la pestanya de preferències."
+
+#~ msgid "The keyboard configuration file contains an incomplete key element."
+#~ msgstr ""
+#~ "L'arxiu de configuració del teclat conté un element del teclat incomplet."
+
+#~ msgid "The keyboard configuration file does not contain a keyboard element."
+#~ msgstr "L'arxiu de configuració del teclat no conté un element del teclat."
+
+#~ msgid "The keyboard configuration file does not contain a key-list element."
+#~ msgstr "L'arxiu de configuració del teclat no conté la llista de tecles."
+
+#~ msgid "The keyboard configuration file is invalid."
+#~ msgstr "L'arxiu de configuració del teclat és invàlid."
+
+#~ msgid "'%s' is an invalid preferences configuration file."
+#~ msgstr "L'arxiu de configuració de preferències '%s' és invàlid."
+
+#~ msgid "'%s' does has not a preferences element as the root element."
+#~ msgstr "'%s' no té una estructura de preferències."
+
+#, fuzzy
+#~ msgid "'%s' is invalid"
+#~ msgstr "'%s' és invàlid"
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "'%s' és invàlid perquè la referència al teclat actual és incorrecta."
+
+#~ msgid ""
+#~ "Could not remove the plugin because the $HOME environment variable does "
+#~ "not exist."
+#~ msgstr ""
+#~ "No es pot eliminar el plugin perquè la variable d'entorn  $HOME no "
+#~ "existeix."

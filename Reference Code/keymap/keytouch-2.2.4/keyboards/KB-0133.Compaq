@@ -1,0 +1,80 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">08-02-2006</last-change>
+    <author>Marvin Raaijmakers</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Compaq</manufacturer>
+      <model>KB-0133</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>i</name>
+      <scancode>163</scancode>
+      <keycode>WWW</keycode>
+      <default-action>
+        keytouch
+      </default-action>
+    </key>
+    <key>
+      <name>Home</name>
+      <scancode>159</scancode>
+      <keycode>HOMEPAGE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Search</name>
+      <scancode>154</scancode>
+      <keycode>SEARCH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Search</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>E-mail</name>
+      <scancode>158</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Messenger</name>
+      <scancode>147</scancode>
+      <keycode>CHAT</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Chat</plugin-name>
+        <plugin-function>Chat</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Presentation</name>
+      <scancode>148</scancode>
+      <keycode>FRONT</keycode>
+      <default-action>ooimpress</default-action>
+    </key>
+    <key>
+      <name>Meeting</name>
+      <scancode>149</scancode>
+      <keycode>SENDFILE</keycode>
+      <default-action>gnomemeeting</default-action>
+    </key>
+    <key>
+      <name>News</name>
+      <scancode>155</scancode>
+      <keycode>MAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

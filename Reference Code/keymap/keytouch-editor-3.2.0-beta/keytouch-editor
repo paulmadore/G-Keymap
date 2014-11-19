@@ -1,0 +1,7 @@
+#! /bin/bash
+
+if [ `which gksu` ]; then
+	gksu -g -m "To use keytouch-editor you need to be root. Please enter root's password." "keytouch-editor-bin";
+else
+	kdesu -c "LANGUAGE=$LANGUAGE; keytouch-editor-bin";
+fi

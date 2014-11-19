@@ -1,0 +1,152 @@
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c main.c
+In file included from main.c:45:
+./keytouch.h:36:1: warning: "TRUE" redefined
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:30,
+                 from /usr/include/glib-2.0/glib/galloca.h:30,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/gtk-2.0/gdk/gdktypes.h:32,
+                 from /usr/include/gtk-2.0/gdk/gdkcolor.h:31,
+                 from /usr/include/gtk-2.0/gdk/gdkcairo.h:23,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:31,
+                 from main.c:39:
+/usr/include/glib-2.0/glib/gmacros.h:163:1: warning: this is the location of the previous definition
+In file included from main.c:45:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from main.c:45:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c support.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c interface.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c callbacks.c
+In file included from callbacks.c:46:
+./keytouch.h:36:1: warning: "TRUE" redefined
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:30,
+                 from /usr/include/glib-2.0/glib/galloca.h:30,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/gtk-2.0/gdk/gdktypes.h:32,
+                 from /usr/include/gtk-2.0/gdk/gdkcolor.h:31,
+                 from /usr/include/gtk-2.0/gdk/gdkcairo.h:23,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:31,
+                 from callbacks.c:40:
+/usr/include/glib-2.0/glib/gmacros.h:163:1: warning: this is the location of the previous definition
+In file included from callbacks.c:46:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from callbacks.c:46:
+../config.h:74:1: warning: this is the location of the previous definition
+callbacks.c:751:2: warning: no newline at end of file
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c config.c
+In file included from config.c:57:
+./keytouch.h:35:1: warning: "FALSE" redefined
+In file included from config.c:56:
+../../mxml/mxml.h:33:1: warning: this is the location of the previous definition
+In file included from config.c:57:
+./keytouch.h:36:1: warning: "TRUE" redefined
+In file included from config.c:56:
+../../mxml/mxml.h:32:1: warning: this is the location of the previous definition
+In file included from config.c:57:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from config.c:57:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c set_data.c
+In file included from set_data.c:47:
+./keytouch.h:36:1: warning: "TRUE" redefined
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:30,
+                 from /usr/include/glib-2.0/glib/galloca.h:30,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/gtk-2.0/gdk/gdktypes.h:32,
+                 from /usr/include/gtk-2.0/gdk/gdkcolor.h:31,
+                 from /usr/include/gtk-2.0/gdk/gdkcairo.h:23,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:31,
+                 from set_data.c:40:
+/usr/include/glib-2.0/glib/gmacros.h:163:1: warning: this is the location of the previous definition
+In file included from set_data.c:47:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from set_data.c:47:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c error.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c memory.c
+In file included from memory.c:31:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from memory.c:31:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c plugin_control.c
+In file included from plugin_control.c:36:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from plugin_control.c:36:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c key_settings.c
+In file included from key_settings.c:30:
+./keytouch.h:35:1: warning: "FALSE" redefined
+In file included from key_settings.c:29:
+../../mxml/mxml.h:33:1: warning: this is the location of the previous definition
+In file included from key_settings.c:30:
+./keytouch.h:36:1: warning: "TRUE" redefined
+In file included from key_settings.c:29:
+../../mxml/mxml.h:32:1: warning: this is the location of the previous definition
+In file included from key_settings.c:30:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from key_settings.c:30:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c plugin.c
+In file included from plugin.c:39:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from plugin.c:39:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c run_browser.c
+In file included from run_browser.c:35:
+./keytouch.h:36:1: warning: "TRUE" redefined
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:30,
+                 from /usr/include/glib-2.0/glib/galloca.h:30,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/gtk-2.0/gdk/gdktypes.h:32,
+                 from /usr/include/gtk-2.0/gdk/gdkcolor.h:31,
+                 from /usr/include/gtk-2.0/gdk/gdkcairo.h:23,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:31,
+                 from run_browser.c:31:
+/usr/include/glib-2.0/glib/gmacros.h:163:1: warning: this is the location of the previous definition
+In file included from run_browser.c:35:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from run_browser.c:35:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c check_desktop.c
+In file included from check_desktop.c:34:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from check_desktop.c:34:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -DSYSCONF_DIR=\""/usr/local/etc"\" 	-DPACKAGE_DATA_DIR=\""/usr/local/share"\" 	-DPACKAGE_LIB_DIR=\""/usr/local/lib"\" 	-DPACKAGE_LOCALE_DIR=\""/usr/local/share/locale"\" 	-I../../mxml 	-DXTHREADS -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gnome-menus   -DGMENU_I_KNOW_THIS_IS_UNSTABLE    -g -O2 -c application_dialog.c
+In file included from application_dialog.c:33:
+./keytouch.h:36:1: warning: "TRUE" redefined
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:30,
+                 from /usr/include/glib-2.0/glib/galloca.h:30,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/gtk-2.0/gdk/gdktypes.h:32,
+                 from /usr/include/gtk-2.0/gdk/gdkcolor.h:31,
+                 from /usr/include/gtk-2.0/gdk/gdkcairo.h:23,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:30,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:31,
+                 from application_dialog.c:28:
+/usr/include/glib-2.0/glib/gmacros.h:163:1: warning: this is the location of the previous definition
+In file included from application_dialog.c:33:
+./keytouch.h:73:1: warning: "VERSION" redefined
+In file included from ./keytouch.h:40,
+                 from application_dialog.c:33:
+../config.h:74:1: warning: this is the location of the previous definition
+gcc  -g -O2  -o keytouch  main.o support.o interface.o callbacks.o config.o set_data.o error.o memory.o plugin_control.o key_settings.o plugin.o run_browser.o check_desktop.o application_dialog.o ../../mxml/libmxml.a -L/usr/X11R6/lib -lgtk-x11-2.0 -lgdk-x11-2.0 -lXrandr -lXi -lXinerama -lXext -latk-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lfontconfig -lXcursor -lpango-1.0 -lcairo -lXrender -lX11 -lgobject-2.0 -lgmodule-2.0 -ldl -lgnome-menu -lglib-2.0    

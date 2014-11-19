@@ -1,0 +1,127 @@
+Version 2.2.4:
+- The "BASSBOOST" (kernel) keycode cannot be used anymore in keyboard files because it
+  does not work under X (means: no events are received from the X server when a key with
+  keycode BASSBOOST is pressed).
+* keytouch:
+ - Fixed annoying loop (asking the user to select a keyboard model) when the user does
+   not choose a keyboard file the first time.
+
+Version 2.2.3:
+keytouch-config:
+ - Fixed: [ 1584787 ] Posible failure when running on 64 archs.
+
+Version 2.2.2:
+* keytouch-acpid:
+ - Xsession script is now called 91keytouch-acpid_launch.
+ - Added support for ACPI hotkeys on IBM/Lenovo notebooks.
+* keytouch-keyboard:
+ - Modified check_syntax.c so that it also supports keyboard files containing ACPI hotkeys.
+* plugins:
+ - Amixer plugin: Added two new plugin functions "Volume increase 10%" and "Volume
+   decrease 10%"
+
+Version 2.2.1:
+ - Fixed lines in Xsession script for staring keytouch-acpid and keytouchd.
+ - Renamed keyboard file 'Digital Media Keyboard.Mircosoft' to 'Digital Media Keyboard.Microsoft'.
+
+Version 2.2.0:
+- 100 keyboard models are supported
+* keytouch-config:
+ - Updated documentation.
+ - Updated translations: Catalan, Irish, Vietnamese, Swedish
+* keytouch-keyboard:
+ - Updated translations: Catalan, Irish, Vietnamese, Swedish
+* plugins:
+ - Added Rhythmbox plugin
+ - Added Zoom plugin
+ - Lock Screen plugin: Added support for gnome-screensaver
+
+Version 2.2.0 beta 3:
+* keytouch-keyboard:
+ - Added error message for empty keycode elements.
+* plugins:
+ - Makefile.in: Added -lXtst option to compile line for the Scroll plugin
+
+Version 2.2.0 beta 2:
+* keytouch-config:
+ - Added Irish translation
+ - Improved error handling in config.c
+* keytouch-keyboard:
+ - Improved error handling
+ - The syntax of a keyboard file will now be checked before it is imported
+ - Added Irish translation
+* plugins:
+ - WWW Browser plugin: Added tab-handling functions
+
+Version 2.2.0 beta:
+* keytouch-config:
+ - Added application chooser that makes it very easy for the user to choose an application.
+ - Plugin information will be copied to the program's memory so that the plugins do not need to remain loaded.
+ - Improved the code.
+
+Version 2.1.4:
+* keytouch-config & keytouch-keyboard:
+ - Added German translation
+* keytouchd:
+ - The active keyboard grab is canceled before executing a plugin or program (the grab
+   is normally canceled when the grabbed extra function key is released). This makes
+   it possible that plugins can simulate key presses using XFakeKeyEvent().
+* plugins:
+ - Amixer plugin: The child process that creates and updates the volumebar will exit
+   when it receives a SIGINT, SIGQUIT or SIGTERM
+ - Common actions plugin: Added function "Close Window"
+ - New plugin: F-keys, emulates key presses of the keys F1-F12
+
+Version 2.1.3:
+* keytouch-keyboard:
+ - Fixed script keytouch-keyboard
+
+Version 2.1.2:
+- Will not give an error message when current_keyboard.xml does not exist
+* keytouch-config:
+ - Finally avoids bug on AMD64 while reading the home directory
+
+Version 2.1.1:
+- The plugins will be installed in de default directory for libraries
+
+Version 2.1.0:
+* keytouchd:
+ - Auto repeat mode is turned on for keys with keycode VOLUMEUP and VOLUMEDOWN.
+
+Version 2.1.0 beta 3:
+* keytouch-config:
+ - Added Catalan translation.
+* keytouch-keyboard:
+ - Added Catalan translation.
+ - Fixed segmentation fault (sorry for that)
+* plugins:
+ - Replaced aumix plugin by amixer plugin 2.0 with GUI
+
+Version 2.1.0 beta:
+* keytouch-config:
+  - Keytouch will now continue if the keyboard configuration file contains a key
+    that does not appear in the keyboard file.
+  - The key list will not be sorted anymore. The keys will appear in the order as
+    they appear in the keyboard file.
+  - Added Vietnamese, French, Dutch and Swedish translation.
+* keytouchd:
+  - Added signal handlers so that the program can be killed in a nice way.
+  - Fixed memory leak.
+* keytouch-init:
+  - acpi-hotkeys will be skipped while reading the configuration file.
+* keytouch-keyboard:
+  - Added Vietnamese, French, Dutch and Swedish translation.
+  - If writing current_keyboard.xml failed, 'keytouch-init' will not be executed
+    anymore.
+  - The user can only import a keyboard file that if the keyboard is not already in
+    the list, or if the "last-change" date of the keyboard file to import is later
+    than the date of the keyboard file that is already in the list.
+  - The program can only read keyboard file with "syntax-version" 1.0 or 1.1.
+  - If the keyboard file directory does not exist the program exits.
+* plugins:
+  - Added KDE Switch Desktop plugin.
+  - Added Scroll plugin
+  - WWW Browser plugin: Added function Stop
+  - Common actions plugin: Added functions Cut, Copy, Paste and Select All
+* mxml: Fixed small memory leak.
+* keytouch-acpid: This program was added to keyTouch to support ACPI hotkeys.

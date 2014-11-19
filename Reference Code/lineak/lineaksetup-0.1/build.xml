@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<project name="lineaksetup" default="all" basedir=".">
+
+    <property file=".properties" />
+
+    <property name="src" value="src" />
+    <property name="build" value="build" />
+    <property name="dist" value="dist" />
+    <property name="lib" value="lib" />
+    <property name="bin" value="bin" />
+    <property name="etc" value="etc" />
+    <property name="prefix" value="/usr/local" />
+    <property name="compiler" value="modern" />
+
+    <property name="build.compiler" value="${compiler}" />
+
+   
+    <target name="all" depends="compile,dist" description="Builds the Entire Application" />
+    
+    <target name="compile" description="Compiles the Source">
+	<fail message="You did not define 'swt'!!  Please see the INSTALL file for more information." unless="swt" />
+	<echo>Compiling the Source!!</echo>
+	<mkdir dir="${build}" />
+	<javac srcdir="${src}" destdir="${build}" classpath=".:${swt}" excludes="lineakcommands" />
+	<exec executable="./.set_properties">
+	    <arg line="swt ${swt}" />
+	</exec>
+    </target>
+
+    <target name="dist" depends="compile" description="Generates the Distribution">
+	<echo>Creating the Distribution!!</echo>
+	<mkdir dir="${dist}/${lib}" />
+	<mkdir dir="${dist}/${bin}" />
+	<mkdir dir="${dist}/${etc}" />
+
+	<jar jarfile="${dist}/${lib}/lineaksetup.jar" basedir="${build}" />
+	
+	<dirname property="lib.path" file="${dist}/${lib}/lineaksetup.jar" />
+	<echo file="${dist}/${bin}/lineaksetup" message="java -Djava.library.path=/usr/lib -cp $CLASSPATH:${swt}:${lib.path}/lineaksetup.jar org.cabhan.lineaksetup.Driver" />
+	<chmod file="${dist}/${bin}/lineaksetup" perm="+x" />
+	
+	<copy file="${src}/lineakcommands" tofile="${dist}/${etc}/lineakcommands" />
+    </target>
+
+    <target name="install" depends="dist" description="Installs the Distribution">
+	<echo>Installing the Distribution!!</echo>
+	<mkdir dir="${prefix}/share/lineaksetup/${lib}" />
+	<copy file="${dist}/${lib}/lineaksetup.jar" tofile="${prefix}/share/lineaksetup/${lib}/lineaksetup.jar" />
+	<mkdir dir="${prefix}/${bin}" />
+	<echo file="${prefix}/${bin}/lineaksetup" message="java -Djava.library.path=/usr/lib -cp $CLASSPATH:${swt}:${prefix}/share/lineaksetup/${lib}/lineaksetup.jar org.cabhan.lineaksetup.Driver" />
+	<chmod file="${prefix}/${bin}/lineaksetup" perm="+x" />
+	<exec executable="./.set_properties">
+	    <arg line="prefix ${prefix}" />
+	</exec>
+	<copy file="${dist}/${etc}/lineakcommands" tofile="/${etc}/lineakcommands" />
+    </target>
+
+    <target name="uninstall" description="Uninstalls the Distribution">
+	<echo>Uninstalling the Distribution!!</echo>
+	<echo level="debug">$prefix is currently ${prefix}</echo>
+	<delete dir="${prefix}/share/lineaksetup" />
+	<delete file="${prefix}/${bin}/lineaksetup" />
+    </target>
+
+    <target name="clean" description="Cleans Up the Files">
+	<echo>Cleaning Up!!</echo>
+	<delete dir="${build}" />
+	<delete dir="${dist}" />
+    </target>
+</project>

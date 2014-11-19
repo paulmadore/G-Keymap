@@ -1,0 +1,432 @@
+# translation of keytouch.po to Dutch
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rinse de Vries <rinsedevries@kde.nl>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:54+0200\n"
+"PO-Revision-Date: 2006-01-01 15:40+0100\n"
+"Last-Translator: Rinse de Vries <rinsedevries@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/main.c:66 src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Er kon geen geheugen worden gereserveerd."
+
+#: src/main.c:88
+msgid "No keyboard was specified, please select your keyboard."
+msgstr "Er is geen toetsenbord opgegeven. Selecteer uw toetsenbordmodel."
+
+#: src/main.c:95
+#, c-format
+msgid ""
+"%s\n"
+"Please select your keyboard model to solve this problem."
+msgstr ""
+"%s\n"
+"Selecteer het model van uw toetsenbord om dit probleem op te lossen."
+
+#: src/interface.c:186
+msgid "Keys:"
+msgstr "Toetsen:"
+
+#: src/interface.c:213
+msgid "Key:"
+msgstr "Toets:"
+
+#: src/interface.c:235
+msgid "_Default setting:"
+msgstr "Stan_daardinstelling:"
+
+#: src/interface.c:243
+msgid "_Program:"
+msgstr "_Programma:"
+
+#: src/interface.c:290
+msgid "Plugin:"
+msgstr "Plugin:"
+
+#: src/interface.c:297
+msgid "Function:"
+msgstr "Functie:"
+
+#: src/interface.c:304
+msgid "Sp_ecial action:"
+msgstr "Sp_eciale actie:"
+
+#: src/interface.c:322 src/interface.c:630 src/interface.c:644
+#: src/interface.c:658
+msgid "Ch_oose..."
+msgstr "_Kies..."
+
+#: src/interface.c:340
+msgid "Runs:"
+msgstr "Start:"
+
+#: src/interface.c:347
+msgid "Key settings"
+msgstr "Toetsinstellingen"
+
+#: src/interface.c:360
+msgid "Key _settings"
+msgstr "Toetsin_stellingen"
+
+#: src/interface.c:375
+msgid "Keyboard manufacturer:"
+msgstr "Fabrikant:"
+
+#: src/interface.c:382
+msgid "Keyboard model:"
+msgstr "Model:"
+
+#: src/interface.c:408
+msgid "Chang_e..."
+msgstr "Wijzig_en..."
+
+#: src/interface.c:422
+msgid "_Keyboard"
+msgstr "_Toetsenbord"
+
+#: src/interface.c:440
+msgid "Available plugins:"
+msgstr "Beschikbare plugins:"
+
+#: src/interface.c:478
+msgid "_Download..."
+msgstr "_Downloaden..."
+
+#: src/interface.c:499
+msgid "_Information..."
+msgstr "_Informatie..."
+
+#: src/interface.c:525
+msgid "_Import..."
+msgstr "_Importeren..."
+
+#: src/interface.c:529
+msgid "Special action plugins"
+msgstr "Plugins voor speciale acties"
+
+#: src/interface.c:544
+msgid "Documents directory:"
+msgstr "Documentenmap:"
+
+#: src/interface.c:552
+msgid "Home page:"
+msgstr "Website:"
+
+#: src/interface.c:559
+msgid "Search page:"
+msgstr "Zoekpagina:"
+
+#: src/interface.c:584
+msgid "User settings"
+msgstr "Gebruikersinstellingen"
+
+#: src/interface.c:599
+msgid "Internet browser:"
+msgstr "Internetbrowser:"
+
+#: src/interface.c:606
+msgid "E-mail program:"
+msgstr "E-mailprogramma:"
+
+#: src/interface.c:613
+msgid "Chat program:"
+msgstr "Chatprogramma:"
+
+#: src/interface.c:662
+msgid "External programs"
+msgstr "Externe programma's"
+
+#: src/interface.c:675
+msgid "Pre_ferences"
+msgstr "Voorke_uren"
+
+#: src/interface.c:695 src/interface.c:1075
+msgid "Version:"
+msgstr "Versie:"
+
+#: src/interface.c:702
+msgid "Developer:"
+msgstr "Ontwikkelaar:"
+
+#: src/interface.c:709 src/interface.c:1082
+msgid "License:"
+msgstr "Licentie:"
+
+#: src/interface.c:716
+msgid "Site:"
+msgstr "Site:"
+
+#: src/interface.c:723
+msgid "Contact:"
+msgstr "Contact:"
+
+#: src/interface.c:737
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/interface.c:744
+msgid "GPL 2 or higher"
+msgstr "GPL2 of nieuwer"
+
+#: src/interface.c:765
+msgid "About"
+msgstr "Info over"
+
+#: src/interface.c:788
+msgid "Help & A_bout"
+msgstr "Help & i_nformatie"
+
+#: src/interface.c:1040
+msgid "Plugin Information"
+msgstr "Plugininformatie"
+
+#: src/interface.c:1061
+msgid "Plugin name:"
+msgstr "Naam plugin:"
+
+#: src/interface.c:1068
+msgid "Author:"
+msgstr "Auteur:"
+
+#: src/interface.c:1089 src/interface.c:1096 src/interface.c:1103
+#: src/interface.c:1110 src/interface.c:1124
+msgid "-"
+msgstr "-"
+
+#: src/interface.c:1117
+msgid ""
+"-\n"
+"\n"
+msgstr ""
+"-\n"
+"\n"
+
+#: src/interface.c:1131
+msgid "Functions:"
+msgstr "Functies:"
+
+#: src/interface.c:1138
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: src/interface.c:1202
+msgid "Choose application"
+msgstr "Kies programma"
+
+#: src/interface.c:1219
+msgid "Select the application:"
+msgstr "Selecteer het programma:"
+
+#: src/interface.c:1238
+msgid "Application command:"
+msgstr "Programma commando:"
+
+#: src/callbacks.c:81
+msgid ""
+"To change the keyboard keyTouch has to be closed. After you changed the "
+"keyboard keyTouch will be started again."
+msgstr ""
+"Om het toetsenbord te wijzigen moet keyTouch zijn afgesloten. Nadat u het "
+"toetsenbord hebt gewijzigd zal keyTouch opnieuw worden gestart."
+
+#: src/callbacks.c:190
+#, c-format
+msgid "Do you really want to remove the plugin \"%s\"?"
+msgstr "Wilt u de plugin \"%s\" verwijderen?"
+
+#: src/callbacks.c:228
+msgid "Import plugin"
+msgstr "Plugin importeren"
+
+#: src/callbacks.c:368
+msgid "user_manual.html"
+msgstr "user_manual.html"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Afbeeldingsbestand %s is niet gevonden."
+
+#: src/config.c:156
+msgid "The keyboard (configuration) file contains an invalid action element."
+msgstr ""
+"Het toetsenbord-configuratiebestand bevat een ongeldig 'action'-element."
+
+#: src/config.c:167
+msgid ""
+"The keyboard (configuration) file contains an invalid action-type value."
+msgstr ""
+"Het toetsenbord-configuratiebestand bevat een ongeldige 'action-type'-waarde"
+
+#: src/config.c:227
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Het toetsenbordbestand bevat een onvolledig 'key'-element."
+
+#: src/config.c:307
+#, c-format
+msgid "The keyboard file '%s' does not exist."
+msgstr "Het toetsenbordbestand '%s' bestaat niet."
+
+#: src/config.c:312
+#, c-format
+msgid "You have no permissions to read from keyboard file '%s'."
+msgstr "U heeft geen rechten om het toetsenbordbestand '%s' te lezen."
+
+#: src/config.c:318
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "'%s' is een ongeldig toetsenbordbestand."
+
+#: src/config.c:327
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "Het toetsenbordbestand '%s' bevat geen 'keyboard'-element."
+
+#: src/config.c:334
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr "Het toetsenbordbestand '%s' bevat geen 'key-list'-element."
+
+#: src/config.c:341
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "Het toetsenbordbestand '%s' is ongeldig."
+
+#: src/config.c:473
+#, c-format
+msgid ""
+"The keyboard configuration file contains a key, named '%s', which does not "
+"appear in the keyboard file."
+msgstr ""
+"Het toetsenbord-configuratiebestand bevat een toets, genaamd '%s', die niet "
+"voor komt in het toetsenbordbestand."
+
+# changed occured -> occurred
+#: src/config.c:789
+#, c-format
+msgid "An error occurred while writing the preferences file \"%s\"."
+msgstr ""
+"Er deed zich een fout voor tijdens het schrijven naar het voorkeurenbestand "
+"\"%s\""
+
+# changed occured -> occurred
+#: src/config.c:1150
+#, c-format
+msgid "An error occurred while writing the keyboard configuration file \"%s\"."
+msgstr ""
+"Er deed zich een fout voor tijdens het schrijven van het toetsenbord-"
+"configuratiebestand \"%s\"."
+
+#: src/plugin.c:335
+#, c-format
+msgid ""
+"Plugin directory '%s' does not exist and creating the directory failed. This "
+"program will continue without loading the plugins in this directory."
+msgstr ""
+"De pluginmap '%s' bestaat niet, en het aanmaken ervan is mislukt. Het "
+"programma zal voortzetten zonder dat de plugins uit deze map zullen worden "
+"geladen."
+
+# changed "you have no permissions to" -> "you don't have permission to"
+#: src/plugin_control.c:61
+#, c-format
+msgid ""
+"Removing plugin \"%s\" failed. The reason for this is probably because this "
+"plugin is not located in your home directory and you don't have permission "
+"to remove a plugin in that is available for the whole system."
+msgstr ""
+"Het verwijderen van de plugin \"%s\" is mislukt. Mogelijk bevindt de plugin "
+"zich niet in uw persoonlijke map en hebt u geen toegangsrechten om "
+"systeemwijde plugins te verwijderen."
+
+#: src/plugin_control.c:110
+#, c-format
+msgid "Failed to open \"%s\", because it is an invalid plugin."
+msgstr "\"%s\" kon niet worden geopend, omdat het geen geldige plugin is."
+
+#: src/plugin_control.c:114
+#, c-format
+msgid "The plugin \"%s\" is already in the list."
+msgstr "De plugin \"%s\" staat al in de lijst."
+
+#: src/plugin_control.c:134
+#, c-format
+msgid "Failed to copy the plugin to \"%s\"."
+msgstr "Het kopiëren van de plugin naar \"%s\" is mislukt."
+
+#: src/plugin_control.c:140
+#, c-format
+msgid "Failed to open \"%s\". Check if you are permitted to read this file."
+msgstr ""
+"\"%s\" kon niet worden geopend. Controleer of u leesrechten voor dit bestand "
+"hebt."
+
+# changed "at the preferences tab" -> "in the preferences tab"
+#. Inform the user about this
+#: src/run_browser.c:74
+msgid ""
+"Because you did not set your browser in the preferences tab and because "
+"keyTouch could not identify your desktop environment, keyTouch will try to "
+"run 'firefox'.\n"
+"Please set your browser in the preferences tab."
+msgstr ""
+"Omdat u geen browser hebt opgegeven bij tabblad 'Voorkeuren', en omdat key "
+"Touch uw desktop environment niet kon bepalen zal key Touch proberen om "
+"'firefox' uit te voeren.\n"
+"Geef een browser op bij tabblad 'Voorkeuren'."
+
+#~ msgid "The keyboard configuration file contains an incomplete key element."
+#~ msgstr ""
+#~ "Het toetsenbord-configuratiebestand bevat een onvolledig 'key'-element."
+
+#~ msgid "The keyboard configuration file does not contain a keyboard element."
+#~ msgstr "Het toetsenbord-configuratiebestand bevat geen 'keyboard'-element."
+
+#~ msgid "The keyboard configuration file does not contain a key-list element."
+#~ msgstr "Het toetsenbord-configuratiebestand bevat geen 'key-list'-element."
+
+#~ msgid "The keyboard configuration file is invalid."
+#~ msgstr "Het toetsenbord-configuratiebestand is ongeldig."
+
+#~ msgid "'%s' is an invalid preferences configuration file."
+#~ msgstr "'%s' is een ongeldig voorkeuren-configuratiebestand."
+
+#~ msgid "'%s' does has not a preferences element as the root element."
+#~ msgstr "'%s' heeft geen 'preferences'-element als hoofdelement."
+
+#~ msgid "'%s' is invalid"
+#~ msgstr "'%s' is ongeldig"
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "'%s' is ongeldig omdat het geen 'current-keyboard'-element als "
+#~ "hoofdelement bevat."
+
+#~ msgid ""
+#~ "Could not remove the plugin because the $HOME environment variable does "
+#~ "not exist."
+#~ msgstr ""
+#~ "De plugin kon niet worden verwijderd: de omgevingsvariabele $HOME bestaat "
+#~ "niet."
+
+#~ msgid "keyTouch 2.0"
+#~ msgstr "keyTouch 2.0"
+
+#~ msgid "marvinr@users.sf.net"
+#~ msgstr "marvinr@users.sf.net"
+
+#~ msgid "Marvin Raaijmakers"
+#~ msgstr "Marvin Raaijmakers"

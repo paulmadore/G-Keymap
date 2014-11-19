@@ -1,0 +1,11 @@
+#! /bin/bash
+
+if [ `which gksu` ]; then
+	gksu -g -m "To change the keyboard you need to be root. Please enter root's password." "keytouch-keyboard-bin";
+else
+	kdesu -c "keytouch-keyboard-bin";
+fi
+
+if [ "$1" = "--restart-keytouch" ]; then
+	keytouch
+fi

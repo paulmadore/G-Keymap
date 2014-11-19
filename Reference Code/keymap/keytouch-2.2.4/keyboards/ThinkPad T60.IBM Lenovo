@@ -1,0 +1,123 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">28-09-2006</last-change>
+    <author>Marvin Raaijmakers</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>IBM Lenovo</manufacturer>
+      <model>ThinkPad T60</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Mute</name>
+      <scancode>0</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>0</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease 10%</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>0</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase 10%</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>ThinkVantage</name>
+      <scancode>0</scancode>
+      <keycode>PROG1</keycode>
+      <default-action>keytouch</default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Lock</name>
+      <event-descr>ibm/hotkey HKEY 00000080 00001002</event-descr>
+      <keycode>SAVE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Battery</name>
+      <event-descr>ibm/hotkey HKEY 00000080 00001003</event-descr>
+      <keycode>POWER</keycode>
+      <default-action></default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Sleep</name>
+      <event-descr>ibm/hotkey HKEY 00000080 00001004</event-descr>
+      <keycode>SLEEP</keycode>
+      <default-action>hibernate</default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>WLAN</name>
+      <event-descr>ibm/hotkey HKEY 00000080 00001005</event-descr>
+      <keycode>CONNECT</keycode>
+      <default-action></default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Switch Mouse</name>
+      <event-descr>ibm/hotkey HKEY 00000080 00001008</event-descr>
+      <keycode>DIRECTION</keycode>
+      <default-action></default-action>
+    </key>
+    <key key-type="acpi-hotkey">
+      <name>Eject</name>
+      <event-descr>ibm/hotkey HKEY 00000080 00001009</event-descr>
+      <keycode>EJECTCD</keycode>
+      <default-action>eject</default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>164</scancode>
+      <keycode>STOPCD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Previous song</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Next song</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

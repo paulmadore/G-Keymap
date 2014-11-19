@@ -1,0 +1,183 @@
+; AudioBack
+xmms -r
+Go Back a Song in XMMS
+beep-media-player -r
+Go Back a Song in BMP
+EAK_MEDIADETECT(PREVIOUS)
+Go Back a Song in the In-Use Media Player
+
+; WWW Internet Homepage
+firefox
+Open Mozilla Firefox
+mozilla
+Open the Mozilla Web Browser
+konqueror
+Open Konqueror (KDE Web Browser)
+epiphany
+Open Epiphany (GNOME Web Browser)
+
+; Mail Email
+evolution
+Open Evolution (GNOME E-Mail Client)
+thunderbird
+Open Mozilla Thunderbird
+kmail
+Open KMail (KDE E-Mail Client)
+
+; AudioMute Mute
+EAK_MUTE
+LinEAK "Mute" macro
+KMIX_MUTE
+Mute KMix
+
+; MyComputer Home Computer FileManager
+konqueror ~/
+Open Konqueror to the Home Directory (KDE)
+rox ~/
+Open Rox to the Home Directory
+nautilus ~/
+Open Nautilus to the Home Directory (Gnome)
+xffm ~/
+Open xffm to the Home Directory (Xfce)
+
+; AudioNext Next
+xmms -f
+Go Forward a Song in XMMS
+beep-media-player -f
+Go Forward a Song in BMP
+EAK_MEDIADETECT(NEXT)
+Go Forward a Song in the In-Use Media Player
+
+; AudioPlay Play
+xmms -p
+Play Song in XMMS
+xmms -t
+Toggle Play/Pause in XMMS
+beep-media-player -p
+Play Song in BMP
+beep-media-player -t
+Toggle Play/Pause in BMP
+EAK_MEDIADETECT(PLAY)
+Play a Song in the In-Use Media Player
+EAK_MEDIADETECT(PLAYPAUSE)
+Toggle Play/Pause for the In-Use Media Player
+
+; AudioPause Pause
+xmms -u
+Pause Song in XMMS
+xmms -t
+Toggle Play/Pause in XMMS
+beep-media-player -u
+Pause Song in BMP
+beep-media-player -t
+Toggle Play/Pause in BMP
+EAK_MEDIADETECT(PAUSE)
+Pause the In-Use Media Player
+EAK_MEDIADETECT(PLAYPAUSE)
+Toggle Play/Pause for the In-Use Media Player
+
+; AudioPrev Previous
+xmms -r
+Go Back a Song in XMMS
+beep-media-player -r
+Go Back a Song in BMP
+EAK_MEDIADETECT(PREVIOUS)
+Go Back a Song in the In-Use Media Player
+
+; Search
+kfind
+Execute the KDE Search Utility
+gnome-search-tool
+Open the Gnome Search Utility
+
+; AudioStop Stop
+xmms -s
+Stop Song in XMMS
+beep-media-player -s
+Stop Song in BMP
+EAK_MEDIADETECT(STOP)
+Stop the In-Use Media Player
+
+; AudioLowerVolume VolumeDown
+EAK_VOLDOWN
+LinEAK "Lower Volume" Macro
+
+; AudioRaiseVolume VolumeUp
+EAK_VOLUP
+LinEAK "Raise Volume" Macro
+
+; WebBack
+KONQUEROR_BACK
+Go Back a Page in Konqueror's History
+
+; Forward WebForward
+KONQUEROR_FORWARD
+Advance a Page in Konqueror's History
+
+; Refresh WebRefresh WebReload
+KONQUEROR_REFRESH
+Refresh Current Page in Konqueror
+
+; Calculator Calc
+kcalc
+Execute the KDE Calculator
+gcalctool
+Open the Gnome Calculator
+
+; Sleep Standby
+xlock
+Execute the X Screensaver
+KDE_LOCK_DESKTOP
+Lock the KDE Desktop
+
+; Shell Terminal
+Konsole
+Open KDE's Konsole
+xterm
+Open an xterm
+aterm
+Open an aterm
+Eterm
+Open an Eterm
+gnome-terminal
+Open the Gnome Terminal
+xfterm4
+Open the Xfce4 Terminal
+
+; Eject MediaEject Close
+EAK_OPEN_TRAY
+Open the CD Tray
+EAK_CLOSE_TRAY
+Close the CD Tray
+
+; Documents Word WordProcessor Wordprocessor MyDocs
+oowriter
+Open OpenOffice.org Writer (1.x Series)
+oowriter2
+Open OpenOffice.org Writer (2.x Series)
+kate
+Open KDE's Kate Text Editor
+gedit
+Open GNOME's GEdit Text Editor
+abiword
+Open AbiWord
+
+; Favorites Favourites
+KONQUEROR_BOOKMARK
+Bookmark the Current Page in Konqueror
+
+; Messenger
+gaim
+Open the Gaim Instant Messenger
+kopete
+Open the Kopete Instant Messenger
+
+; Back
+xmms -r
+Go Back a Song in XMMS
+beep-media-player -r
+Go Back a Song in BMP
+EAK_MEDIADETECT(PREVIOUS)
+Go Back a Song in the In-Use Media Player
+KONQUEROR_BACK
+Go Back a Page in Konqueror's History

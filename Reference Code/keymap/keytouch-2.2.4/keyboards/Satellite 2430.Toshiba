@@ -1,0 +1,150 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.1</syntax-version>
+    <last-change format="%d-%m-%Y">01-08-2006</last-change>
+    <author>Christian Banik</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Toshiba</manufacturer>
+      <model>Satellite 2430</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>Fn-Esc</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Fn-F1</name>
+      <scancode>238</scancode>
+      <keycode>PROG1</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Fn-F3</name>
+      <scancode>151</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Fn-F4</name>
+      <scancode>152</scancode>
+      <keycode>SUSPEND</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Fn-F6</name>
+      <scancode>239</scancode>
+      <keycode>BRIGHTNESSDOWN</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Fn-F7</name>
+      <scancode>217</scancode>
+      <keycode>BRIGHTNESSUP</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Fn-F8</name>
+      <scancode>150</scancode>
+      <keycode>PROG2</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Fn-F9</name>
+      <scancode>159</scancode>
+      <keycode>PROG3</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Fn-F11</name>
+      <scancode>69</scancode>
+      <keycode>PROG4</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Fn-F12</name>
+      <scancode>70</scancode>
+      <keycode>PROPS</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Windows</name>
+      <scancode>219</scancode>
+      <keycode>MENU</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Context</name>
+      <scancode>221</scancode>
+      <keycode>COFFEE</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>WWW</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Information</name>
+      <scancode>236</scancode>
+      <keycode>HELP</keycode>
+      <default-action>khelpcenter || gnome-help</default-action>
+    </key>
+    <key>
+      <name>Mode</name>
+      <scancode>237</scancode>
+      <keycode>MOVE</keycode>
+      <default-action></default-action>
+    </key>
+    <key>
+      <name>Previous</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Next</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>164</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

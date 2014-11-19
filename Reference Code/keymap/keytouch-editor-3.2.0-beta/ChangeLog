@@ -1,0 +1,28 @@
+Version 3.1.2:
+- Compiler warning fixes
+
+Version 3.1.1:
+- The "BASSBOOST" (kernel) keycode cannot be used anymore in keyboard files because it
+  does not work under X (means: no events are received from the X server when a key with
+  keycode BASSBOOST is pressed).
+- Updated Swedish and Irish translation.
+- Improved GUI: Moved "OK" button, of the keyboard selection dialog, from the left side of the "Cancel" button to the right side.
+
+Version 3.1.0 beta:
+- Added support for ACPI hotkeys
+
+Version 3.0.0 beta 4:
+- After a keyboard file is saved, its syntax will be checked and if it is incorrect
+  the user will be informed about it.
+- Added Irish translation.
+- Added Swedish translation.
+
+Version 3.0.0 beta 3:
+- Fixed: Application will not exit anymore when sending a keyboard file failed.
+- User will now be asked if if he/she wants to overwrite a file.
+- Added German translation.
+
+Version 3.0.0 beta 2:
+- Support for USB keyboards
+- A name will be suggested for keys with a known keycode.
+- A default action will automaticly be filled in for keys with a known keycode.

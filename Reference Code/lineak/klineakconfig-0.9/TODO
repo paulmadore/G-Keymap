@@ -1,0 +1,10 @@
+Better KDE integration.
+
+Make a user defined keyboard the default.
+
+The program does not track the picture for a user defined keyboard if the program is restarted. It should pick it up in the main dialog, but will not contribute it.
+
+In the future...
+	possibly make into a kcontrol module.
+    possibly make into a KDE service started in the background on login.
+    add arts support to lineakd

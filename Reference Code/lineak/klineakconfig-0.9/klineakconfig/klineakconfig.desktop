@@ -1,0 +1,12 @@
+# KDE Config File  
+[Desktop Entry]
+Type=Application
+Exec=klineakconfig -caption "%c" %i %m  
+Icon=klineakconfig.png
+MiniIcon=klineakconfig.png
+DocPath=klineakconfig/index.html
+Comment=KDE Configuration program for LinEAK 0.2
+Comment[de]=
+Terminal=0
+Name=KlineakConfig
+Name[de]=KlineakConfig

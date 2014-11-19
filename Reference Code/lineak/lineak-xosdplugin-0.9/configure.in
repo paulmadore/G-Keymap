@@ -1,0 +1,99 @@
+dnl =======================================================
+dnl FILE: configure.in.in
+dnl =======================================================
+
+AC_INIT(acinclude.m4) dnl a source file from your sub dir
+
+dnl This is so we can use kde-common
+AC_CONFIG_AUX_DIR(admin)
+
+dnl This ksh/zsh feature conflicts with `cd blah ; pwd`
+unset CDPATH
+
+dnl Checking host/target/build systems, for make, install etc.
+AC_CANONICAL_SYSTEM
+dnl Perform program name transformation
+AC_ARG_PROGRAM
+
+AM_INIT_AUTOMAKE(lineak_xosdplugin,0.9)
+
+AC_PREFIX_DEFAULT(/usr)
+
+if test "x$prefix" = "xNONE"; then
+  prefix=$ac_default_prefix
+  ac_configure_args="$ac_configure_args --prefix $prefix"
+fi
+
+AM_CONFIG_HEADER(config.h)
+AC_CHECK_COMPILERS
+AC_ENABLE_SHARED(yes)
+AC_ENABLE_STATIC(no)
+
+KDE_PROG_LIBTOOL
+all_libraries="$all_libraries $USER_LDFLAGS"
+all_includes="$all_includes $USER_INCLUDES"
+AC_SUBST(all_includes)
+AC_SUBST(all_libraries)
+
+AC_SUBST(AUTODIRS)
+
+AC_LINEAK_CHECK_INCLUDES
+AC_LINEAK_CHECK_LIBS
+AC_LINEAK_FIND_PLUGINDIR
+
+AC_CHECK_HEADERS(xosd.h)
+dnl Check for xosd-config
+AC_PATH_PROG(xosd_config_script, xosd-config, "none")
+	if test "x$xosd_config_script" = "xnone" ; then
+		AC_MSG_RESULT(no)
+		echo "*** xosd-config script not found!  Do you have xosd-dev"
+		echo "*** installed??"
+		AC_MSG_ERROR(xsod-config not found)
+		exit 1
+	else
+		AC_MSG_RESULT(yes)
+		dnl AC_MSG_RESULT($xosd_config_script)
+		XOSD_CFLAGS=`$xosd_config_script --cflags 2>/dev/null`
+		XOSD_LIBS=`$xosd_config_script --libs 2>/dev/null`
+		dnl Replace `main' with a function in -lxosd:
+		AC_CHECK_LIB(xosd, main)
+		AC_SUBST(XOSD_CFLAGS)
+		AC_SUBST(XOSD_LIBS)
+		dnl AC_DEFINE(HAVE_XOSD, 1, [Define whether or not to use xosd])
+	fi
+
+KDE_CREATE_SUBDIRSLIST
+AC_CONFIG_FILES([ Makefile ])
+AC_CONFIG_FILES([ po/Makefile ])
+AC_CONFIG_FILES([ xosd_plugin/Makefile ])
+AC_OUTPUT
+# Check if KDE_SET_PREFIX was called, and --prefix was passed to configure
+if test -n "$kde_libs_prefix" -a -n "$given_prefix"; then
+  # And if so, warn when they don't match
+  if test "$kde_libs_prefix" != "$given_prefix"; then
+    # And if kde doesn't know about the prefix yet
+    echo ":"`kde-config --path exe`":" | grep ":$given_prefix/bin/:" 2>&1 >/dev/null
+    if test $? -ne 0; then
+      echo ""
+      echo "Warning: you chose to install this package in $given_prefix,"
+      echo "but KDE was found in $kde_libs_prefix."
+      echo "For this to work, you will need to tell KDE about the new prefix, by ensuring"
+      echo "that KDEDIRS contains it, e.g. export KDEDIRS=$given_prefix:$kde_libs_prefix"
+      echo "Then restart KDE."
+      echo ""
+    fi
+  fi
+fi
+
+if test "$all_tests" = "bad"; then
+  if test ! "$cache_file" = "/dev/null"; then
+    echo ""
+    echo "Please remove the file $cache_file after changing your setup"
+    echo "so that configure will find the changes next time."
+    echo ""
+  fi
+else
+  echo ""
+  echo "Good - your configure finished. Start make now"
+  echo ""
+fi

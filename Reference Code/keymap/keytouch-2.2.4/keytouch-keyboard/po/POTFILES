@@ -1,0 +1,9 @@
+	../src/main.c \
+	../src/interface.c \
+	../src/callbacks.c \
+	../src/support.c \
+	../src/config.c \
+	../src/keyboard.c \
+	../src/set_data.c \
+	../src/memory.c \
+	../src/check_syntax.c

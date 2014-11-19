@@ -1,0 +1,212 @@
+# Irish translations for keytouch-keyboard-bin.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the keytouch-keyboard-bin package.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch-keyboard-bin 2.2-b3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:55+0200\n"
+"PO-Revision-Date: 2006-07-16 16:17-0500\n"
+"Last-Translator: Kevin Patrick Scannell <scannell@SLU.EDU>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:59
+msgid "keyTouch - change keyboard"
+msgstr "keyTouch - athraigh an méarchlár"
+
+#: src/interface.c:89
+msgid "Manufacturer:"
+msgstr "Déantóir:"
+
+#: src/interface.c:96
+msgid "Model:"
+msgstr "Samhail:"
+
+#: src/interface.c:117
+msgid "Current keyboard"
+msgstr "An méarchlár reatha"
+
+#: src/interface.c:164
+msgid "_Import..."
+msgstr "_Iompórtáil..."
+
+#: src/interface.c:168
+msgid "Available keyboards"
+msgstr "Méarchláir le fáil"
+
+#: src/callbacks.c:54
+msgid "Import keyboard"
+msgstr "Iompórtáil méarchlár"
+
+#: src/callbacks.c:65
+#, c-format
+msgid ""
+"Cannot import '%s', because a newer version of the keyboard file has already "
+"been installed."
+msgstr ""
+"Ní féidir '%s' a iompórtáil, toisc go bhfuil leagan níos nuaí den chomhad "
+"méarchláir suiteáilte."
+
+#: src/callbacks.c:80
+#, c-format
+msgid ""
+"The keyboard file could not be imported because it is invalid:\n"
+"%s"
+msgstr ""
+"Níorbh fhéidir an comhad méarchláir a iompórtáil toisc go bhfuil sé "
+"neamhbhailí:\n"
+"%s"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Níorbh fhéidir mapa picteilíní a aimsiú: %s"
+
+#: src/config.c:180
+#, c-format
+msgid ""
+"An error occurred while saving the configuration. Check your permissions for "
+"the file \"%s\"."
+msgstr ""
+"Tharla earráid agus an chumraíocht á sábháil. Féach an bhfuil an cead cuí "
+"agat chun \"%s\" a scríobh."
+
+#: src/config.c:327
+#, c-format
+msgid "'%s' is a directory."
+msgstr "Is comhadlann é '%s'."
+
+#: src/config.c:333
+#, c-format
+msgid "'%s' is not a valid XML document."
+msgstr "Ní comhad bailí XML é \"%s\"."
+
+#: src/config.c:410
+#, c-format
+msgid ""
+"The keyboard file directory '%s' does not exist and could not be created, so "
+"this program cannot continue."
+msgstr ""
+"Níl comhadlann mhéarchláir '%s' ann agus níorbh fhéidir é a chruthú.  Ní "
+"féidir dul ar aghaidh dá bharr sin."
+
+#: src/keyboard.c:207
+#, c-format
+msgid "Failed to open the keyboard file \"%s\" for reading."
+msgstr "Ní féidir comhad méarchlár \"%s\" a oscailt chun é a léamh."
+
+#: src/keyboard.c:213
+#, c-format
+msgid ""
+"Failed to copy the keyboard file to the keyboard file directory (%s). Check "
+"your permissions for this directory."
+msgstr ""
+"Theip ar chóipeáil an chomhaid méarchláir go dtí an chomhadlann mhéarchláir "
+"(%s). Féach an bhfuil cead scríofa agat sa chomhadlann seo."
+
+#. *********** Create the view ***********
+#: src/set_data.c:314
+msgid "Manufacturer"
+msgstr "Déantóir"
+
+#: src/set_data.c:315
+msgid "Model"
+msgstr "Samhail"
+
+#: src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Níorbh fhéidir cuimhne a dháileadh."
+
+#: src/check_syntax.c:98
+msgid ""
+"The keyboard file contains an invalid action element (where the action is a "
+"plugin)."
+msgstr ""
+"Tá eilimint neamhbhailí ghnímh sa chomhad méarchláir (agus is breiseán é an "
+"gníomh seo)."
+
+#: src/check_syntax.c:106
+#, c-format
+msgid "The keyboard file contains the invalid action-type value '%s'."
+msgstr "Tá luach neamhbhailí ghnímh '%s' sa chomhad méarchláir."
+
+#: src/check_syntax.c:197
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Tá eilimint neamhiomlán eochrach sa chomhad méarchláir."
+
+#: src/check_syntax.c:205
+msgid "The keyboard file contains an empty key-name element."
+msgstr "Tá eilimint fholamh ainm eochrach sa chomhad méarchláir."
+
+#: src/check_syntax.c:214
+#, c-format
+msgid "The keyboard file contains more than once a key named '%s'."
+msgstr "Tá níos mó ná aon eochair amháin darb ainm '%s' sa chomhad méarchláir."
+
+#: src/check_syntax.c:235
+#, c-format
+msgid "'%s' is an invalid scancode."
+msgstr "Is scanchód neamhbhailí é '%s'"
+
+#: src/check_syntax.c:250
+#, c-format
+msgid "Keycode %s is used more than once."
+msgstr "Cód eochrach `%s' in úsáid níos mó ná uair amháin."
+
+#: src/check_syntax.c:262
+msgid "The keyboard file contains an empty keycode."
+msgstr "Tá cód folamh eochrach sa chomhad méarchláir."
+
+#: src/check_syntax.c:266
+#, c-format
+msgid "'%s' is an invalid keycode."
+msgstr "Is cód neamhbhailí eochrach é '%s'."
+
+#: src/check_syntax.c:332
+#, c-format
+msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
+msgstr "Ní dáta bailí é an dáta athraithe \"%s\" sa chomhad méarchláir."
+
+#: src/check_syntax.c:438
+msgid "The keyboard file does not contain a keyboard element."
+msgstr "Níl eilimint mhéarchláir sa chomhad méarchláir."
+
+#: src/check_syntax.c:452
+msgid ""
+"The keyboard file does provide enough information about the keyboard model."
+msgstr "Níl go leor eolais faoin mhód méarchláir sa chomhad méarchláir."
+
+#: src/check_syntax.c:459
+msgid "The keyboard file does not contain a key-list element."
+msgstr "Níl eilimint eochairliosta sa chomhad méarchláir."
+
+#: src/check_syntax.c:466
+#, c-format
+msgid ""
+"The \"keyboard\" element in the keyboard file does not contain a %s element."
+msgstr "Níl eilimint %s san eilimint \"keyboard\" sa chomhad méarchláir."
+
+#: src/check_syntax.c:471
+msgid ""
+"The syntax version of the keyboard file is not compatible with this version "
+"of keyTouch."
+msgstr ""
+"Níl an leagan comhréire seo den chomhad méarchláir comhoiriúnach leis an "
+"leagan seo de keyTouch."
+
+#: src/check_syntax.c:481 src/check_syntax.c:486 src/check_syntax.c:491
+#: src/check_syntax.c:496
+#, c-format
+msgid "The keyboard file does not contain any %s element."
+msgstr "Níl aon eilimint %s sa chomhad méarchláir."
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "Is neamhbhailí é '%s' toisc nach bhfuil eilimint 'current-keyboard' mar "
+#~ "fhréamheilimint aige"

@@ -1,0 +1,420 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>KlineakConfigUI</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>KlineakConfigUI</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>649</width>
+            <height>406</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>5</hsizetype>
+            <vsizetype>5</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="caption">
+        <string>Lineak Configuration</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QGroupBox" row="0" column="0">
+            <property name="name">
+                <cstring>GroupBox1</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>7</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="title">
+                <string>Keyboard Settings</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QComboBox" row="1" column="2" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>cbKeyboard</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>1</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>280</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="currentItem">
+                        <number>0</number>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Pick your model of keyboard.</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>TextLabel2_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Keyboard Brand:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="2" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>TextLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Keyboard type:</string>
+                    </property>
+                </widget>
+                <widget class="KPushButton" row="2" column="3">
+                    <property name="name">
+                        <cstring>btnAdvancedConfigOptions</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>1</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Advanced Configuration Options</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+A</string>
+                    </property>
+                </widget>
+                <widget class="KPushButton" row="2" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>btnCreateCustomKeyboard</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>1</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>Create Custom Keyboard</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="2">
+                    <property name="name">
+                        <cstring>btnAdvancedKeyOptions</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="text">
+                        <string>Advanced Key Options</string>
+                    </property>
+                    <property name="accel">
+                        <string></string>
+                    </property>
+                </widget>
+                <spacer row="1" column="1">
+                    <property name="name">
+                        <cstring>Spacer26</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>MinimumExpanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QComboBox" row="1" column="0">
+                    <property name="name">
+                        <cstring>cbKeyboardBrand</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>1</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="currentItem">
+                        <number>0</number>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Your brand of keyboard</string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QLayoutWidget" row="2" column="0">
+            <property name="name">
+                <cstring>Layout50</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnApply</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Appl&amp;y</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btnCancel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QGroupBox" row="1" column="0">
+            <property name="name">
+                <cstring>GroupBox2</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>3</vsizetype>
+                    <horstretch>1</horstretch>
+                    <verstretch>1</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="title">
+                <string>Keyboard settings</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>Layout37</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>6</number>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>TextLabel3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Key Mappings:</string>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer21</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </hbox>
+                </widget>
+                <widget class="QListView" row="1" column="0" rowspan="1" colspan="3">
+                    <column>
+                        <property name="text">
+                            <string>Key</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>true</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Display Name</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>true</bool>
+                        </property>
+                    </column>
+                    <property name="name">
+                        <cstring>lstAvailableKeys</cstring>
+                    </property>
+                    <property name="selectionMode">
+                        <enum>Single</enum>
+                    </property>
+                    <property name="resizeMode">
+                        <enum>LastColumn</enum>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="693">89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff610000027c49444154388d7592316814411885bf0b2bccc20a3370c22e28b870852b0ac9617347842428982d0fac4c6d63256a255662a956690cc142ad2429249c852836b711e1a260c881882b2ade15811df070065c188bf3f43cf06f7e66e6cd9bf7e67f95eeeb2e948007b6b4084f509fadbb8dc71bb45fb689c398d6720bebd9caf87c125fe9641d8427fe5cb6a5257b96b96b376f0020a5209211d76f5c274992ca244e788299c90525341b4db7bdbb4de3d81cc283743ea5b0059b0f36a99fa8bb69bc37cd688ca131db60507d43ba28e85b68369ae4bdfc1f9be3ee8d99c69bbeefa3bc9c0b67db4447238aa1e6ea9d3e8516987dc3347ec696f61f66630cc53022eb2fb1b32dc8758be6e92be0c1eafd55a6f1dea49cfa6cddadafad13cf25a40b57b0d6a222455218da4fb7b975f7360f93c4a95055c64a66263d3d5a7bc4eada2ae9fc127e002a521863a0b42c2d37a0b4ac5c5c018b1b2ba1fbba4b37ebe29c738b6716ddd6e696fb5fb5ceb75c580d5d7a2e75ee87739dacf3f70fd6efada3024573a109307a79aa1aa71a68abc95e65ec7ddafb9b83a496b89d976de223214a29f8097ee9c377c08029461d4030f2eee38f72a0aaca0d06032e5dbe841f84e4bd3da450e8fd3ed253685b20846020200a14164b6b39050c492d711e43d87997210e08e29a44090525f4b526fbf286e850487c3846068aa5b3299d93cfc9bfe4186db14253f9f6fea31381c45a4da10b7a1f7ac4618c0a25a18c46732f217b9b11c9082525e1e1183dd4484f50e93cd972fdef03a2832185d5a84022ab0a2523f2dd1d1093d9b7f07be43250f47441e5dbe78fce0e0dc2f31181a03fc8395e9b231fe4087c8414e8af05a2ea233d49ef6b8fa496a0879617fbf00bc5526e5d57691d0a0000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>btnApply</sender>
+        <signal>clicked()</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>onApplyButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>cbKeyboard</sender>
+        <signal>activated(const QString&amp;)</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>updateAvailableKeys(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>cbKeyboardBrand</sender>
+        <signal>activated(const QString&amp;)</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>updateKeyboardModels(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>btnCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>slotToggleApp()</slot>
+    </connection>
+    <connection>
+        <sender>btnAdvancedConfigOptions</sender>
+        <signal>clicked()</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>onAdvancedConfigOptionsButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>btnCreateCustomKeyboard</sender>
+        <signal>clicked()</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>lineakDefStart()</slot>
+    </connection>
+    <connection>
+        <sender>lstAvailableKeys</sender>
+        <signal>clicked(QListViewItem*)</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>onKeyListSelect(QListViewItem*)</slot>
+    </connection>
+    <connection>
+        <sender>btnAdvancedKeyOptions</sender>
+        <signal>clicked()</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>onAdvancedKeyOptionsButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>lstAvailableKeys</sender>
+        <signal>doubleClicked(QListViewItem*)</signal>
+        <receiver>KlineakConfigUI</receiver>
+        <slot>onAdvancedKeyOptionsButtonClicked()</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>slotToggleApp()</slot>
+    <slot returnType="bool">onApplyButtonClicked()</slot>
+    <slot>onOKButtonClicked()</slot>
+    <slot>quit()</slot>
+    <slot>updateAvailableKeys(const QString&amp;)</slot>
+    <slot>updateKeyboardModels(const QString&amp;)</slot>
+    <slot>updateKeyList()</slot>
+    <slot>updateKeyList(const QString &amp;)</slot>
+    <slot>updateKeyList(int)</slot>
+    <slot>onAdvancedConfigOptionsButtonClicked()</slot>
+    <slot>onCreateCustomKeyboardButtonClicked()</slot>
+    <slot>onAdvancedKeyOptionsButtonClicked()</slot>
+    <slot returnType="bool">lineakDefStart()</slot>
+    <slot>onKeyListSelect(QListViewItem*)</slot>
+    <slot>onToggleClicked(bool)</slot>
+    <slot>updateDisplayName(const QString&amp;)</slot>
+    <slot>onAltClicked(bool)</slot>
+    <slot>onShiftClicked(bool)</slot>
+    <slot>onControlClicked(bool)</slot>
+    <slot>updateAction(const QString&amp;)</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>kpushbutton.h</includehint>
+    <includehint>kpushbutton.h</includehint>
+</includehints>
+</UI>

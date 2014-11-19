@@ -1,0 +1,86 @@
+SOURCES =	browser.c \
+		amixer.c \
+		xmms.c \
+		amarok.c \
+		email.c \
+		filemanager.c \
+		chat.c \
+		lock_screen.c \
+		common_actions.c \
+		KDE_switch_desktop.c \
+		scroll.c \
+		f_keys.c \
+		rhythmbox.c \
+		zoom.c \
+		audacious.c
+
+OBJECTS = $(SOURCES:.c=.so)
+
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+libdir = @libdir@
+
+GTK_LIBS = @GTK_LIBS@
+GTK_CFLAGS = @GTK_CFLAGS@
+
+CFLAGS = @X_LIBS@ @X_CFLAGS@ -I. -O2 -Wall -shared -fPIC
+CC = @CC@
+COMPILE = $(CC) $(CFLAGS)
+
+DESTDIR = 
+
+all: $(OBJECTS)
+
+install: $(OBJECTS)
+	mkdir -p $(DESTDIR)$(libdir)/keytouch/plugins/
+	cp $(OBJECTS) $(DESTDIR)$(libdir)/keytouch/plugins/
+
+uninstall:
+
+clean:
+	$(RM) $(OBJECTS)
+
+browser.so: browser.c check_desktop.c
+	$(COMPILE) -o $@ browser.c check_desktop.c
+
+amixer.so: amixer.c
+	$(COMPILE) $(GTK_CFLAGS) $(GTK_LIBS) -o $@ amixer.c
+
+xmms.so: xmms.c
+	$(COMPILE) -o $@ xmms.c
+
+amarok.so: amarok.c
+	$(COMPILE) -o $@ amarok.c
+
+rhythmbox.so: rhythmbox.c
+	$(COMPILE) -o $@ rhythmbox.c
+
+email.so: email.c
+	$(COMPILE) -o $@ email.c
+
+filemanager.so: filemanager.c check_desktop.c
+	$(COMPILE) -o $@ filemanager.c check_desktop.c
+	
+chat.so: chat.c
+	$(COMPILE) -o $@ chat.c
+
+lock_screen.so: lock_screen.c
+	$(COMPILE) -o $@ lock_screen.c check_desktop.c
+
+common_actions.so: common_actions.c
+	$(COMPILE) -o $@ common_actions.c -lXtst
+	
+KDE_switch_desktop.so: KDE_switch_desktop.c
+	$(COMPILE) -o $@ KDE_switch_desktop.c
+
+scroll.so: scroll.c
+	$(COMPILE) -o $@ scroll.c -lXtst
+
+f_keys.so: f_keys.c
+	$(COMPILE) -o $@ f_keys.c -lXtst
+
+zoom.so: zoom.c
+	$(COMPILE) -o $@ zoom.c
+
+audacious.so: audacious.c
+	$(COMPILE) -o $@ audacious.c

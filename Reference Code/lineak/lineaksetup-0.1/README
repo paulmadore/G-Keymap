@@ -1,0 +1,59 @@
+lineaksetup - v0.1
+
+Thanks for downloading lineaksetup!
+
+lineaksetup is an application written in Java SWT to automate the process
+of creating a LinEAK configuration file.  I hope that it eases your time
+and that you will find it useful.
+
+To find installation instructions, please view the INSTALL file included
+in this distribution.
+
+
+There are several files/directories located in this distribution.  These are:
+
+README    -- This file you're reading currently
+COPYING   -- A full copy of the GNU General Public License, Version 2
+AUTHORS   -- A listing of authors of this application
+INSTALL   -- Installation instructions (you MUST read this file)
+ChangeLog -- Version changes
+NEWS      -- News relating to this program
+src/      -- The directory containing the source code
+build.xml -- The template used by Ant to compile this code (similar to a Makefile)
+
+
+== DEPENDENCIES ==
+
+Lineak and related plugins should be installed before you use this application.
+
+Java JRE Version 1.4 or above.  The application has been tested both with Sun Java
+and Blackdown Java: both work.  You may compile the program with gcj, but you will
+require a JRE in order to actually run it.
+
+http://java.sun.com/
+http://www.blackdown.org/
+
+SWT Version 3 or above.  The application was written using SWT 3, it has not been
+tested with any lower version.
+
+http://www.eclipse.org/swt/
+
+Apache Ant Version 1.6.5 or above.  All testing has been performed with Ant 1.6.5,
+the application has not been tested with any lower version.  Apache Ant is a
+compilation-management tool (similar to make) that is geared for Java.
+
+http://ant.apache.org/
+
+Gtk+ Version 2.6.8 or above.  This is in fact an SWT dependency, but you will
+therefore need it to run the application.  Gtk is a widget library that SWT
+builds as in Linux.  It is EXTREMELY likely that you already have this
+installed if you use any sort of graphical environment, but it can't hurt to
+check.
+
+http://www.gtk.org/
+
+That about does it.  I hope that you find this application useful!
+
+
+-- Alex Brick
+(cabhan@users.sourceforge.net)

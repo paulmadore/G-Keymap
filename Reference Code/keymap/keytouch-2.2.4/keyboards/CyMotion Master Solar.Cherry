@@ -1,0 +1,271 @@
+<keyboard>
+  <file-info>
+    <syntax-version>1.0</syntax-version>
+    <last-change format="%d-%m-%Y">29-06-2006</last-change>
+    <author>Marvin Raaijmakers</author>
+  </file-info>
+  <keyboard-info>
+    <keyboard-name>
+      <manufacturer>Cherry</manufacturer>
+      <model>CyMotion Master Solar</model>
+    </keyboard-name>
+  </keyboard-info>
+  <key-list>
+    <key>
+      <name>WWW Search</name>
+      <scancode>229</scancode>
+      <keycode>SEARCH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Search</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>CD Open (Eject)</name>
+      <scancode>240</scancode>
+      <keycode>EJECTCD</keycode>
+      <default-action>
+        eject
+      </default-action>
+    </key>
+    <key>
+      <name>Scan Prev. Track</name>
+      <scancode>144</scancode>
+      <keycode>PREVIOUSSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Previous</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Xpress 1</name>
+      <scancode>241</scancode>
+      <keycode>PROG1</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>KDE Switch Desktop</plugin-name>
+        <plugin-function>Desktop 1</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Xpress 2</name>
+      <scancode>172</scancode>
+      <keycode>PROG2</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>KDE Switch Desktop</plugin-name>
+        <plugin-function>Desktop 2</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>WWW Refresh</name>
+      <scancode>231</scancode>
+      <keycode>REFRESH</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Reload</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Down</name>
+      <scancode>174</scancode>
+      <keycode>VOLUMEDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume decrease</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Mute</name>
+      <scancode>160</scancode>
+      <keycode>MUTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Mute</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Scroll Down</name>
+      <scancode>146</scancode>
+      <keycode>SCROLLDOWN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Scroll</plugin-name>
+        <plugin-function>Down</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>@</name>
+      <scancode>220</scancode>
+      <keycode>MAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>WWW Stop</name>
+      <scancode>232</scancode>
+      <keycode>STOP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Calculator</name>
+      <scancode>161</scancode>
+      <keycode>CALC</keycode>
+      <default-action>kcalc || gnome-calculator || xcalc</default-action>
+    </key>
+    <key>
+      <name>WWW Forward</name>
+      <scancode>233</scancode>
+      <keycode>FORWARD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Forward</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Volume Up</name>
+      <scancode>176</scancode>
+      <keycode>VOLUMEUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Amixer</plugin-name>
+        <plugin-function>Volume increase</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Play/Pause</name>
+      <scancode>162</scancode>
+      <keycode>PLAYPAUSE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Play/Pause</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Redo</name>
+      <scancode>135</scancode>
+      <keycode>AGAIN</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Common actions</plugin-name>
+        <plugin-function>Redo</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>WWW Back</name>
+      <scancode>234</scancode>
+      <keycode>BACK</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Back</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Xpress 3</name>
+      <scancode>242</scancode>
+      <keycode>PROG3</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>KDE Switch Desktop</plugin-name>
+        <plugin-function>Desktop 3</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>WWW Home</name>
+      <scancode>178</scancode>
+      <keycode>WWW</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>WWW Browser</plugin-name>
+        <plugin-function>Home</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Stop</name>
+      <scancode>164</scancode>
+      <keycode>STOPCD</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Stop</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Undo</name>
+      <scancode>136</scancode>
+      <keycode>UNDO</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Common actions</plugin-name>
+        <plugin-function>Undo</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>System Sleep</name>
+      <scancode>223</scancode>
+      <keycode>SLEEP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Lock Screen</plugin-name>
+        <plugin-function>Lock Screen</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Cut</name>
+      <scancode>151</scancode>
+      <keycode>CUT</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Common actions</plugin-name>
+        <plugin-function>Cut</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Copy</name>
+      <scancode>152</scancode>
+      <keycode>COPY</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Common actions</plugin-name>
+        <plugin-function>Copy</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Scroll Up</name>
+      <scancode>139</scancode>
+      <keycode>SCROLLUP</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Scroll</plugin-name>
+        <plugin-function>Up</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Paste</name>
+      <scancode>138</scancode>
+      <keycode>PASTE</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>Common actions</plugin-name>
+        <plugin-function>Paste</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>E-Mail</name>
+      <scancode>236</scancode>
+      <keycode>EMAIL</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>E-mail</plugin-name>
+        <plugin-function>E-mail</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Scan Next Track</name>
+      <scancode>153</scancode>
+      <keycode>NEXTSONG</keycode>
+      <default-action action-type="plugin">
+        <plugin-name>XMMS</plugin-name>
+        <plugin-function>Next</plugin-function>
+      </default-action>
+    </key>
+    <key>
+      <name>Media Select</name>
+      <scancode>237</scancode>
+      <keycode>MEDIA</keycode>
+      <default-action action-type="program">
+        xmms
+      </default-action>
+    </key>
+  </key-list>
+</keyboard>

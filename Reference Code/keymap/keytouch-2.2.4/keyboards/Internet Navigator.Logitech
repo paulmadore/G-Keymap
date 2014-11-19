@@ -1,0 +1,290 @@
+<keyboard>
+	<file-info>
+		<syntax-version>1.0</syntax-version>
+		<last-change format="%d-%m-%Y">08-02-2006</last-change>
+		<author>Marvin Raaijmakers</author>
+	</file-info>
+	<keyboard-info>
+		<keyboard-name>
+			<manufacturer>Logitech</manufacturer>
+			<model>Internet Navigator</model>
+		</keyboard-name>
+	</keyboard-info>
+	<key-list>
+		<key>
+			<name>E-Mail</name>
+			<scancode>236</scancode>
+			<keycode>MAIL</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>E-mail</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Messenger/SMS</name>
+			<scancode>145</scancode>
+			<keycode>CHAT</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Chat</plugin-name>
+				<plugin-function>Chat</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Webcam</name>
+			<scancode>146</scancode>
+			<keycode>CAMERA</keycode>
+			<default-action action-type="program">
+				gnomemeeting
+			</default-action>
+		</key>
+		<key>
+			<name>iTouch</name>
+			<scancode>147</scancode>
+			<keycode>PROG1</keycode>
+			<default-action action-type="program">
+				keytouch
+			</default-action>
+		</key>
+		<key>
+			<name>Search</name>
+			<scancode>229</scancode>
+			<keycode>SEARCH</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Search</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Shopping</name>
+			<scancode>148</scancode>
+			<keycode>SHOP</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Home</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Favorites</name>
+			<scancode>230</scancode>
+			<keycode>BOOKMARKS</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Add Bookmark</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>My Home</name>
+			<scancode>178</scancode>
+			<keycode>HOMEPAGE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Home</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Audio previous</name>
+			<scancode>144</scancode>
+			<keycode>PREVIOUSSONG</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>XMMS</plugin-name>
+				<plugin-function>Previous</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Audio next</name>
+			<scancode>153</scancode>
+			<keycode>NEXTSONG</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>XMMS</plugin-name>
+				<plugin-function>Next</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Audio play/pause</name>
+			<scancode>162</scancode>
+			<keycode>PLAYPAUSE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>XMMS</plugin-name>
+				<plugin-function>Play/Pause</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Audio stop</name>
+			<scancode>164</scancode>
+			<keycode>STOPCD</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>XMMS</plugin-name>
+				<plugin-function>Stop</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Media</name>
+			<scancode>237</scancode>
+			<keycode>MEDIA</keycode>
+			<default-action action-type="program">
+				xmms
+			</default-action>
+		</key>
+		<key>
+			<name>Mute</name>
+			<scancode>160</scancode>
+			<keycode>MUTE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Amixer</plugin-name>
+				<plugin-function>Mute</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Volume Up</name>
+			<scancode>176</scancode>
+			<keycode>VOLUMEUP</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Amixer</plugin-name>
+				<plugin-function>Volume increase</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Volume Down</name>
+			<scancode>174</scancode>
+			<keycode>VOLUMEDOWN</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Amixer</plugin-name>
+				<plugin-function>Volume decrease</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>User</name>
+			<scancode>223</scancode>
+			<keycode>SLEEP</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Lock Screen</plugin-name>
+				<plugin-function>Lock Screen</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Back</name>
+			<scancode>234</scancode>
+			<keycode>BACK</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>WWW Browser</plugin-name>
+				<plugin-function>Back</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>Go</name>
+			<scancode>233</scancode>
+			<keycode>PROG2</keycode>
+			<default-action action-type="program">
+				firefox -remote "openURL ()"
+			</default-action>
+		</key>
+		<key>
+			<name>(F1) New</name>
+			<scancode>187</scancode>
+			<keycode>FILE</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>New (file)</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F2) Reply</name>
+			<scancode>188</scancode>
+			<keycode>PROG3</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>Reply</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F3) Forward</name>
+			<scancode>189</scancode>
+			<keycode>FORWARD</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>Forward</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F4) Send/Receive</name>
+			<scancode>190</scancode>
+			<keycode>REFRESH</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>E-mail</plugin-name>
+				<plugin-function>Send/Receive</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F5) Undo</name>
+			<scancode>191</scancode>
+			<keycode>UNDO</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Undo</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F6) Redo</name>
+			<scancode>192</scancode>
+			<keycode>AGAIN</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Redo</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F7) Print</name>
+			<scancode>193</scancode>
+			<keycode>PRINT</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Print</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F8) Save</name>
+			<scancode>194</scancode>
+			<keycode>PROG4</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Common actions</plugin-name>
+				<plugin-function>Save</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F9) Computer</name>
+			<scancode>195</scancode>
+			<keycode>COMPUTER</keycode>
+			<default-action action-type="plugin">
+				<plugin-name>Filemanager</plugin-name>
+				<plugin-function>Documents</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F10) Documents</name>
+			<scancode>196</scancode>
+			<keycode>SENDFILE</keycode> <!-- There is no appropriate keycode -->
+			<default-action action-type="plugin">
+				<plugin-name>Filemanager</plugin-name>
+				<plugin-function>Documents</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F11) Pictures</name>
+			<scancode>215</scancode>
+			<keycode>PHONE</keycode> <!-- There is no appropriate keycode -->
+			<default-action action-type="plugin">
+				<plugin-name>Filemanager</plugin-name>
+				<plugin-function>Documents</plugin-function>
+			</default-action>
+		</key>
+		<key>
+			<name>(F12) Music</name>
+			<scancode>216</scancode>
+			<keycode>SOUND</keycode>  <!-- There is no appropriate keycode -->
+			<default-action action-type="plugin">
+				<plugin-name>Filemanager</plugin-name>
+				<plugin-function>Documents</plugin-function>
+			</default-action>
+		</key>
+	</key-list>
+</keyboard> 

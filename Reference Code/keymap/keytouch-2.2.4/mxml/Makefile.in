@@ -1,0 +1,35 @@
+TARGET_SLIB = libmxml.so
+TARGET_LIB = $(TARGET_SLIB:.so=.a)
+SOURCES =	error.c \
+		parse.c \
+		memory.c \
+		content.c \
+		document.c \
+		element.c \
+		write.c
+
+SHAREDOPT = -shared
+CFLAGS=-I. -O2 -Wall -g -fpic
+CC= @CC@
+EXTRA_LIBS =
+
+OBJECTS=$(SOURCES:.c=.o)
+
+all: $(TARGET_SLIB)
+
+$(TARGET_LIB): $(OBJECTS)
+	$(AR) rc $(TARGET_LIB) $(OBJECTS)
+
+$(TARGET_SLIB): $(TARGET_LIB)
+	$(CC) $(SHAREDOPT) -o $(TARGET_SLIB) $(OBJECTS) $(EXTRA_LIBS)
+
+cc:
+	$(MAKE) CC=cc \
+		all
+
+clean:
+	$(RM) $(TARGET_SLIB) $(TARGET_LIB) $(OBJECTS)
+
+install: all
+
+uninstall:

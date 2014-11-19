@@ -1,0 +1,221 @@
+# translation of nl.po to 
+# translation of keytouch-keyboard-bin.po to Dutch
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Rinse de Vries <rinsedevries@kde.nl>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:55+0200\n"
+"PO-Revision-Date: 2006-02-27 12:38+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <C@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/interface.c:59
+msgid "keyTouch - change keyboard"
+msgstr "keyTouch - toetsenbord wijzigen"
+
+#: src/interface.c:89
+msgid "Manufacturer:"
+msgstr "Fabrikant:"
+
+#: src/interface.c:96
+msgid "Model:"
+msgstr "Model:"
+
+#: src/interface.c:117
+msgid "Current keyboard"
+msgstr "Huidig toetsenbord"
+
+#: src/interface.c:164
+msgid "_Import..."
+msgstr "_Importeren..."
+
+#: src/interface.c:168
+msgid "Available keyboards"
+msgstr "Beschikbare toetsenborden"
+
+#: src/callbacks.c:54
+msgid "Import keyboard"
+msgstr "Toetsenbord importeren"
+
+#: src/callbacks.c:65
+#, c-format
+msgid ""
+"Cannot import '%s', because a newer version of the keyboard file has already "
+"been installed."
+msgstr ""
+"Kan '%s' niet importeren, omdat er al een nieuwere versie van het "
+"toetsenbordbestand is geïnstallleerd."
+
+#: src/callbacks.c:80
+#, c-format
+msgid ""
+"The keyboard file could not be imported because it is invalid:\n"
+"%s"
+msgstr ""
+"Kan het toetsenbordbestand niet importeren, omdat het ongeldig is:\n"
+"%s"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Afbeeldingsbestand %s is niet gevonden."
+
+# changed occured -> occurred
+#: src/config.c:180
+#, c-format
+msgid ""
+"An error occurred while saving the configuration. Check your permissions for "
+"the file \"%s\"."
+msgstr ""
+"Er deed zich een fout voor tijdens het opslaan van de configuratie. "
+"Controleer de toegangsrechten voor het bestand \"%s\""
+
+#: src/config.c:327
+#, c-format
+msgid "'%s' is a directory."
+msgstr "'%s' is een map."
+
+#: src/config.c:333
+#, c-format
+msgid "'%s' is not a valid XML document."
+msgstr "\"%s\" is geen geldig XML document."
+
+# changed "exist. Therefor this program cannot continue." -> "exist, so this program cannot continue."
+#: src/config.c:410
+#, c-format
+msgid ""
+"The keyboard file directory '%s' does not exist and could not be created, so "
+"this program cannot continue."
+msgstr ""
+"De map met toetsenbordbestanden \"%s\" bestaat niet en kan niet worden "
+"aangemaakt. Dit programma kan daarom niet verder gaan."
+
+#: src/keyboard.c:207
+#, c-format
+msgid "Failed to open the keyboard file \"%s\" for reading."
+msgstr "Het toetsenbordbestand \"%s\" kon niet worden geopend."
+
+#: src/keyboard.c:213
+#, c-format
+msgid ""
+"Failed to copy the keyboard file to the keyboard file directory (%s). Check "
+"your permissions for this directory."
+msgstr ""
+"Het toetsenbordbestand kon niet worden gekopieerd naar de map met "
+"toetsenbordbestanden (%s). Controleer uw toegangsrechten voor deze map."
+
+#. *********** Create the view ***********
+#: src/set_data.c:314
+msgid "Manufacturer"
+msgstr "Fabrikant"
+
+#: src/set_data.c:315
+msgid "Model"
+msgstr "Model"
+
+#: src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Er kon geen geheugen worden gereserveerd."
+
+#: src/check_syntax.c:98
+msgid ""
+"The keyboard file contains an invalid action element (where the action is a "
+"plugin)."
+msgstr ""
+"Het toetsendbordbestand bevat een ongeldig 'action' element (waarvan de "
+"actie een plugin in)."
+
+#: src/check_syntax.c:106
+#, c-format
+msgid "The keyboard file contains the invalid action-type value '%s'."
+msgstr "Het toetsenbordbestand bevat het ongeldige 'action-type' waarde '%s'."
+
+#: src/check_syntax.c:197
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Het toetsenbordbestand bevat een onvolledig 'key' element."
+
+#: src/check_syntax.c:205
+msgid "The keyboard file contains an empty key-name element."
+msgstr "Het toetsenbordbestand bevat een leeg 'key-name' element."
+
+#: src/check_syntax.c:214
+#, c-format
+msgid "The keyboard file contains more than once a key named '%s'."
+msgstr "Het toetsenbordbestand bevat meer dan één keer een toets genaamd '%s'."
+
+#: src/check_syntax.c:235
+#, c-format
+msgid "'%s' is an invalid scancode."
+msgstr "'%s' is een ongeldige scancode."
+
+#: src/check_syntax.c:250
+#, c-format
+msgid "Keycode %s is used more than once."
+msgstr "Keycode %s wordt meer dan één keer gebruikt."
+
+#: src/check_syntax.c:262
+msgid "The keyboard file contains an empty keycode."
+msgstr "Het toetsenbordbestand bevat een leeg 'keycode' element."
+
+#: src/check_syntax.c:266
+#, c-format
+msgid "'%s' is an invalid keycode."
+msgstr "'%s' is een ongeldige keycode."
+
+#: src/check_syntax.c:332
+#, c-format
+msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
+msgstr ""
+"De last-change-date \"%s\" van het toetsenbordbesand is geen geldige datum."
+
+#: src/check_syntax.c:438
+msgid "The keyboard file does not contain a keyboard element."
+msgstr "Het toetsenbordbestand bevat geen 'keyboard' element."
+
+#: src/check_syntax.c:452
+msgid ""
+"The keyboard file does provide enough information about the keyboard model."
+msgstr ""
+"Het toetsenbordbestand bevat onvoldoende informatie over het "
+"toetsenbordmodel."
+
+#: src/check_syntax.c:459
+msgid "The keyboard file does not contain a key-list element."
+msgstr "Het toetsenbordbestand bevat geen 'key-list' element."
+
+#: src/check_syntax.c:466
+#, c-format
+msgid ""
+"The \"keyboard\" element in the keyboard file does not contain a %s element."
+msgstr ""
+"Het \"keyboard\" element in het toetsenbordbestand bevat geen %s element."
+
+#: src/check_syntax.c:471
+msgid ""
+"The syntax version of the keyboard file is not compatible with this version "
+"of keyTouch."
+msgstr ""
+"The syntax versie van het toetsenbordbestand is niet bruikbaar in combinatie "
+"met deze versie van keyTouch."
+
+#: src/check_syntax.c:481 src/check_syntax.c:486 src/check_syntax.c:491
+#: src/check_syntax.c:496
+#, c-format
+msgid "The keyboard file does not contain any %s element."
+msgstr "Het toetsenbordbestand bevat geen enkel %s element."
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "'%s' is ongeldig omdat het geen 'current-keyboard'-element als "
+#~ "hoofdelement bevat."

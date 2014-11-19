@@ -1,0 +1,213 @@
+# Vietnamese translation for KeyTouch Keyboard.
+# Copyright © 2006 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2006.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch-keyboard-bin 2.2-b3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:55+0200\n"
+"PO-Revision-Date: 2006-08-11 20:58+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: LocFactoryEditor 1.6fc1\n"
+
+#: src/interface.c:59
+msgid "keyTouch - change keyboard"
+msgstr "Bấm Phím — chuyển đổi bàn phím"
+
+#: src/interface.c:89
+msgid "Manufacturer:"
+msgstr "Hãng chế tạo :"
+
+#: src/interface.c:96
+msgid "Model:"
+msgstr "Mô hình:"
+
+#: src/interface.c:117
+msgid "Current keyboard"
+msgstr "Bàn phím hiện có"
+
+#: src/interface.c:164
+msgid "_Import..."
+msgstr "_Nhập..."
+
+#: src/interface.c:168
+msgid "Available keyboards"
+msgstr "Các bàn phím có sẵn sàng"
+
+#: src/callbacks.c:54
+msgid "Import keyboard"
+msgstr "Nhập bàn phím"
+
+#: src/callbacks.c:65
+#, c-format
+msgid ""
+"Cannot import '%s', because a newer version of the keyboard file has already "
+"been installed."
+msgstr ""
+"Không thể nhập « %s » vì một phiên bản tập tin bàn phím mới hơn đã được cài "
+"đặt."
+
+#: src/callbacks.c:80
+#, c-format
+msgid ""
+"The keyboard file could not be imported because it is invalid:\n"
+"%s"
+msgstr ""
+"Không thể nhập tập tin bàn phím này vì nó là không hợp lệ:\n"
+"%s"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Không tìm thấy tập tin sơ đồ điểm ảnh: %s"
+
+# changed occured -> occurred
+#: src/config.c:180
+#, c-format
+msgid ""
+"An error occurred while saving the configuration. Check your permissions for "
+"the file \"%s\"."
+msgstr ""
+"Gặp lỗi khi lưu cấu hình này. Hãy kiểm tra quyền hạn của bạn về tập tin « %s "
+"»."
+
+#: src/config.c:327
+#, c-format
+msgid "'%s' is a directory."
+msgstr "« %s » là thư mục."
+
+#: src/config.c:333
+#, c-format
+msgid "'%s' is not a valid XML document."
+msgstr "« %s » không phải là tập tin XML hợp lệ."
+
+# changed "exist. Therefor this program cannot continue." -> "exist, so this program cannot continue."
+#: src/config.c:410
+#, c-format
+msgid ""
+"The keyboard file directory '%s' does not exist and could not be created, so "
+"this program cannot continue."
+msgstr ""
+"Không có thư mục tập tin bàn phím « %s » nên chương trình này không thể tiếp "
+"tục được."
+
+#: src/keyboard.c:207
+#, c-format
+msgid "Failed to open the keyboard file \"%s\" for reading."
+msgstr "Lỗi mở tập tin bàn phím « %s » để đọc."
+
+#: src/keyboard.c:213
+#, c-format
+msgid ""
+"Failed to copy the keyboard file to the keyboard file directory (%s). Check "
+"your permissions for this directory."
+msgstr ""
+"Lỗi chép tập tin bàn phím vào thư mục tập tin bàn phím (%s). Hãy kiểm tra "
+"quyền hạn của bạn về thư mục này."
+
+#. *********** Create the view ***********
+#: src/set_data.c:314
+msgid "Manufacturer"
+msgstr "Hãng chế tạo"
+
+#: src/set_data.c:315
+msgid "Model"
+msgstr "Mô hình"
+
+#: src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Không thể cấp phát bộ nhớ."
+
+#: src/check_syntax.c:98
+msgid ""
+"The keyboard file contains an invalid action element (where the action is a "
+"plugin)."
+msgstr ""
+"Tập tin bàn phím này chứa một yếu tố kiểu hành động không hợp lệ (mà hành "
+"động là bổ sung)."
+
+#: src/check_syntax.c:106
+#, c-format
+msgid "The keyboard file contains the invalid action-type value '%s'."
+msgstr "Tập tin bàn phím này chứa giá trị kiểu hành động không hợp lệ « %s »."
+
+#: src/check_syntax.c:197
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Tập tin bàn phím này chứa một yếu tố khoá chưa hoàn toàn."
+
+#: src/check_syntax.c:205
+msgid "The keyboard file contains an empty key-name element."
+msgstr "Tập tin bàn phím này chứa một yếu tố kiểu tên khoá trống."
+
+#: src/check_syntax.c:214
+#, c-format
+msgid "The keyboard file contains more than once a key named '%s'."
+msgstr "Tập tin bàn phím này chứa khoá tên « %s » nhiều lần."
+
+#: src/check_syntax.c:235
+#, c-format
+msgid "'%s' is an invalid scancode."
+msgstr "« %s » là mã quét không hợp lệ."
+
+#: src/check_syntax.c:250
+#, c-format
+msgid "Keycode %s is used more than once."
+msgstr "Mã khoá %s được dùng nhiều lần."
+
+#: src/check_syntax.c:262
+msgid "The keyboard file contains an empty keycode."
+msgstr "Tập tin bàn phím này chứa một mã khoá trống."
+
+#: src/check_syntax.c:266
+#, c-format
+msgid "'%s' is an invalid keycode."
+msgstr "« %s » là mã khoá không hợp lệ."
+
+#: src/check_syntax.c:332
+#, c-format
+msgid "The last-change-date \"%s\" of the keyboard file is not a valid date."
+msgstr ""
+"Tập tin bàn phím này có ngày sửa đổi cuối cùng « %s » không phải là ngày hợp "
+"lệ."
+
+#: src/check_syntax.c:438
+msgid "The keyboard file does not contain a keyboard element."
+msgstr "Tập tin bàn phím này khống chứa một yếu tố kiểu bàn phím."
+
+#: src/check_syntax.c:452
+msgid ""
+"The keyboard file does provide enough information about the keyboard model."
+msgstr ""
+"Tập tin bàn phím này có phải cung cấp đủ thông tin về mô hình bàn phím."
+
+#: src/check_syntax.c:459
+msgid "The keyboard file does not contain a key-list element."
+msgstr "Tập tin bàn phím này không chứa một yếu tố kiểu danh sách khoá."
+
+#: src/check_syntax.c:466
+#, c-format
+msgid ""
+"The \"keyboard\" element in the keyboard file does not contain a %s element."
+msgstr ""
+"Tập tin bàn phím này chứa yếu tố « keyboard » (bàn phím) không chứa một yếu "
+"tố kiểu %s."
+
+#: src/check_syntax.c:471
+msgid ""
+"The syntax version of the keyboard file is not compatible with this version "
+"of keyTouch."
+msgstr ""
+"Tập tin bàn phím này chứa phiên bản cú pháp không tương thích với phiên bản "
+"Bấm Phím này."
+
+#: src/check_syntax.c:481 src/check_syntax.c:486 src/check_syntax.c:491
+#: src/check_syntax.c:496
+#, c-format
+msgid "The keyboard file does not contain any %s element."
+msgstr "Tập tin bàn phím này không chứa yếu tố kiểu %s nào."

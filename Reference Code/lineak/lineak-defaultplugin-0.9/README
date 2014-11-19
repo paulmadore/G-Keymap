@@ -1,0 +1,186 @@
+Macros
+       The default plugin supports 9 Macros. Since lineakd 0.7 macros can also
+       take one or more arguments.
+
+       Macro definitions are as follows.
+
+       For the EAK_MUTE,EAK_PCM_MUTE macro. We have three forms that are acceptible.
+
+       EAK_MUTE, EAK_PCM_MUTE
+              This  is  the  default and original macro form. In this form you
+              require a directive in your config file in order for  the  macro
+              to  know  which  mixer  device  to  adjust.   e.g. MixerDevice =
+              /dev/mixer
+
+       EAK_MUTE(X), EAK_PCM_MUTE(X)
+              Here X is a number. The number is a volume to mute to. Currently
+              this  needs  revisiting. If the number is too low it will merely
+              change the balance. I suggest a value around 10000. I  will  fix
+              this  later  so  that it's a relative value from the minimum. In
+              this form you require a directive in your config file  in  order
+              for  the  macro to know which mixer device to adjust.  e.g. Mix-
+              erDevice = /dev/mixer
+
+       EAK_MUTE(X,device,X2,device2,X3,device3,...)
+       EAK_PCM_MUTE(X,device,X2,device2,X3,device3,...)
+              X is a volume to mute to, and device is a string name of a mixer
+              device  (e.g.  "/dev/mixer"  to  mute  to.  As with the previous
+              macro, you will have to experiment with a good value.
+
+       For the EAK_VOLUP, EAK_PCM_UP and EAK_VOLDOWN, EAK_PCM_DOWN macros. 
+       Each have the following three forms.
+
+       EAK_VOLUP, EAK_PCM_UP or EAK_VOLDOWN, EAK_PCM_DOWN
+              Increment or decrement the sound by the default amount. In  this
+              form  you require a directive in your config file such as:  Mix-
+              erDevice = /dev/mixer in order for the macro to know which mixer
+              device to adjust.
+
+       EAK_VOLUP(X), EAK_PCM_UP(X) or EAK_VOLDOWN(X), EAK_PCM_DOWN(X)
+              Increment  or  decrement the sound by X. This value is best used
+              between 1 and 5, and the  sound  modification  code  scales  the
+              value,  unlike the MUTE macro. In this form you require a direc-
+              tive in your config file such as:  MixerDevice =  /dev/mixer  in
+              order for the macro to know which mixer device to adjust.
+
+       EAK_VOLUP(X,device,X2,device2,X3,device3,...)
+       EAK_PCM_UP(X,device,X2,device2,X3,device3,...)
+       EAK_VOLDOWN(X,device,X2,device2,X3,device3,...)
+       EAK_PCM_DOWN(X,device,X2,device2,X3,device3,...) 
+              X is the volume to adjust the following device by. Like the pre-
+              vious form of this macro, a value of 1-5 is best.
+
+       For the EAK_EJECT macros. There are two forms.
+
+       EAK_EJECT
+              This is the default macro. It will eject the device  defined  in
+              your config file as: CdromDevice = /dev/cdrom
+
+       EAK_EJECT(device1,device2,device3,...)
+              This  macro  form  allows you to choose the device to eject. You
+              can have a list of one or more devices separated by a comma.
+
+       For the EAK_SLEEP macro. It currently does nothing. In the future I
+       will probably use it to invoke software suspend. 
+
+       EAK_SENDKEYS("<options>") || EAK_SENDKEYS_ROOT("<options>")
+              <options> := <modifers>+<character>
+              <modifiers> := <modifier>[+<modifier>]
+              <character> := A single alphanumeric character, (i.e. 0-9 or a-z) or
+                          an arrow key (Right, Left, Up, Down) or other printible character.
+              <modifier> := A modifier such as shift, control or alt.
+
+              For example: "shift+a" or "control+shift+f"
+
+              These macros allows you to send events to X. EAK_SENDKEYS sends the keys
+              to the current input window. EAK_SENDKEYS_ROOT sends the keys to the ROOT
+              window. 
+
+              You can send a single character, 
+              such as a,b or c, or you can send combinations of keys. If you send key 
+              combinations, all of the previous keys must be modifiers such as shift, 
+              control or alt. All modifiers must precede the character you wish to send.
+
+              More Examples:
+
+              To send the '$' key, your options would be:
+              "shift+4"
+
+              To and alt+tab combination, your options would be:
+              "alt+Tab"
+
+              To send a capital a 'A', your options would be:
+              "shift+a"
+
+       EAK_MEDIADETECT(COMMAND)
+              This macro allows you to use the media detect plugin to run
+              one of the supported commands. This plugins requires that you
+              have a configuration file in your ~/.lineak directory called
+              media-detect.conf
+
+              Valid commands are:
+                 PLAY
+                 STOP
+                 PAUSE
+                 PLAYPAUSE
+                 NEXT
+                 PREVIOUS
+              See the media-detect.conf file below. 
+
+#############################################################################
+# Media Detect configuration file.
+#
+# The Media Detect lineak plugin is inspired by the Media-Detect scripts
+#  created by Daemon Kaswell, and is copyright the lineak project and
+#  Sheldon Lee-Wen October 22, 2004.
+#
+# Each entry in this configuration file must adhere to the format
+# given below. The entries are case sensitive.
+#
+# [IDENTIFIER]
+# NAME =           This is a plain text description of the program.
+# PROGRAM =        This is the command line name of the program. It will be
+#                       used to run the program or as the dcop identifier.
+# The following commands are those used to issue to the program identified in
+#    the PROGRAM configuration directive above. The entries for the commands will
+#    vary depending on the type given under the TYPE directive.
+#    For TYPE = macro, these are the macros hat you want to be run for each command.
+#    For TYPE = dcop, these are the actual dcop command minus the dcop <program> part.
+#    For TYPE = program, the command is whatever options would be given to the 
+#               program PROGRAM on the command line to produce the desired effect.
+#                      
+# PLAY =           
+# STOP =
+# PAUSE =
+# PLAYPAUSE =
+# NEXT =
+# PREVIOUS =
+# TYPE =           This is the entry type. There are three valid types. macro, dcop or 
+#                     program.
+# PRIORITY =       This is the priority to be given to this entry if there is more
+#                     than one of the configured programs running. If two entries
+#                     with the same priority are found the first one found running
+#                     will be selected.
+# [END]
+#
+# The following entries are examples of each type.
+
+[AMAROK]
+   NAME = Amarok Media Player
+   PROGRAM = amarok
+   PLAY = AMAROK_PLAY
+   STOP = AMAROK_STOP
+   PAUSE = AMAROK_PAUSE
+   PLAYPAUSE = AMAROK_PLAYPAUSE
+   NEXT = AMAROK_FORWARD
+   PREVIOUS = AMAROK_BACK
+   TYPE = macro
+   PRIORITY = 1
+[END]
+
+[JUK]
+   NAME = Juk Media Player
+   PROGRAM = juk
+   PLAY = Player play
+   STOP = Player stop
+   PAUSE = Player pause
+   PLAYPAUSE = Player playPause
+   NEXT = Player forward
+   PREVIOUS = Player back
+   TYPE = dcop
+   PRIORITY = 2
+[END]
+
+[XMMS]
+   NAME = X Multi Media System
+   PROGRAM = xmms
+   PLAY = --play
+   STOP = --stop
+   PAUSE = --pause
+   PLAYPAUSE = --play-pause
+   NEXT = --fwd
+   PREVIOUS = --rew
+   TYPE = program
+   PRIORITY = 3
+[END]
+

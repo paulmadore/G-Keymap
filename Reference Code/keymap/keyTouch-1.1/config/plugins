@@ -1,0 +1,42 @@
+aumix-mute.so
+Aumix - Mute/Unmute
+
+aumix-volume_decrease.so
+Aumix - Volume decrease
+
+aumix-volume_increase.so
+Aumix - Volume increase
+
+E-mail.so
+E-mail
+
+lock_screen.so
+Lock Screen
+
+Messenger.so
+Messenger
+
+my_documents.so
+My Documents
+
+WWW_Home.so
+WWW - Home
+
+WWW_Search.so
+WWW - Search
+
+XMMS.so
+XMMS
+
+XMMS-PlayPause.so
+XMMS - Play/Pause
+
+XMMS-Stop.so
+XMMS - Stop
+
+XMMS-Next.so
+XMMS - Next
+
+XMMS-Previous.so
+XMMS - Previous
+

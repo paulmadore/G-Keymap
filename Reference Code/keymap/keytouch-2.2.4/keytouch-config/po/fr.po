@@ -1,0 +1,433 @@
+# translation of keytouch.po to français
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Arnaud Buniet <arnaudbuniet@free.fr>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: keytouch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-24 14:54+0200\n"
+"PO-Revision-Date: 2006-01-05 15:34+0100\n"
+"Last-Translator: Arnaud Buniet <arnaudbuniet@free.fr>\n"
+"Language-Team: français <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11\n"
+
+#: src/main.c:66 src/memory.c:46 src/memory.c:65
+msgid "Could not allocate memory."
+msgstr "Impossible d'allouer de la mémoire."
+
+#: src/main.c:88
+msgid "No keyboard was specified, please select your keyboard."
+msgstr "Aucun clavier n'a été choisi, sélectionnez le vôtre s'il vous plaît."
+
+#: src/main.c:95
+#, c-format
+msgid ""
+"%s\n"
+"Please select your keyboard model to solve this problem."
+msgstr ""
+
+#: src/interface.c:186
+msgid "Keys:"
+msgstr "Touches:"
+
+#: src/interface.c:213
+msgid "Key:"
+msgstr "Touche:"
+
+#: src/interface.c:235
+msgid "_Default setting:"
+msgstr "Choix par _défaut:"
+
+#: src/interface.c:243
+msgid "_Program:"
+msgstr "_Programme:"
+
+#: src/interface.c:290
+msgid "Plugin:"
+msgstr "Greffon:"
+
+#: src/interface.c:297
+msgid "Function:"
+msgstr "Fonction:"
+
+#: src/interface.c:304
+msgid "Sp_ecial action:"
+msgstr "Action spécial_e:"
+
+#: src/interface.c:322 src/interface.c:630 src/interface.c:644
+#: src/interface.c:658
+#, fuzzy
+msgid "Ch_oose..."
+msgstr "Chan_ger..."
+
+#: src/interface.c:340
+msgid "Runs:"
+msgstr "Exécute:"
+
+#: src/interface.c:347
+msgid "Key settings"
+msgstr "Action de la touche"
+
+#: src/interface.c:360
+msgid "Key _settings"
+msgstr "_Attributions des touches"
+
+#: src/interface.c:375
+msgid "Keyboard manufacturer:"
+msgstr "Fabricant du clavier:"
+
+#: src/interface.c:382
+msgid "Keyboard model:"
+msgstr "Modèle de clavier:"
+
+#: src/interface.c:408
+msgid "Chang_e..."
+msgstr "Chan_ger..."
+
+#: src/interface.c:422
+msgid "_Keyboard"
+msgstr "_Clavier"
+
+#: src/interface.c:440
+msgid "Available plugins:"
+msgstr "Greffons disponibles:"
+
+#: src/interface.c:478
+msgid "_Download..."
+msgstr "_Télécharger..."
+
+#: src/interface.c:499
+msgid "_Information..."
+msgstr "_Information..."
+
+#: src/interface.c:525
+msgid "_Import..."
+msgstr "_Importer..."
+
+#: src/interface.c:529
+msgid "Special action plugins"
+msgstr "Actions spéciales des greffons"
+
+#: src/interface.c:544
+msgid "Documents directory:"
+msgstr "Dossier personnel:"
+
+#: src/interface.c:552
+msgid "Home page:"
+msgstr "Page d'accueil:"
+
+#: src/interface.c:559
+msgid "Search page:"
+msgstr "Page de recherche:"
+
+#: src/interface.c:584
+msgid "User settings"
+msgstr "Paramètres de l'utilisateur"
+
+#: src/interface.c:599
+msgid "Internet browser:"
+msgstr "Navigateur internet:"
+
+#: src/interface.c:606
+msgid "E-mail program:"
+msgstr "Gestionnaire de courriels:"
+
+#: src/interface.c:613
+msgid "Chat program:"
+msgstr "Programme de messagerie instantanée:"
+
+#: src/interface.c:662
+msgid "External programs"
+msgstr "Programmes externes"
+
+#: src/interface.c:675
+msgid "Pre_ferences"
+msgstr "Pré_férences"
+
+#: src/interface.c:695 src/interface.c:1075
+msgid "Version:"
+msgstr "Version:"
+
+#: src/interface.c:702
+msgid "Developer:"
+msgstr "Développeur:"
+
+#: src/interface.c:709 src/interface.c:1082
+msgid "License:"
+msgstr "Licence:"
+
+#: src/interface.c:716
+msgid "Site:"
+msgstr ""
+
+#: src/interface.c:723
+msgid "Contact:"
+msgstr ""
+
+#: src/interface.c:737
+msgid "http://keytouch.sf.net"
+msgstr "http://keytouch.sf.net"
+
+#: src/interface.c:744
+msgid "GPL 2 or higher"
+msgstr "GPL 2 ou supérieure"
+
+#: src/interface.c:765
+msgid "About"
+msgstr "Au sujet de "
+
+#: src/interface.c:788
+msgid "Help & A_bout"
+msgstr "Aide & Au su_jet de"
+
+#: src/interface.c:1040
+msgid "Plugin Information"
+msgstr "Information sur les greffons"
+
+#: src/interface.c:1061
+msgid "Plugin name:"
+msgstr "Nom du greffon:"
+
+#: src/interface.c:1068
+msgid "Author:"
+msgstr "Auteur:"
+
+#: src/interface.c:1089 src/interface.c:1096 src/interface.c:1103
+#: src/interface.c:1110 src/interface.c:1124
+msgid "-"
+msgstr "-"
+
+#: src/interface.c:1117
+msgid ""
+"-\n"
+"\n"
+msgstr ""
+
+#: src/interface.c:1131
+msgid "Functions:"
+msgstr "Fonctions:"
+
+#: src/interface.c:1138
+msgid "Description:"
+msgstr "Description:"
+
+#: src/interface.c:1202
+msgid "Choose application"
+msgstr ""
+
+#: src/interface.c:1219
+msgid "Select the application:"
+msgstr ""
+
+#: src/interface.c:1238
+msgid "Application command:"
+msgstr ""
+
+#: src/callbacks.c:81
+msgid ""
+"To change the keyboard keyTouch has to be closed. After you changed the "
+"keyboard keyTouch will be started again."
+msgstr ""
+"Afin de changer de clavier keyTouch doit être fermé. Une fois que vous aurez "
+"effectué le changement, keyTouch sera à nouveau relancé."
+
+#: src/callbacks.c:190
+#, c-format
+msgid "Do you really want to remove the plugin \"%s\"?"
+msgstr "Voulez-vous réellement supprimer le greffon \"%s\"?"
+
+#: src/callbacks.c:228
+msgid "Import plugin"
+msgstr "Importer un greffon"
+
+#: src/callbacks.c:368
+msgid "user_manual.html"
+msgstr ""
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Fichier pixmap %s introuvable"
+
+#: src/config.c:156
+msgid "The keyboard (configuration) file contains an invalid action element."
+msgstr "Le fichier de configuration du clavier contient une action invalide."
+
+#: src/config.c:167
+msgid ""
+"The keyboard (configuration) file contains an invalid action-type value."
+msgstr "Le fichier de configuration du clavier contient une action invalide."
+
+#: src/config.c:227
+msgid "The keyboard file contains an incomplete key element."
+msgstr "Le fichier de clavier contient une référence de touche incomplète."
+
+#: src/config.c:307
+#, fuzzy, c-format
+msgid "The keyboard file '%s' does not exist."
+msgstr "Le fichier de clavier '%s' est invalide."
+
+#: src/config.c:312
+#, c-format
+msgid "You have no permissions to read from keyboard file '%s'."
+msgstr ""
+
+#: src/config.c:318
+#, c-format
+msgid "'%s' is an invalid keyboard file."
+msgstr "\"%s\" n'est pas un fichier de clavier valide."
+
+#: src/config.c:327
+#, c-format
+msgid "The keyboard file '%s' does not contain a keyboard element."
+msgstr "Le fichier de clavier '%s' ne fait pas référence à un clavier."
+
+#: src/config.c:334
+#, c-format
+msgid "The keyboard file '%s' does not contain a key-list element."
+msgstr ""
+"Le fichier de clavier '%s' ne contient pas de liste de référence à des "
+"touches."
+
+#: src/config.c:341
+#, c-format
+msgid "The keyboard file '%s' is invalid."
+msgstr "Le fichier de clavier '%s' est invalide."
+
+#: src/config.c:473
+#, fuzzy, c-format
+msgid ""
+"The keyboard configuration file contains a key, named '%s', which does not "
+"appear in the keyboard file."
+msgstr ""
+"Le fichier de configuration du clavier fait référence à une touche qui "
+"n'apparaît pas dans le fichier du clavier."
+
+# changed occured -> occurred
+#: src/config.c:789
+#, c-format
+msgid "An error occurred while writing the preferences file \"%s\"."
+msgstr ""
+"Une erreur est survenue lors de l'écriture du fichier des préférences \"%s\"."
+
+# changed occured -> occurred
+#: src/config.c:1150
+#, c-format
+msgid "An error occurred while writing the keyboard configuration file \"%s\"."
+msgstr ""
+"Une erreur est survenue lors de l'écriture du fichier de configuration du "
+"clavier \"%s\"."
+
+#: src/plugin.c:335
+#, c-format
+msgid ""
+"Plugin directory '%s' does not exist and creating the directory failed. This "
+"program will continue without loading the plugins in this directory."
+msgstr ""
+"Le dossier de greffons '%s' n'existe pas et sa création a échoué. Ce "
+"programme va poursuivre sans charger les greffons dans ce dossier."
+
+# changed "you have no permissions to" -> "you don't have permission to"
+#: src/plugin_control.c:61
+#, c-format
+msgid ""
+"Removing plugin \"%s\" failed. The reason for this is probably because this "
+"plugin is not located in your home directory and you don't have permission "
+"to remove a plugin in that is available for the whole system."
+msgstr ""
+"La suppression du greffon \"%s\" a échoué. Il est probable que ce greffon ne "
+"soit pas situé dans votre dossier personnel et que vous n'ayez pas les "
+"permissions d'y supprimer un greffon disponible pour le système."
+
+#: src/plugin_control.c:110
+#, fuzzy, c-format
+msgid "Failed to open \"%s\", because it is an invalid plugin."
+msgstr ""
+"Échec lors de l'ouverture de \"%s\". Soit ce n'est pas un greffon valide, "
+"soit ce greffon est déjà présent dans la liste."
+
+#: src/plugin_control.c:114
+#, c-format
+msgid "The plugin \"%s\" is already in the list."
+msgstr ""
+
+#: src/plugin_control.c:134
+#, c-format
+msgid "Failed to copy the plugin to \"%s\"."
+msgstr "Échec de la copie du greffon vers \"%s\"."
+
+#: src/plugin_control.c:140
+#, c-format
+msgid "Failed to open \"%s\". Check if you are permitted to read this file."
+msgstr ""
+"Échec lors de l'ouverture de \"%s\". Vérifiez que vous êtes autorisés à "
+"ouvrir ce fichier en lecture."
+
+# changed "at the preferences tab" -> "in the preferences tab"
+#. Inform the user about this
+#: src/run_browser.c:74
+msgid ""
+"Because you did not set your browser in the preferences tab and because "
+"keyTouch could not identify your desktop environment, keyTouch will try to "
+"run 'firefox'.\n"
+"Please set your browser in the preferences tab."
+msgstr ""
+"Vous n'avez pas indiqué votre navigateur internet dans l'onglet Préférences "
+"et keyTouch n'a pas pu identifier votre environnement de bureau, alors "
+"keyTouch va tenter de lancer 'Firefox'. \n"
+"Précisez votre navigateur dans l'onglet Préférences s'il vous plaît."
+
+#~ msgid "The keyboard configuration file contains an incomplete key element."
+#~ msgstr ""
+#~ "Le fichier de configuration du clavier contient une référence de touche "
+#~ "incomplète."
+
+#~ msgid "The keyboard configuration file does not contain a keyboard element."
+#~ msgstr ""
+#~ "Le fichier de configuration du clavier ne contient pas de référence à un "
+#~ "clavier."
+
+#~ msgid "The keyboard configuration file does not contain a key-list element."
+#~ msgstr ""
+#~ "Le fichier de configuration du clavier ne contient pas de liste de "
+#~ "touches."
+
+#~ msgid "The keyboard configuration file is invalid."
+#~ msgstr "Le fichier de configuration du clavier est invalide."
+
+#~ msgid "'%s' is an invalid preferences configuration file."
+#~ msgstr "Le fichier de configuration des préférences '%s' est invalide."
+
+#~ msgid "'%s' does has not a preferences element as the root element."
+#~ msgstr "'%s' n'a pas une structure d'entrée Préférences conforme."
+
+#~ msgid "'%s' is invalid"
+#~ msgstr "'%s' est invalide"
+
+#~ msgid ""
+#~ "'%s' is invalid because it has no current-keyboard element as the root "
+#~ "element"
+#~ msgstr ""
+#~ "'%s' est invalide car la référence au clavier actuel a une structure non "
+#~ "conforme."
+
+#~ msgid ""
+#~ "Could not remove the plugin because the $HOME environment variable does "
+#~ "not exist."
+#~ msgstr ""
+#~ "Impossible de supprimer le greffon car la variable d'environnement $HOME "
+#~ "n'existe pas."
+
+#~ msgid "keyTouch 2.0"
+#~ msgstr "keyTouch 2.0"
+
+#~ msgid "marvinr@users.sf.net"
+#~ msgstr "marvinr@users.sf.net"
+
+#~ msgid "Marvin Raaijmakers"
+#~ msgstr "Marvin Raaijmakers"

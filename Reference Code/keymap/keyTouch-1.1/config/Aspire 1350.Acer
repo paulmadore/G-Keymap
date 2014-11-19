@@ -1,0 +1,37 @@
+Aspire 1350
+Acer
+
+174
+XF86AudioLowerVolume
+Lower volume
+:Aumix - Volume decrease
+
+176
+XF86AudioRaiseVolume
+Raise volume
+:Aumix - Volume increase
+
+160
+XF86AudioMute
+Audio mute
+:Aumix - Mute/Unmute
+
+243
+XF86Launch0
+P1
+-
+
+244
+XF86Launch1
+P2
+-
+
+178
+XF86WWW
+WWW
+:WWW - Home
+
+236
+XF86Mail
+E-Mail
+:E-mail

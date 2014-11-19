@@ -1,0 +1,35 @@
+Version 2.2.4:
+ - Fixed annoying loop (asking the user to select a keyboard model) when the user does not choose a keyboard file the first time.
+
+Version 2.2.3:
+ - Fixed: [ 1584787 ] Posible failure when running on 64 archs.
+
+Version 2.2.0:
+ - Updated documentation.
+ - Updated translations: Catalan, Irish, Vietnamese, Swedish
+
+Version 2.2.0 beta 2:
+ - Added Irish translation.
+ - Improved error handling in config.c.
+ - Updated translations: Dutch
+
+Version 2.2.0 beta:
+ - Added application chooser that makes it very easy for the user to choose an application.
+ - Plugin information will be copied to the program's memory so that the plugins do not need to remain loaded.
+ - Improved the code.
+ - Updated translations: Dutch
+
+Version 2.1.4:
+ - Added German translation
+
+Version 2.1.2:
+ - Finaly avoids bug on AMD64 while reading the home directory
+ - Will not give an error message when current_keyboard.xml does not exist
+
+Version 2.1.0 beta 3:
+ - Added Catalan translation.
+
+Version 2.1.0:
+ - Keytouch will now continue if the keyboard configuration file contains a key that does not appear in the keyboard file.
+ - The key list will not be sorted anymore. The keys will appear in the order as they appear in the keyboard file.
+ - Added Vietnamese, French, Dutch and Swedish translation.
